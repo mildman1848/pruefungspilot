@@ -19,7 +19,7 @@ jobs:
     steps:
       # Schritt 1: Repository auschecken
       - name: ⬇️ Repository auschecken
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       # Schritt 2: Flutter SDK einrichten
       - name: 🛠️ Flutter SDK einrichten
