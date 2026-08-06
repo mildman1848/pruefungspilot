@@ -1,37 +1,118 @@
-// Pfad: lib/screens/settings_screen.dart – Screen für Einstellungen, z.B. Theme-Wechsel.
+// Path: lib/screens/settings_screen.dart
+// Description: Settings screen with theme selection, course switching, and progress reset.
 
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart'; // Für State-Management (Best Practice: Riverpod statt Provider).
-import '../theme/theme_notifier.dart'; // Theme-Notifier.
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import '../theme/theme_notifier.dart';
+import '../providers/course_providers.dart';
+import '../storage/progress_storage.dart';
+import '../data/course_registry.dart';
 
-// SettingsScreen (ConsumerWidget für Riverpod, Best Practice: Stateless mit ref).
 class SettingsScreen extends ConsumerWidget {
   const SettingsScreen({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final themeNotifier = ref.watch(themeNotifierProvider.notifier); // Riverpod für Theme (behebt Provider.of).
-    final currentMode = ref.watch(themeNotifierProvider).mode; // Aktueller Mode.
+    final themeNotifier = ref.watch(themeNotifierProvider.notifier);
+    final currentMode = ref.watch(themeNotifierProvider).mode;
+    final selectedCourse = ref.watch(selectedCourseProvider);
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Einstellungen')), // Const.
+      appBar: AppBar(title: const Text('Einstellungen')),
       body: ListView(
-        padding: const EdgeInsets.all(16), // Const.
+        padding: const EdgeInsets.all(16),
         children: [
+          // ─── Active Course ──────────────────────────────────────────
+          const Text(
+            'Aktiver Lernbereich',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+          ),
+          const SizedBox(height: 8),
+          if (selectedCourse != null)
+            Card(
+              child: ListTile(
+                leading: Icon(selectedCourse.icon,
+                    color: selectedCourse.primaryColor),
+                title: Text(selectedCourse.title),
+                subtitle: Text(selectedCourse.subtitle),
+                trailing: ElevatedButton.icon(
+                  icon: const Icon(Icons.swap_horiz),
+                  label: const Text('Wechseln'),
+                  onPressed: () {
+                    ref.read(selectedCourseIdProvider.notifier).state = null;
+                  },
+                ),
+              ),
+            ),
+          const SizedBox(height: 24),
+
+          // ─── Progress Reset ─────────────────────────────────────────
+          const Text(
+            'Fortschritt',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+          ),
+          const SizedBox(height: 8),
+          Card(
+            child: ListTile(
+              leading: const Icon(Icons.delete_forever, color: Colors.red),
+              title: const Text('Fortschritt zurücksetzen'),
+              subtitle: Text(
+                selectedCourse != null
+                    ? 'Setzt alle Lernergebnisse für "${selectedCourse.title}" zurück.'
+                    : 'Kein Kurs ausgewählt.',
+              ),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () async {
+                final confirmed = await showDialog<bool>(
+                  context: context,
+                  builder: (ctx) => AlertDialog(
+                    title: const Text('Fortschritt zurücksetzen?'),
+                    content: Text(
+                      'Möchtest du wirklich alle Lernergebnisse für '
+                      '"${selectedCourse?.title ?? 'diesen Kurs'}" unwiderruflich löschen?',
+                    ),
+                    actions: [
+                      TextButton(
+                        onPressed: () => Navigator.pop(ctx, false),
+                        child: const Text('Abbrechen'),
+                      ),
+                      TextButton(
+                        onPressed: () => Navigator.pop(ctx, true),
+                        style: TextButton.styleFrom(
+                            foregroundColor: Colors.red),
+                        child: const Text('Zurücksetzen'),
+                      ),
+                    ],
+                  ),
+                );
+                if (confirmed == true) {
+                  await ProgressStorage.resetAllProgress(ref);
+                  if (context.mounted) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(
+                        content: Text('Fortschritt wurde zurückgesetzt.'),
+                      ),
+                    );
+                  }
+                }
+              },
+            ),
+          ),
+          const SizedBox(height: 24),
+
+          // ─── Theme Selection ────────────────────────────────────────
           const Text(
             'Design-Auswahl',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
           ),
-          const SizedBox(height: 16), // Const.
+          const SizedBox(height: 16),
           ...AppThemeMode.values.map((mode) {
-            final isSelected = currentMode == mode; // Aktueller Check.
+            final isSelected = currentMode == mode;
             final Color base = Theme.of(context).colorScheme.secondary;
+            final Color? highlight =
+                isSelected ? base.withValues(alpha: 0.15) : null;
 
-            final Color? highlight = isSelected
-                ? base.withValues(alpha: 0.15) // Deprecated behoben, alpha angepasst.
-                : null;
-
-            return Semantics(  // Accessibility (Best Practice: Screen-Reader-Support).
+            return Semantics(
               label: _themeName(mode),
               child: Card(
                 color: highlight,
@@ -44,18 +125,35 @@ class SettingsScreen extends ConsumerWidget {
                   trailing: isSelected
                       ? Icon(Icons.check_circle, color: base)
                       : null,
-                  onTap: () => themeNotifier.setThemeMode(mode), // Setzen via Riverpod.
+                  onTap: () => themeNotifier.setThemeMode(mode),
                 ),
               ),
             );
           }),
+
+          // ─── About ──────────────────────────────────────────────────
+          const SizedBox(height: 24),
+          const Text(
+            'Über die App',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+          ),
+          const SizedBox(height: 8),
+          Card(
+            child: ListTile(
+              leading: const Icon(Icons.info),
+              title: const Text('LernApp – Multi-Course'),
+              subtitle: Text(
+                  '${allCourses.length} Kurse verfügbar • '
+                  'Lokale Datenspeicherung • '
+                  'Keine Cloud-Abhängigkeit'),
+            ),
+          ),
         ],
       ),
     );
   }
 }
 
-// Theme-Namen (Best Practice: Helper-Funktion).
 String _themeName(AppThemeMode mode) {
   switch (mode) {
     case AppThemeMode.system:
@@ -69,7 +167,6 @@ String _themeName(AppThemeMode mode) {
   }
 }
 
-// Icons für Themes (Best Practice: Helper-Funktion).
 IconData _iconForTheme(AppThemeMode mode) {
   switch (mode) {
     case AppThemeMode.system:

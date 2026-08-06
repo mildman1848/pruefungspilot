@@ -1,52 +1,51 @@
-// Pfad: lib/screens/quiz_screen.dart – Screen für Quiz-Modus mit randomisierten Fragen und Feedback.
+// Path: lib/screens/quiz_screen.dart
+// Description: Quiz mode with randomized questions and feedback.
+// Now course-aware: reads questions from the course-aware questionsProvider.
 
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart'; // Für State-Management (Best Practice: Riverpod).
-import 'package:vibration/vibration.dart'; // Für Haptic-Feedback (Cross-OS: hasVibrator-Check).
-import '../data/questions.dart'; // questionsProvider importieren (behebt 'questions' undefined).
-import '../models/question_model.dart'; // Question-Model.
-import '../storage/progress_storage.dart'; // Fortschritt-Speicherung.
-import '../data/question_categories.dart'; // Kategorien für Titel.
-import '../theme/theme_notifier.dart'; // Theme-Notifier.
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:vibration/vibration.dart';
+import '../providers/course_providers.dart';
+import '../models/question_model.dart';
+import '../models/course_model.dart';
+import '../storage/progress_storage.dart';
+import '../theme/theme_notifier.dart';
 
-// QuizScreen (ConsumerStatefulWidget für Riverpod).
 class QuizScreen extends ConsumerStatefulWidget {
   const QuizScreen({super.key, this.singleQuestionId});
-  final int? singleQuestionId; // Optionale ID für Single-Mode.
+  final int? singleQuestionId;
 
   @override
   ConsumerState<QuizScreen> createState() => _QuizScreenState();
 }
 
 class _QuizScreenState extends ConsumerState<QuizScreen> {
-  late Future<List<Question>> _shuffledQuestionsFuture; // Asynchrone Shuffled-Liste (behebt 'questions' undefined).
-  int currentIndex = 0; // Aktueller Index.
-  Set<int> selectedAnswers = {}; // Ausgewählte Antworten.
-  bool submitted = false; // Abgeschickt-Flag.
-  bool loadingNext = false; // Lade-Flag für Next.
+  late Future<List<Question>> _shuffledQuestionsFuture;
+  int currentIndex = 0;
+  Set<int> selectedAnswers = {};
+  bool submitted = false;
+  bool loadingNext = false;
 
   @override
   void initState() {
     super.initState();
-    _shuffledQuestionsFuture = _initQuiz(); // Asynch Init.
+    _shuffledQuestionsFuture = _initQuiz();
   }
 
-  // Quiz initialisieren (asynchron, nutzt Provider).
   Future<List<Question>> _initQuiz() async {
-    final questionsData = await ref.read(questionsProvider.future); // Fragen laden (behebt undefined).
+    final questionsData = await ref.read(questionsProvider.future);
     if (widget.singleQuestionId != null) {
       return [questionsData.firstWhere((q) => q.id == widget.singleQuestionId)];
     } else {
-      return _buildPrioritizedShuffledQuestions(questionsData); // Shuffled.
+      return _buildPrioritizedShuffledQuestions(questionsData);
     }
   }
 
-  // Priorisierte Shuffled-Liste (Best Practice: Random mit Weighting).
   List<Question> _buildPrioritizedShuffledQuestions(List<Question> data) {
     final weighted = <Question>[];
     for (final q in data) {
-      weighted.addAll([q, q, q]); // Weighting.
+      weighted.addAll([q, q, q]);
     }
     weighted.shuffle(Random());
     final ids = <int>{};
@@ -60,27 +59,23 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
     return result;
   }
 
-  // Aktuelle Frage abrufen (FutureBuilder im Build).
   Future<Question> getCurrentQuestion() async {
     final shuffled = await _shuffledQuestionsFuture;
     return shuffled[currentIndex];
   }
 
-  // Kategorie-Key abrufen (für Titel).
-  Future<String?> getCurrentCategoryKey(Question q) async {
-    for (final entry in questionCategories.entries) {
+  Future<String?> getCurrentCategoryKey(Course course, Question q) async {
+    for (final entry in course.questionCategories.entries) {
       if (entry.value.contains(q.id)) return entry.key;
     }
     return null;
   }
 
-  // Kategorie-Titel.
-  Future<String> getCurrentCategoryTitle(Question q) async {
-    final key = await getCurrentCategoryKey(q);
-    return categoryTitles[key] ?? 'Unbekannt';
+  Future<String> getCurrentCategoryTitle(Course course, Question q) async {
+    final key = await getCurrentCategoryKey(course, q);
+    return course.categoryTitles[key] ?? 'Unbekannt';
   }
 
-  // Antwort toggeln (mit Feedback).
   void toggleAnswer(int index) {
     if (submitted) return;
     setState(() {
@@ -90,25 +85,28 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
         selectedAnswers.add(index);
       }
     });
-    Vibration.vibrate(duration: 50); // Haptic.
+    Vibration.vibrate(duration: 50);
   }
 
-  // Abschicken (async, speichert).
   Future<void> submitAnswer() async {
     final question = await getCurrentQuestion();
+    final courseId = ref.read(selectedCourseIdProvider);
     setState(() {
       submitted = true;
     });
-    await ProgressStorage.addAnswerResult(question.id, isSelectionCorrect(question));
-    Vibration.vibrate(pattern: isSelectionCorrect(question) ? [0, 100] : [0, 500]);
+    if (courseId != null) {
+      await ProgressStorage.addAnswerResult(
+          courseId, question.id, isSelectionCorrect(question));
+    }
+    Vibration.vibrate(
+        pattern: isSelectionCorrect(question) ? [0, 100] : [0, 500]);
   }
 
-  // Nächste Frage (mit Delay für UX).
   Future<void> nextQuestion() async {
     setState(() {
       loadingNext = true;
     });
-    await Future.delayed(const Duration(milliseconds: 200)); // Const für Lint.
+    await Future.delayed(const Duration(milliseconds: 200));
     if (!mounted) return;
     final shuffled = await _shuffledQuestionsFuture;
     if (currentIndex < shuffled.length - 1) {
@@ -125,41 +123,41 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
     }
   }
 
-  // Korrekte prüfen.
   bool isCorrectAnswer(int index, List<int> correct) {
     return correct.contains(index);
   }
 
-  // Auswahl korrekt.
   bool isSelectionCorrect(Question q) {
     return Set.from(q.correctAnswers).containsAll(selectedAnswers) &&
         selectedAnswers.containsAll(Set.from(q.correctAnswers));
   }
 
-  // Theme wechseln (Riverpod).
   void _cycleTheme() {
     final themeNotifier = ref.read(themeNotifierProvider.notifier);
     final current = ref.read(themeNotifierProvider).mode;
-    const values = AppThemeMode.values; // Const für Lint.
+    const values = AppThemeMode.values;
     final next = values[(current.index + 1) % values.length];
     themeNotifier.setThemeMode(next);
   }
 
   @override
   Widget build(BuildContext context) {
-    // Gesamter Body in FutureBuilder für shuffledQuestionsFuture (behebt Future<double> für value).
+    final course = ref.watch(selectedCourseProvider);
+
     return FutureBuilder<List<Question>>(
       future: _shuffledQuestionsFuture,
       builder: (context, shuffledSnapshot) {
         if (!shuffledSnapshot.hasData) {
-          return const Scaffold(body: Center(child: CircularProgressIndicator())); // Const.
+          return const Scaffold(
+              body: Center(child: CircularProgressIndicator()));
         }
         final shuffled = shuffledSnapshot.data!;
         return FutureBuilder<Question>(
           future: getCurrentQuestion(),
           builder: (context, snapshot) {
             if (!snapshot.hasData) {
-              return const Scaffold(body: Center(child: CircularProgressIndicator())); // Const.
+              return const Scaffold(
+                  body: Center(child: CircularProgressIndicator()));
             }
             final q = snapshot.data!;
             final secondary = Theme.of(context).colorScheme.secondary;
@@ -167,43 +165,46 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
             return Scaffold(
               appBar: AppBar(
                 title: FutureBuilder<String>(
-                  future: getCurrentCategoryTitle(q),
+                  future: course != null
+                      ? getCurrentCategoryTitle(course, q)
+                      : Future.value('Laden...'),
                   builder: (context, titleSnapshot) {
-                    return Text("Kategorie: ${titleSnapshot.data ?? 'Laden...'}");
+                    return Text(
+                        "Kategorie: ${titleSnapshot.data ?? 'Laden...'}");
                   },
                 ),
                 actions: [
                   IconButton(
-                    icon: const Icon(Icons.brightness_6), // Const.
+                    icon: const Icon(Icons.brightness_6),
                     tooltip: 'Theme wechseln',
                     onPressed: _cycleTheme,
                   )
                 ],
               ),
               body: Padding(
-                padding: const EdgeInsets.all(12), // Const.
+                padding: const EdgeInsets.all(12),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     if (widget.singleQuestionId == null) ...[
                       LinearProgressIndicator(
-                        value: (currentIndex + 1) / shuffled.length, // Nun double (kein Future, behebt Typ-Fehler).
+                        value: (currentIndex + 1) / shuffled.length,
                         minHeight: 10,
                         borderRadius: BorderRadius.circular(5),
                       ),
-                      const SizedBox(height: 8), // Const.
+                      const SizedBox(height: 8),
                       Text(
                         "Frage ${currentIndex + 1} von ${shuffled.length}",
                         style: Theme.of(context).textTheme.titleSmall,
                       ),
-                      const SizedBox(height: 8), // Const.
+                      const SizedBox(height: 8),
                     ],
                     Text(
                       'Frage ${q.id}: ${q.question}',
                       style: Theme.of(context).textTheme.titleMedium,
                     ),
                     if (q.image != null) ...[
-                      const SizedBox(height: 8), // Const.
+                      const SizedBox(height: 8),
                       Center(
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(14),
@@ -215,13 +216,15 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                         ),
                       ),
                     ],
-                    const SizedBox(height: 8), // Const.
+                    const SizedBox(height: 8),
                     Expanded(
                       child: SingleChildScrollView(
                         child: Column(
                           children: List.generate(q.answers.length, (index) {
-                            final isSelected = selectedAnswers.contains(index);
-                            final isCorrect = isCorrectAnswer(index, q.correctAnswers);
+                            final isSelected =
+                                selectedAnswers.contains(index);
+                            final isCorrect =
+                                isCorrectAnswer(index, q.correctAnswers);
 
                             Color? tileColor;
                             IconData? icon;
@@ -229,7 +232,8 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
 
                             if (submitted) {
                               if (isCorrect && isSelected) {
-                                tileColor = Colors.green.withValues(alpha: 0.2); // Deprecated behoben.
+                                tileColor =
+                                    Colors.green.withValues(alpha: 0.2);
                                 icon = Icons.check_circle;
                                 iconColor = Colors.green;
                               } else if (!isCorrect && isSelected) {
@@ -237,7 +241,8 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                                 icon = Icons.cancel;
                                 iconColor = Colors.red;
                               } else if (isCorrect && !isSelected) {
-                                tileColor = Colors.yellow.withValues(alpha: 0.2);
+                                tileColor =
+                                    Colors.yellow.withValues(alpha: 0.2);
                                 icon = Icons.warning_amber_rounded;
                                 iconColor = Colors.orange;
                               }
@@ -245,7 +250,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                               tileColor = secondary.withValues(alpha: 0.2);
                             }
 
-                            return Semantics(  // Accessibility.
+                            return Semantics(
                               label: q.answers[index],
                               child: Card(
                                 elevation: 2,
@@ -254,22 +259,25 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                                   borderRadius: BorderRadius.circular(14),
                                 ),
                                 child: ListTile(
-                                  contentPadding:
-                                      const EdgeInsets.symmetric(horizontal: 12, vertical: 4), // Const.
+                                  contentPadding: const EdgeInsets.symmetric(
+                                      horizontal: 12, vertical: 4),
                                   onTap: () => toggleAnswer(index),
                                   leading: Padding(
-                                    padding: const EdgeInsets.only(right: 8.0), // Const.
+                                    padding: const EdgeInsets.only(right: 8.0),
                                     child: Checkbox(
                                       value: isSelected,
                                       onChanged: (_) => toggleAnswer(index),
-                                      activeColor: Theme.of(context).colorScheme.primary,
+                                      activeColor:
+                                          Theme.of(context).colorScheme.primary,
                                     ),
                                   ),
                                   title: Text(
                                     q.answers[index],
                                     style: Theme.of(context).textTheme.bodyLarge,
                                   ),
-                                  trailing: icon != null ? Icon(icon, color: iconColor) : null,
+                                  trailing: icon != null
+                                      ? Icon(icon, color: iconColor)
+                                      : null,
                                 ),
                               ),
                             );
@@ -277,20 +285,20 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                         ),
                       ),
                     ),
-                    const SizedBox(height: 8), // Const.
+                    const SizedBox(height: 8),
                     SizedBox(
                       width: double.infinity,
                       child: ElevatedButton.icon(
                         icon: submitted
-                            ? const Icon(Icons.arrow_forward) // Const.
-                            : const Icon(Icons.check), // Const.
+                            ? const Icon(Icons.arrow_forward)
+                            : const Icon(Icons.check),
                         label: loadingNext
-                            ? const Text("Lädt ...") // Const.
+                            ? const Text("Lädt ...")
                             : (submitted
-                                ? const Text("Nächste Frage") // Const.
-                                : const Text("Antwort prüfen")), // Const.
+                                ? const Text("Nächste Frage")
+                                : const Text("Antwort prüfen")),
                         style: ElevatedButton.styleFrom(
-                          padding: const EdgeInsets.symmetric(vertical: 14), // Const.
+                          padding: const EdgeInsets.symmetric(vertical: 14),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(13),
                           ),
@@ -299,7 +307,9 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                             ? null
                             : (submitted
                                 ? nextQuestion
-                                : (selectedAnswers.isEmpty ? null : submitAnswer)),
+                                : (selectedAnswers.isEmpty
+                                    ? null
+                                    : submitAnswer)),
                       ),
                     ),
                   ],

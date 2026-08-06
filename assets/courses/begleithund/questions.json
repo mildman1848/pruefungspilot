@@ -1,0 +1,1500 @@
+[
+  {
+    "id": 1,
+    "question": "Was ist das wichtigste Ziel der Begleithundausbildung?",
+    "answers": [
+      "Einen gehorsamen, gesellschaftsfähigen Hund zu erziehen.",
+      "Einen Hund für den Hundesport (Agility) vorzubereiten.",
+      "Einen Wachhund auszubilden.",
+      "Einen Hund für die Jagd abzurichten."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Was versteht man unter 'positiver Verstärkung' in der Hundeerziehung?",
+    "answers": [
+      "Den Hund für erwünschtes Verhalten zu belohnen.",
+      "Den Hund zu bestrafen, wenn er etwas Falsches macht.",
+      "Den Hund zu ignorieren, unabhängig von seinem Verhalten.",
+      "Den Hund körperlich zu korrigieren."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Ab welchem Alter kann ein Hund die Begleithundprüfung (BH) ablegen?",
+    "answers": [
+      "Mit 15 Monaten.",
+      "Mit 6 Monaten.",
+      "Mit 8 Wochen.",
+      "Erst ab 3 Jahren."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Was bedeutet 'Mocking' im Rahmen der BH-Prüfung?",
+    "answers": [
+      "Das Nachahmen von Verhalten, um den Hund zu desensibilisieren.",
+      "Eine Strafmaßnahme bei Fehlverhalten.",
+      "Ein Hilfsmittel aus der Jagd.",
+      "Eine Übungsform für Agility."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Welche Voraussetzung muss der Hundeführer für die BH-Prüfung erfüllen?",
+    "answers": [
+      "Er muss das 18. Lebensjahr vollendet haben.",
+      "Er muss Mitglied im Jagdverband sein.",
+      "Er muss eine Hundeführerlizenz besitzen.",
+      "Er muss einen Erste-Hilfe-Kurs nachweisen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Was ist unter dem Begriff 'Wesen' eines Hundes zu verstehen?",
+    "answers": [
+      "Die Gesamtheit der angeborenen und erworbenen Verhaltensweisen.",
+      "Die Rasse des Hundes.",
+      "Das Aussehen des Hundes.",
+      "Die Körpergröße des Hundes."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Was versteht man unter 'Sozialisierung' bei Hunden?",
+    "answers": [
+      "Die Gewöhnung des Hundes an verschiedene Umweltreize, Menschen und Artgenossen.",
+      "Das Erlernen von Grundkommandos.",
+      "Die Eingewöhnung in einen neuen Haushalt.",
+      "Das Kennenlernen mit dem Hundetrainer."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Welcher Grundsatz gilt für die Begleithundausbildung?",
+    "answers": [
+      "Belohnung statt Bestrafung.",
+      "Härte und Konsequenz durch körperliche Strafen.",
+      "Der Hund muss Angst vor dem Hundeführer haben.",
+      "Bestrafung ist effektiver als Belohnung."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Was bedeutet das Prinzip der 'Konsequenz' in der Hundeerziehung?",
+    "answers": [
+      "Kommandos und Regeln müssen immer gleichmäßig und verlässlich angewendet werden.",
+      "Der Hundeführer muss immer den gleichen Tonfall verwenden.",
+      "Der Hund muss jeden Tag zur gleichen Zeit trainiert werden.",
+      "Jedes Familienmitglied verwendet unterschiedliche Regeln."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Welche Rolle spielt die Körpersprache bei der Hundeausbildung?",
+    "answers": [
+      "Sie ist wichtiger als verbale Kommandos, da Hunde primär über Körpersignale kommunizieren.",
+      "Sie spielt keine Rolle, nur verbale Kommandos zählen.",
+      "Sie ist nur bei Welpen wichtig.",
+      "Sie verwirrt den Hund und sollte vermieden werden."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Was bedeutet das Kommando 'Platz'?",
+    "answers": [
+      "Der Hund legt sich vollständig auf den Boden.",
+      "Der Hund setzt sich hin.",
+      "Der Hund bleibt stehen.",
+      "Der Hund kommt zurück zum Hundeführer."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Wie wird die Übung 'Sitz aus der Bewegung' korrekt ausgeführt?",
+    "answers": [
+      "Der Hundeführer geht mit dem bei Fuß gehenden Hund, gibt das Kommando 'Sitz' und geht ohne anzuhalten weiter.",
+      "Der Hundeführer bleibt stehen und der Hund muss sich setzen.",
+      "Der Hund wird abgelegt und der Hundeführer geht weg.",
+      "Der Hund läuft um den Hundeführer herum und setzt sich."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Was bedeutet 'bei Fuß gehen'?",
+    "answers": [
+      "Der Hund geht eng an der linken Seite des Hundeführers, Schulter auf Knie-Höhe.",
+      "Der Hund läuft hinter dem Hundeführer.",
+      "Der Hund läuft vor dem Hundeführer.",
+      "Der Hund läuft auf der rechten Seite des Hundeführers."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Wie wird die Übung 'Ablegen mit Abrufen' (Platz mit Heranrufen) aufgebaut?",
+    "answers": [
+      "Der Hund wird aus der Grundstellung abgelegt, der Hundeführer geht etwa 30 Schritte weg und ruft den Hund danach mit dem Kommando 'Hier' heran.",
+      "Der Hund wird abgesessen und der Hundeführer ruft ihn sofort zurück.",
+      "Der Hund läuft frei und wird dann abgelegt.",
+      "Der Hundeführer legt den Hund ab und geht in die Hocke."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Welche Grundstellung wird am Beginn jeder Unterordnungsübung eingenommen?",
+    "answers": [
+      "Der Hund sitzt an der linken Seite des stehenden Hundeführers.",
+      "Der Hund liegt vor dem Hundeführer.",
+      "Der Hund steht vor dem Hundeführer.",
+      "Der Hund sitzt rechts vom Hundeführer."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Was ist beim 'Fußgehen an der Leine' besonders wichtig?",
+    "answers": [
+      "Die Aufmerksamkeit des Hundes muss auf dem Hundeführer gerichtet sein.",
+      "Der Hund muss permanent sein Kopf heben.",
+      "Der Hund muss vor dem Hundeführer herlaufen.",
+      "Der Hund darf die Leine stramm halten."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Was geschieht bei der 'Winkelbildung' im Unterordnungsprogramm?",
+    "answers": [
+      "Der Hundeführer macht Links- und Rechtswendungen sowie Kehrtwendungen, der Hund muss mitgehen.",
+      "Es werden Markierungen auf den Boden gelegt.",
+      "Der Hund muss Winkel mit dem Körper andeuten.",
+      "Der Leistungsrichter gibt Winkel-Kommandos."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Wie endet jede Unterordnungsübung in der BH-Prüfung?",
+    "answers": [
+      "Mit der Grundstellung (Hund sitzt links neben dem stehenden Hundeführer).",
+      "Mit dem Kommando 'Platz'.",
+      "Mit einem Spielzeug als Belohnung.",
+      "Mit einer Pause von 5 Minuten."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Darf der Hundeführer während der Unterordnung Leckerlis sichtbar in der Hand halten?",
+    "answers": [
+      "Nein, sichtbare Lockmittel führen zur Bewertung 'Nicht genügend'.",
+      "Ja, jederzeit.",
+      "Nur in der ersten Übung.",
+      "Nur wenn der Leistungsrichter es erlaubt."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Was bedeutet das Kommando 'Hier' oder 'Komm'?",
+    "answers": [
+      "Der Hund soll schnell und direkt zum Hundeführer kommen.",
+      "Der Hund soll sitzen bleiben.",
+      "Der Hund soll sich hinlegen.",
+      "Der Hund soll einen Gegenstand apportieren."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Was wird im Teil 'Verhalten im Straßenverkehr' der BH-Prüfung geprüft?",
+    "answers": [
+      "Der Hund bleibt in verschiedenen Verkehrssituationen ruhig und führig.",
+      "Der Hund lernt Autofahren kennen.",
+      "Der Hund muss andere Hunde jagen.",
+      "Der Hund muss auf Personen zulaufen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Ein Jogger nähert sich schnell von hinten. Wie soll sich ein gut ausgebildeter Begleithund verhalten?",
+    "answers": [
+      "Ruhig an der Leine bleiben, ohne nach dem Jogger zu schnappen oder zu bellen.",
+      "Dem Jogger hinterherlaufen.",
+      "Den Jogger anknurren.",
+      "Die Leine losreißen und bellen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Ein Auto hupt in der Nähe des Hundes. Das richtige Verhalten ist:",
+    "answers": [
+      "Der Hund bleibt ruhig und zeigt keine Panikreaktion.",
+      "Der Hund erschrickt und läuft weg.",
+      "Der Hund bellt das Auto an.",
+      "Der Hund zieht an der Leine in Richtung Auto."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Ein fremder Hund begegnet auf der anderen Straßenseite. Was sollte der Begleithund tun?",
+    "answers": [
+      "Aufmerksam, aber ruhig am Hundeführer bleiben, ohne aggressive Reaktion.",
+      "Hinlaufen und mit dem anderen Hund spielen.",
+      "Den anderen Hund anknurren.",
+      "Die Leine losreißen und zum anderen Hund ziehen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Eine Gruppe von Personen geht auf den Hund und Hundeführer zu. Was wird erwartet?",
+    "answers": [
+      "Der Hund geht ruhig mit, ohne zu ziehen, bellen oder auszuweichen.",
+      "Der Hund weicht der Gruppe aus und geht auf die andere Straßenseite.",
+      "Der Hund bellt die Personen an.",
+      "Der Hund setzt sich hin und wartet."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Ein Fahrradfahrer überholt den Hund und Hundeführer. Was ist korrektes Verhalten?",
+    "answers": [
+      "Der Hund bleibt ruhig an der Leine und jagt nicht hinterher.",
+      "Der Hund rennt hinter dem Fahrrad her.",
+      "Der Hund bellt das Fahrrad an.",
+      "Der Hund zieht zum Fahrradfahrer hin."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Der Hundeführer bleibt stehen und unterhält sich mit einer Person. Was soll der Hund tun?",
+    "answers": [
+      "Ruhig neben dem Hundeführer sitzen oder stehen bleiben.",
+      "Herumlaufen und die Umgebung erkunden.",
+      "Die Person anspringen.",
+      "Sich hinlegen und schlafen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Ein PKW hält neben dem Hundeführer an. Der Hund sollte:",
+    "answers": [
+      "Ruhig bleiben und nicht zum Fenster hineinspringen oder bellen.",
+      "Zum Auto hingehen und es beschnüffeln.",
+      "Das Auto anbellen.",
+      "Die Leine losreißen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Warum ist der Straßenverkehrsteil der BH-Prüfung so wichtig?",
+    "answers": [
+      "Weil hier die Alltagstauglichkeit und Gefahrlosigkeit des Hundes im öffentlichen Raum geprüft wird.",
+      "Weil es der schwierigste Teil der Prüfung ist.",
+      "Weil die Polizei dies vorschreibt.",
+      "Weil nur hier Punkte vergeben werden."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Was passiert, wenn der Hund im Straßenverkehrsteil aggressiv wird oder in Panik gerät?",
+    "answers": [
+      "Die Prüfung wird abgebrochen und mit 'Nicht bestanden' bewertet.",
+      "Der Hund darf es noch einmal versuchen.",
+      "Der Hund bekommt Punktabzug.",
+      "Nichts, dieser Teil wird nicht bewertet."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 31,
+    "question": "Was bedeutet 'Leinenführigkeit'?",
+    "answers": [
+      "Der Hund geht mit lockerer, durchhängender Leine an der linken Seite des Hundeführers.",
+      "Der Hund zieht an der Leine.",
+      "Der Hund läuft frei ohne Leine.",
+      "Der Hund trägt die Leine im Maul."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Warum ist eine durchhängende Leine wichtig?",
+    "answers": [
+      "Sie zeigt, dass der Hund freiwillig bei Fuß geht und nicht durch Zug kontrolliert wird.",
+      "Weil es gesetzlich vorgeschrieben ist.",
+      "Weil die Leine sonst reißen könnte.",
+      "Weil der Hund sonst keine Luft bekommt."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Was ist die richtige Leinenlänge für die BH-Prüfung?",
+    "answers": [
+      "Die Leine sollte locker durchhängen und nicht ständig stramm sein.",
+      "Die Leine sollte möglichst kurz sein.",
+      "Die Leine sollte mindestens 5 Meter lang sein.",
+      "Die Leinenlänge spielt keine Rolle."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 34,
+    "question": "Der Hund zieht an der Leine während der Prüfung. Was bedeutet das?",
+    "answers": [
+      "Punktabzug, da die Leinenführigkeit nicht korrekt ausgeführt wurde.",
+      "Keine Auswirkung, solange der Hund sich setzen kann.",
+      "Der Hund wird disqualifiziert.",
+      "Der Leistungsrichter ignoriert dies."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 35,
+    "question": "Wie korrigiert man Ziehen an der Leine im Alltagstraining?",
+    "answers": [
+      "Sofort stehenbleiben oder Richtungswechsel, den Hund nicht durch Ziehen zum Mitkommen bringen.",
+      "Den Hund hart an der Leine zurückziehen.",
+      "Den Hund schimpfen.",
+      "Den Hund an der Leine hochheben."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 36,
+    "question": "Welche Wendungen gehören zum Leinenführigkeitsprogramm der BH?",
+    "answers": [
+      "Links- und Rechtswendungen, Kehrtwendung.",
+      "Nur Rechtswendungen.",
+      "Nur Kehrtwendungen.",
+      "Es gibt keine festgelegten Wendungen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 37,
+    "question": "Was zeigt der Hund bei perfekter Leinenführigkeit?",
+    "answers": [
+      "Aufmerksamkeit zum Hundeführer und korrekte Position an der linken Seite.",
+      "Ständiges Schnüffeln am Boden.",
+      "Blickkontakt zu anderen Hunden.",
+      "Der Hund schaut ständig nach vorne ohne den Hundeführer zu beachten."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 38,
+    "question": "Wie schnell soll das Tempo beim Fußgehen mit Leine sein?",
+    "answers": [
+      "Normales Gehtempo, nicht zu schnell und nicht zu langsam.",
+      "Rennschritt.",
+      "Sehr langsames Schlendern.",
+      "Wechselndes Tempo, um den Hund zu testen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 39,
+    "question": "Welches Hilfsmittel ist bei der BH-Prüfung als Halsung erlaubt?",
+    "answers": [
+      "Ein gut sitzendes Halsband oder ein handelsübliches Geschirr.",
+      "Ein Stachelhalsband.",
+      "Ein Elektrischer Erziehungshals.",
+      "Keine Halsung ist erlaubt."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 40,
+    "question": "Was versteht man unter 'Schlussgrundstellung'?",
+    "answers": [
+      "Der Hund sitzt am Ende einer Übung an der linken Seite des Hundeführers.",
+      "Der Hund steht am Ende der Übung.",
+      "Der Hund liegt am Ende der Übung.",
+      "Der Hund wird am Ende der Übung frei gelassen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Was bedeutet 'Fußgehen ohne Leine' (Freifolge)?",
+    "answers": [
+      "Der Hund geht ohne Leine korrekt an der linken Seite des Hundeführers.",
+      "Der Hund läuft ohne Leine vor dem Hundeführer.",
+      "Der Hund läuft ohne Leine auf der rechten Seite.",
+      "Der Hund läuft völlig frei in der Gegend."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 42,
+    "question": "Welche Gangarten werden beim Fußgehen in der BH verlangt?",
+    "answers": [
+      "Normales Gehen, langsames Gehen und Laufschritt.",
+      "Nur Laufen.",
+      "Nur normales Gehen.",
+      "Gehen und Rückwärtsgehen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Bei der Kehrtwendung (180 Grad) in der Fuß-Folge muss der Hund:",
+    "answers": [
+      "Mitgehen und in der korrekten Position an der linken Seite bleiben.",
+      "Stehenbleiben und warten.",
+      "Sich hinsetzen.",
+      "Die Richtung selbst wählen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 44,
+    "question": "Was bedeutet 'Grundstellung' beim Fußgehen?",
+    "answers": [
+      "Der Hund sitzt gerade an der linken Seite des Hundeführers, Schulter auf Knie-Höhe.",
+      "Der Hund steht vor dem Hundeführer.",
+      "Der Hund liegt am Boden.",
+      "Der Hund sitzt frontal vor dem Hundeführer."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 45,
+    "question": "Was passiert, wenn der Hund beim Fußgehen absetzt (hinten abfällt)?",
+    "answers": [
+      "Punktabzug für die Abweichung von der korrekten Position.",
+      "Der Hund wird disqualifiziert.",
+      "Nichts, es wird toleriert.",
+      "Der Leistungsrichter korrigiert den Hund."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 46,
+    "question": "Wohin soll der Hund beim Fußgehen schauen?",
+    "answers": [
+      "Auf den Hundeführer (Aufmerksamkeit).",
+      "Nach vorne auf den Weg.",
+      "Auf den Leistungsrichter.",
+      "Auf andere Hunde."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 47,
+    "question": "Was ist ein 'Vorführen am Stand'?",
+    "answers": [
+      "Der Hundeführer bleibt stehen und der Hund setzt sich selbstständig hin.",
+      "Der Hundeführer bleibt stehen und der Hund läuft weiter.",
+      "Der Hundeführer bleibt stehen und der Hund bleibt stehen.",
+      "Der Hund wird vorgeführt und darf sitzen."
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "id": 48,
+    "question": "Bei der Rechtswendung geht der Hundeführer nach rechts. Der Hund muss:",
+    "answers": [
+      "Mit nach rechts gehen und an der linken Seite bleiben.",
+      "Stehen bleiben und warten.",
+      "Nach links ausweichen.",
+      "Sich hinsetzen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 49,
+    "question": "Warum ist die Grundstellung so wichtig?",
+    "answers": [
+      "Sie ist der Start- und Endpunkt jeder Übung und zeigt die Kontrolle des Hundeführers.",
+      "Weil der Leistungsrichter darauf besteht.",
+      "Weil sie die einzige Übung ist, die bewertet wird.",
+      "Sie ist nicht besonders wichtig."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Was ist ein häufiger Fehler beim Fußgehen?",
+    "answers": [
+      "Der Hund geht zu weit vor (vor der Schulter des Hundeführers).",
+      "Der Hund schaut zum Hundeführer.",
+      "Der Hund geht zu langsam.",
+      "Der Hund geht zu eng."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 51,
+    "question": "Wie wird die 'Sitz aus der Bewegung' korrekt ausgeführt?",
+    "answers": [
+      "Der Hund wird aus dem Fußgehen mit dem Kommando 'Sitz' abgesetzt, der Hundeführer geht ohne Unterbrechung weiter.",
+      "Der Hundeführer bleibt stehen und setzt den Hund.",
+      "Der Hund setzt sich von selbst.",
+      "Der Hund wird aus dem Liegen aufgerufen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 52,
+    "question": "Wie viele Schritte geht der Hundeführer weiter, nachdem er das Kommando 'Sitz' gegeben hat?",
+    "answers": [
+      "Ca. 25-30 Schritte, dann dreht er sich zum Hund.",
+      "Er bleibt sofort stehen.",
+      "Er geht 5 Schritte.",
+      "Er geht bis zum Leistungsrichter."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 53,
+    "question": "Was muss der Hund beim 'Sitz aus der Bewegung' tun?",
+    "answers": [
+      "Schnell und gerade sitzen bleiben, bis er abgerufen wird.",
+      "Dem Hundeführer folgen.",
+      "Sich hinlegen.",
+      "Aufstehen und laufen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 54,
+    "question": "Wie wird der Hund nach der 'Sitz aus der Bewegung' zurückgerufen?",
+    "answers": [
+      "Mit dem Kommando 'Hier' wird der Hund herangerufen und muss vor dem Hundeführer (frontal) sitzen.",
+      "Der Hund darf von selbst zurückkommen.",
+      "Der Hundeführer geht zum Hund zurück.",
+      "Der Hund wird mit Leckerli gelockt."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 55,
+    "question": "Was passiert nach dem Heranrufen in der Sitz-Übung?",
+    "answers": [
+      "Der Hundeführer lässt den Hund in die Grundstellung (an die linke Seite) wechseln.",
+      "Der Hund bleibt frontal sitzen.",
+      "Der Hund wird entlassen.",
+      "Der Hund muss sich hinlegen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 56,
+    "question": "Wie lange muss der Hund beim 'Sitz' sitzen bleiben?",
+    "answers": [
+      "Bis der Hundeführer ihn abruft oder zu ihm zurückkehrt.",
+      "Maximal 10 Sekunden.",
+      "Genau 1 Minute.",
+      "Solange bis der Leistungsrichter pfeift."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 57,
+    "question": "Was ist ein häufiger Fehler bei der 'Sitz aus der Bewegung'?",
+    "answers": [
+      "Der Hund kommt nicht schnell genug ins Sitz oder steht auf.",
+      "Der Hund sitzt zu schnell.",
+      "Der Hund schaut zum Hundeführer.",
+      "Der Hund bellt."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 58,
+    "question": "Darf der Hundeführer ein Handzeichen beim 'Sitz' geben?",
+    "answers": [
+      "Ja, ein kurzes Handzeichen darf das verbale Kommando unterstützen.",
+      "Nein, nur verbale Kommandos sind erlaubt.",
+      "Nur Handzeichen ohne Wortkommando.",
+      "Handzeichen sind verboten."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 59,
+    "question": "Was bedeutet es, wenn der Hund beim 'Sitz' seitlich wegrutscht?",
+    "answers": [
+      "Punktabzug, da der Hund nicht gerade sitzen bleibt.",
+      "Keine Auswirkung.",
+      "Der Hund wird disqualifiziert.",
+      "Der Leistungsrichter ignoriert dies."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 60,
+    "question": "Welches Kommando wird für das Hinsetzen verwendet?",
+    "answers": [
+      "'Sitz' oder 'Sitz'.",
+      "'Platz'.",
+      "'Hier'.",
+      "'Bleib'."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 61,
+    "question": "Was ist die Übung 'Ablegen mit Abrufen'?",
+    "answers": [
+      "Der Hund wird aus der Grundstellung abgelegt, der Hundeführer entfernt sich und ruft den Hund dann heran.",
+      "Der Hund wird abgesessen und der Hundeführer geht weg.",
+      "Der Hund wird abgelegt und muss 10 Minuten liegen bleiben.",
+      "Der Hund wird aus dem Lauf abgelegt."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 62,
+    "question": "Wie wird der Hund korrekt abgelegt?",
+    "answers": [
+      "Aus der Grundstellung mit dem Kommando 'Platz' und einem eventuellen Handzeichen.",
+      "Durch Drücken auf den Rücken.",
+      "Durch Leckerli auf den Boden werfen.",
+      "Der Hund legt sich von selbst."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 63,
+    "question": "Wie viele Schritte entfernt sich der Hundeführer beim 'Ablegen mit Abrufen'?",
+    "answers": [
+      "Ca. 30 Schritte, dann ruft er den Hund heran.",
+      "Er geht nicht weg.",
+      "Er geht 5 Schritte.",
+      "Er geht 100 Schritte."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 64,
+    "question": "Mit welchem Kommando wird der Hund beim Heranrufen gerufen?",
+    "answers": [
+      "'Hier' oder der Rufname des Hundes.",
+      "'Platz'.",
+      "'Sitz'.",
+      "'Bleib'."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 65,
+    "question": "Was muss der Hund nach dem Heranrufen tun?",
+    "answers": [
+      "Schnell und freudig zum Hundeführer kommen und vor ihm sitzen (frontal).",
+      "Langsam zum Hundeführer gehen.",
+      "Den Hundeführer umkreisen.",
+      "Sich neben den Hundeführer legen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 66,
+    "question": "Wie endet die Übung 'Ablegen mit Abrufen'?",
+    "answers": [
+      "Der Hund geht aus dem frontalen Sitz in die Grundstellung an die linke Seite des Hundeführers.",
+      "Der Hund bleibt frontal sitzen.",
+      "Der Hund wird entlassen.",
+      "Der Hund muss sich hinlegen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 67,
+    "question": "Was bedeutet 'Platz bleiben' (Platz Bleib)?",
+    "answers": [
+      "Der Hund bleibt im Liegen, während der Hundeführer sich entfernt.",
+      "Der Hund läuft frei und wird dann abgelegt.",
+      "Der Hund sitzt und bleibt sitzen.",
+      "Der Hund folgt dem Hundeführer."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 68,
+    "question": "Warum ist das 'Ablegen' eine wichtige Übung?",
+    "answers": [
+      "Weil sie Selbstbeherrschung und Gehorsam auch auf Distanz zeigt.",
+      "Weil sie die einzige Übung ist, die bewertet wird.",
+      "Weil sie besonders einfach ist.",
+      "Weil der Leistungsrichter sie besonders mag."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 69,
+    "question": "Was passiert, wenn der Hund beim 'Ablegen' vorzeitig aufsteht?",
+    "answers": [
+      "Die Übung wird mit 0 Punkten bewertet.",
+      "Der Hund bekommt eine zweite Chance.",
+      "Punktabzug.",
+      "Nichts, es wird toleriert."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 70,
+    "question": "Darf der Hundeführer beim 'Platz' den Hund mehrfach korrigieren?",
+    "answers": [
+      "Nein, das Kommando sollte einmalig und klar erfolgen.",
+      "Ja, beliebig oft.",
+      "Ja, maximal dreimal.",
+      "Nur wenn der Hund nicht gehorcht."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 71,
+    "question": "Warum ist ein zuverlässiger Rückruf die wichtigste Übung für die Sicherheit?",
+    "answers": [
+      "Weil der Hund aus jeder Situation sicher zurückkommen muss, um sich und andere nicht zu gefährden.",
+      "Weil es die einzige Übung ist, die im Straßenverkehr geprüft wird.",
+      "Weil der Leistungsrichter Wert darauf legt.",
+      "Weil es die erste Übung der Prüfung ist."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 72,
+    "question": "Was ist ein häufiger Fehler beim Rückruf-Training?",
+    "answers": [
+      "Der Hund wird nach dem Kommen bestraft, was den Rückruf zerstört.",
+      "Der Hund wird zu oft gerufen.",
+      "Der Hund wird mit Leckerli belohnt.",
+      "Der Hund wird zu wenig gerufen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 73,
+    "question": "Wie sollte der Rückruf aufgebaut werden?",
+    "answers": [
+      "In schrittweise steigenden Ablenkungsstufen, beginnend ohne Ablenkung.",
+      "Immer in der belebten Straße.",
+      "Nur mit anderem Hund in der Nähe.",
+      "Nur im Haus."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 74,
+    "question": "Was muss der Hund beim Rückruf in der BH-Prüfung tun?",
+    "answers": [
+      "Schnell und direkt zum Hundeführer kommen und frontal (vor dem Hundeführer) sitzen.",
+      "Langsam zum Hundeführer gehen.",
+      "Den Hundeführer umkreisen.",
+      "Sich neben den Hundeführer legen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 75,
+    "question": "Wie wird der Rückruf in der Prüfung korrekt eingeleitet?",
+    "answers": [
+      "Der Hund wird mit dem Kommando 'Hier' oder dem Rufnamen herangerufen.",
+      "Der Hundeführer geht zum Hund.",
+      "Der Hundeführer zieht den Hund an der Leine.",
+      "Der Leistungsrichter gibt das Kommando."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 76,
+    "question": "Was passiert, wenn der Hund beim Rückruf an einem anderen Hund oder einer Person vorbeiläuft?",
+    "answers": [
+      "Punktabzug für mangelnde Konzentration.",
+      "Keine Auswirkung.",
+      "Der Hund wird disqualifiziert.",
+      "Nichts, wenn er trotzdem kommt."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 77,
+    "question": "Wie schnell sollte der Hund beim Rückruf sein?",
+    "answers": [
+      "Schnell und freudig, ohne zu zögern.",
+      "Langsam und bedächtig.",
+      "Es ist egal, wie schnell der Hund kommt.",
+      "Der Hund darf Zwischenstopps machen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 78,
+    "question": "Was bedeutet es, wenn der Hund nach dem Rückruf in die Grundstellung wechselt?",
+    "answers": [
+      "Der Hund geht von der frontalen Position an die linke Seite des Hundeführers.",
+      "Der Hund geht nach rechts.",
+      "Der Hund bleibt frontal sitzen.",
+      "Der Hund legt sich hin."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 79,
+    "question": "Welche Belohnung ist nach einem erfolgreichen Rückruf am besten?",
+    "answers": [
+      "Stimme, Streicheln oder Leckerli – je nachdem, was den Hund motiviert.",
+      "Bestrafung.",
+      "Ignorieren.",
+      "Den Hund an der Leine zerren."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 80,
+    "question": "Was versteht man unter 'Bleib' als Kommando?",
+    "answers": [
+      "Der Hund soll in seiner aktuellen Position verharren, bis ein anderes Kommando kommt.",
+      "Der Hund soll sich hinlegen.",
+      "Der Hund soll kommen.",
+      "Der Hund soll sitzen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 81,
+    "question": "Was ist das 'Vorführen am Stand'?",
+    "answers": [
+      "Der Hundeführer bleibt stehen und der Hund muss selbstständig die korrekte Position einnehmen und aufmerksam bleiben.",
+      "Der Hund muss sich vor dem Hundeführer hinlegen.",
+      "Der Hundeführer zeigt den Hund dem Leistungsrichter.",
+      "Der Hund muss einen Parcours absolvieren."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 82,
+    "question": "Was macht der Hund beim 'Vorführen am Stand', wenn der Hundeführer stehen bleibt?",
+    "answers": [
+      "Er bleibt ruhig stehen oder sitzt und muss aufmerksam bleiben.",
+      "Er darf sich hinlegen.",
+      "Er darf herumlaufen.",
+      "Er muss sich hinlegen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 83,
+    "question": "Beim 'Vorführen am Stand' wird der Hund von einem Leistungsrichter (Prüfer) begutachtet. Was ist erlaubt?",
+    "answers": [
+      "Der Leistungsrichter berührt den Hund, um ihn zu mustern; der Hund darf nicht aggressiv reagieren.",
+      "Der Hund darf den Leistungsrichter anknurren.",
+      "Der Hund darf weglaufen.",
+      "Der Hund muss sich hinlegen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 84,
+    "question": "Warum wird das 'Vorführen am Stand' in der BH-Prüfung durchgeführt?",
+    "answers": [
+      "Um zu prüfen, ob der Hund auch im Stehen ruhig und kontrollierbar bleibt.",
+      "Um die Größe des Hundes zu messen.",
+      "Um das Gebiss zu kontrollieren.",
+      "Um die Leinenführigkeit zu testen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 85,
+    "question": "Was zeigt ein Hund, der beim 'Vorführen am Stand' ruhig bleibt?",
+    "answers": [
+      "Gute Nervenstärke, Vertrauen zum Hundeführer und Wesensfestigkeit.",
+      "Schlechte Ausbildung.",
+      "Mangelnde Konzentration.",
+      "Ungehorsam."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 86,
+    "question": "Was passiert, wenn der Hund beim Vorführen am Stand den Leistungsrichter anknurrt oder gar schnappt?",
+    "answers": [
+      "Die Prüfung wird sofort abgebrochen (Disqualifikation).",
+      "Punktabzug.",
+      "Der Hund bekommt eine zweite Chance.",
+      "Nichts, es wird toleriert."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 87,
+    "question": "Wie bereitet man den Hund auf das Vorführen am Stand vor?",
+    "answers": [
+      "Indem man ihn an das Berührtwerden von fremden Personen gewöhnt.",
+      "Indem man ihn stramm an die Leine nimmt.",
+      "Indem man ihm Kommandos gibt.",
+      "Indem man ihn wegschickt."
+    ],
+    "correctAccounts": [
+      0
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 88,
+    "question": "Welche Position soll der Hund beim Vorführen am Stand einnehmen?",
+    "answers": [
+      "Aufmerksam neben dem Hundeführer, entweder stehend oder sitzend.",
+      "Vor dem Hundeführer.",
+      "Auf der rechten Seite.",
+      "Liegend am Boden."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 89,
+    "question": "Was bedeutet es, wenn der Hund beim Vorführen am Stand weglaufen will?",
+    "answers": [
+      "Mangelnde Bindung und Ausbildung, was zu Punktabzug führt.",
+      "Der Hund ist übermotiviert.",
+      "Der Hund ist krank.",
+      "Es hat keine Bedeutung."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 90,
+    "question": "Darf der Hundeführer den Hund beim Vorführen am Stand festhalten?",
+    "answers": [
+      "Nein, der Hund sollte freiwillig stehen bleiben, ohne festgehalten zu werden.",
+      "Ja, an der Leine.",
+      "Ja, am Halsband.",
+      "Nur mit beiden Händen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 91,
+    "question": "Was versteht man unter 'Wesen' im hundetrainerischen Sinn?",
+    "answers": [
+      "Die Gesamtheit der individuellen, genetisch bedingten und durch Umwelt geprägten Verhaltensmerkmale.",
+      "Nur die Rasse eines Hundes.",
+      "Das Aussehen des Hundes.",
+      "Die Größe des Hundes."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 92,
+    "question": "Was ist ein 'Trieb' bei Hunden?",
+    "answers": [
+      "Ein angeborener Drang zu bestimmten Verhaltensweisen (z.B. Beutetrieb, Spieltrieb, Verteidigungstrieb).",
+      "Ein erlerntes Verhalten.",
+      "Eine Krankheit.",
+      "Ein Trainingsfehler."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 93,
+    "question": "Welche Triebe sind für die Hundeausbildung besonders relevant?",
+    "answers": [
+      "Beutetrieb, Spieltrieb, Futtertrieb, sozialer Kontakttrieb.",
+      "Nur der Jagdtrieb.",
+      "Nur der Verteidigungstrieb.",
+      "Es gibt keine relevanten Triebe."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 94,
+    "question": "Was versteht man unter 'Reizschwelle'?",
+    "answers": [
+      "Die Intensität, ab der ein Reiz eine Reaktion beim Hund auslöst.",
+      "Die Größe des Hundes.",
+      "Die Lautstärke eines Kommandos.",
+      "Die Geschwindigkeit des Hundes."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 95,
+    "question": "Was bedeutet 'Desensibilisierung'?",
+    "answers": [
+      "Die schrittweise Gewöhnung an einen Reiz, der zuvor eine unerwünschte Reaktion ausgelöst hat.",
+      "Das Ignorieren eines Problems.",
+      "Die Bestrafung bei einer Reaktion.",
+      "Das Verstärken einer Reaktion."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 96,
+    "question": "Was ist 'Konditionierung' (klassisch nach Pawlow)?",
+    "answers": [
+      "Das Lernen durch wiederholte Verknüpfung von Reizen (z.B. Glocke → Futter → Speichelfluss).",
+      "Das Lernen durch Versuch und Irrtum.",
+      "Das Lernen durch Nachahmung.",
+      "Das Lernen durch Strafe."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 97,
+    "question": "Was ist 'operante Konditionierung' (nach Skinner)?",
+    "answers": [
+      "Das Lernen durch Konsequenzen des eigenen Verhaltens (Belohnung verstärkt, Strafe mindert).",
+      "Das Lernen durch Reiz-Verknüpfung.",
+      "Das Lernen durch Beobachtung.",
+      "Das Lernen durch Instinkt."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 98,
+    "question": "Was versteht man unter 'Bestätigung' in der Hundeerziehung?",
+    "answers": [
+      "Eine positive Rückmeldung (Leckerli, Stimme, Spiel) für ein erwünschtes Verhalten.",
+      "Eine negative Rückmeldung für ein Fehlverhalten.",
+      "Das Ignorieren des Hundes.",
+      "Das Strafen des Hundes."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 99,
+    "question": "Warum ist das Timing der Bestätigung so wichtig?",
+    "answers": [
+      "Weil die Bestätigung innerhalb von 1-2 Sekunden nach dem erwünschten Verhalten erfolgen muss, damit der Hund die Verknüpfung herstellt.",
+      "Weil der Leistungsrichter darauf achtet.",
+      "Weil es sonst zu viele Leckerlis sind.",
+      "Timing ist nicht wichtig."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 100,
+    "question": "Was bedeutet 'Generalisierung' im Training?",
+    "answers": [
+      "Das Übertragen eines gelernten Verhaltens auf verschiedene Orte, Situationen und Ablenkungen.",
+      "Das Verallgemeinern von Kommandos.",
+      "Das Vergessen von Kommandos.",
+      "Das Spezialisieren auf eine Situation."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 101,
+    "question": "Aus wie vielen Teilen besteht die Begleithundprüfung (BH)?",
+    "answers": [
+      "Aus zwei Teilen: Verhalten im Straßenverkehr und Unterordnung.",
+      "Aus drei Teilen: Theorie, Straße, Unterordnung.",
+      "Aus nur einem Teil: Unterordnung.",
+      "Aus vier Teilen: Theorie, Wesen, Straße, Unterordnung."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 102,
+    "question": "Wie viele Punkte kann man in der BH-Prüfung maximal erreichen?",
+    "answers": [
+      "100 Punkte pro Teil (Straße und Unterordnung).",
+      "50 Punkte gesamt.",
+      "200 Punkte gesamt.",
+      "300 Punkte gesamt."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 103,
+    "question": "Ab wie vielen Punkten gilt die BH-Prüfung als bestanden?",
+    "answers": [
+      "Ab 70% der erreichbaren Punkte.",
+      "Ab 50%.",
+      "Ab 90%.",
+      "Ab 100%."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 104,
+    "question": "Wer darf eine BH-Prüfung abnehmen?",
+    "answers": [
+      "Ein vom VDH anerkannter Leistungsrichter.",
+      "Jeder Hundetrainer.",
+      "Der Hundeführer selbst.",
+      "Ein Tierarzt."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 105,
+    "question": "Was ist der Unterschied zwischen BH und BH/VT?",
+    "answers": [
+      "BH/VT beinhaltet einen Verhaltenstest (VT) zusätzlich zur klassischen BH, der Wesensfestigkeit prüft.",
+      "Es gibt keinen Unterschied.",
+      "BH/VT ist einfacher.",
+      "BH/VT ist nur für Welpen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 106,
+    "question": "Was bedeutet eine Teilbewertung von '0' in einer Übung?",
+    "answers": [
+      "Die Übung wurde nicht ausgeführt oder war völlig ungenügend.",
+      "Die Übung war perfekt.",
+      "Die Übung wird wiederholt.",
+      "Die Übung ist optional."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 107,
+    "question": "Was passiert, wenn der Hund während der Prüfung sein Geschäft macht?",
+    "answers": [
+      "Die Prüfung kann nicht bestanden werden (oder Punktabzug, je nach Reglement).",
+      "Nichts.",
+      "Der Hund wird disqualifiziert.",
+      "Der Leistungsrichter ignoriert es."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 108,
+    "question": "Darf der Hundeführer den Hund zwischen den Übungen streicheln und motivieren?",
+    "answers": [
+      "Ja, zwischen den Übungen ist kurze Lob und Motivation erlaubt, aber nicht während einer laufenden Übung.",
+      "Nein, jeglicher Kontakt ist verboten.",
+      "Ja, jederzeit.",
+      "Nur am Anfang."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 109,
+    "question": "Was ist das 'Begleithund-Abzeichen' und was bringt es?",
+    "answers": [
+      "Es ist ein Nachweis über die charakterliche und gehorsame Eignung des Hundes, oft Voraussetzung für weitere Sportprüfungen.",
+      "Es ist ein reiner Pokal.",
+      "Es erlaubt das Mitführen in öffentlichen Gebäuden.",
+      "Es ersetzt die Hundesteuer."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 110,
+    "question": "Was muss vor der praktischen BH-Prüfung bestanden werden?",
+    "answers": [
+      "Ein theoretischer Teil mit Fragen zu Haltung, Ausbildung, Recht und Verhalten.",
+      "Eine ärztliche Untersuchung.",
+      "Ein Agility-Test.",
+      "Nichts, man kann direkt praktisch prüfen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 111,
+    "question": "Welche Ausrüstung ist für die BH-Prüfung vorgeschrieben?",
+    "answers": [
+      "Ein gut sitzendes Halsband (kein Stachel-/Würgehalsband) und eine handelsübliche Leine.",
+      "Ein Geschirr und eine 5m-Leine.",
+      "Keine Leine.",
+      "Ein elektrisches Erziehungshalsband."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 112,
+    "question": "Welche Hilfsmittel sind in der BH-Prüfung NICHT erlaubt?",
+    "answers": [
+      "Stachelhalsbänder, Würgehalsbänder, elektrische Erziehungshalsbänder.",
+      "Ein normales Ledergeschirr.",
+      "Eine normale Leine.",
+      "Leckerlis in der Tasche."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 113,
+    "question": "Darf der Hundeführer Spielzeug oder Leckerlis mit zur Prüfung bringen?",
+    "answers": [
+      "Leckerlis/Spielzeug dürfen mitgebracht, aber während der Prüfung nicht sichtbar verwendet werden.",
+      "Ja, jederzeit sichtbar verwenden.",
+      "Nein, gar nicht mitbringen.",
+      "Nur Leckerlis, kein Spielzeug."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 114,
+    "question": "Welche Kleidung ist für den Hundeführer in der Prüfung angemessen?",
+    "answers": [
+      "Saubere, sportliche Kleidung ohne aufdringliche Werbeaufschriften.",
+      "Anzug und Krawatte.",
+      "Badehose und Flip-Flops.",
+      "Es gibt keine Vorgaben."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 115,
+    "question": "Was ist beim Kauf eines Halsbandes für den Hund zu beachten?",
+    "answers": [
+      "Es muss passend sitzen (nicht zu eng, nicht zu weit) und aus bruchfestem Material sein.",
+      "Es muss besonders eng anliegen.",
+      "Es muss auffällig gefärbt sein.",
+      "Es muss gewirkt sein."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  }
+]

@@ -1,17 +1,18 @@
-// Pfad: lib/screens/category_learning_screen.dart – Screen für Lernmodus in Kategorien mit interaktiven Fragen.
+// Path: lib/screens/category_learning_screen.dart
+// Description: Learning mode for a category with interactive questions.
+// Now course-aware: reads courseId from selectedCourseProvider for progress storage.
 
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart'; // Für State-Management (Best Practice: Riverpod statt Provider).
-import 'package:vibration/vibration.dart'; // Für Haptic-Feedback (Cross-OS: Check mit hasVibrator).
-import '../data/questions.dart'; // questionsProvider importieren (behebt 'questions' undefined).
-import '../storage/progress_storage.dart'; // Fortschritt-Speicherung.
-import '../models/question_model.dart'; // Question-Model.
-import '../theme/theme_notifier.dart'; // Theme-Notifier (Riverpod).
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:vibration/vibration.dart';
+import '../providers/course_providers.dart';
+import '../models/question_model.dart';
+import '../storage/progress_storage.dart';
+import '../theme/theme_notifier.dart';
 
-// CategoryLearningScreen (ConsumerStatefulWidget für Riverpod, behebt Provider.of).
 class CategoryLearningScreen extends ConsumerStatefulWidget {
-  final String categoryTitle; // Kategorie-Titel.
-  final List<int> questionIds; // Frage-IDs.
+  final String categoryTitle;
+  final List<int> questionIds;
 
   const CategoryLearningScreen({
     super.key,
@@ -20,22 +21,22 @@ class CategoryLearningScreen extends ConsumerStatefulWidget {
   });
 
   @override
-  ConsumerState<CategoryLearningScreen> createState() => _CategoryLearningScreenState();
+  ConsumerState<CategoryLearningScreen> createState() =>
+      _CategoryLearningScreenState();
 }
 
 class _CategoryLearningScreenState extends ConsumerState<CategoryLearningScreen> {
-  int currentIdx = 0; // Aktueller Index.
-  Set<int> selectedAnswers = {}; // Ausgewählte Antworten.
-  bool submitted = false; // Abgeschickt-Flag.
-  bool finished = false; // Abgeschlossen-Flag.
+  int currentIdx = 0;
+  Set<int> selectedAnswers = {};
+  bool submitted = false;
+  bool finished = false;
 
-  // Aktuelle Frage abrufen (nutzt Provider, Best Practice: Asynchron).
   Future<Question> getCurrentQuestion() async {
-    final questionsData = await ref.read(questionsProvider.future); // Fragen laden.
-    return questionsData.firstWhere((q) => q.id == widget.questionIds[currentIdx]);
+    final questionsData = await ref.read(questionsProvider.future);
+    return questionsData.firstWhere(
+        (q) => q.id == widget.questionIds[currentIdx]);
   }
 
-  // Antwort toggeln (mit Haptic-Feedback, Cross-OS).
   void toggleAnswer(int index) {
     if (submitted) return;
     setState(() {
@@ -45,31 +46,31 @@ class _CategoryLearningScreenState extends ConsumerState<CategoryLearningScreen>
         selectedAnswers.add(index);
       }
     });
-    Vibration.vibrate(duration: 50); // Feedback (check if available).
+    Vibration.vibrate(duration: 50);
   }
 
-  // Prüfen, ob Antwort korrekt.
   bool isCorrectAnswer(int index, List<int> correct) {
     return correct.contains(index);
   }
 
-  // Prüfen, ob Auswahl korrekt.
   bool isSelectionCorrect(Set<int> selected, List<int> correct) {
-    return Set.from(correct).containsAll(selected) && selected.containsAll(Set.from(correct));
+    return Set.from(correct).containsAll(selected) &&
+        selected.containsAll(Set.from(correct));
   }
 
-  // Antwort abschicken (async, speichert Fortschritt).
   Future<void> submitAnswer() async {
     final question = await getCurrentQuestion();
+    final courseId = ref.read(selectedCourseIdProvider);
     final correct = isSelectionCorrect(selectedAnswers, question.correctAnswers);
     setState(() {
       submitted = true;
     });
-    await ProgressStorage.addAnswerResult(question.id, correct); // Speichern.
-    Vibration.vibrate(pattern: correct ? [0, 100] : [0, 500]); // Feedback.
+    if (courseId != null) {
+      await ProgressStorage.addAnswerResult(courseId, question.id, correct);
+    }
+    Vibration.vibrate(pattern: correct ? [0, 100] : [0, 500]);
   }
 
-  // Nächste Frage (mit Refresh).
   Future<void> nextQuestion() async {
     if (currentIdx < widget.questionIds.length - 1) {
       setState(() {
@@ -84,16 +85,14 @@ class _CategoryLearningScreenState extends ConsumerState<CategoryLearningScreen>
     }
   }
 
-  // Theme wechseln (Riverpod, behebt Provider.of).
   void _cycleTheme() {
-    final themeNotifier = ref.read(themeNotifierProvider.notifier); // Riverpod-Notifier.
-    final current = ref.read(themeNotifierProvider).mode; // Aktueller Mode.
-    const values = AppThemeMode.values; // Const für konstante Initialisierung (behebt Lint-Warnung).
+    final themeNotifier = ref.read(themeNotifierProvider.notifier);
+    final current = ref.read(themeNotifierProvider).mode;
+    const values = AppThemeMode.values;
     final next = values[(current.index + 1) % values.length];
-    themeNotifier.setThemeMode(next); // Setzen.
+    themeNotifier.setThemeMode(next);
   }
 
-  // Pop mit Refresh (Navigation-Handling).
   void popWithRefresh() {
     if (Navigator.of(context).canPop()) {
       Navigator.of(context).pop(true);
@@ -137,12 +136,11 @@ class _CategoryLearningScreenState extends ConsumerState<CategoryLearningScreen>
       );
     }
 
-    // FutureBuilder für asynchrone Frage (Best Practice: Loading-Handling).
     return FutureBuilder<Question>(
       future: getCurrentQuestion(),
       builder: (context, snapshot) {
         if (!snapshot.hasData) {
-          return const Center(child: CircularProgressIndicator()); // Loading.
+          return const Center(child: CircularProgressIndicator());
         }
         final q = snapshot.data!;
         final Color secondary = Theme.of(context).colorScheme.secondary;
@@ -154,7 +152,7 @@ class _CategoryLearningScreenState extends ConsumerState<CategoryLearningScreen>
               IconButton(
                 icon: const Icon(Icons.brightness_6),
                 tooltip: 'Theme wechseln',
-                onPressed: _cycleTheme, // Riverpod-Cycle.
+                onPressed: _cycleTheme,
               )
             ],
             leading: IconButton(
@@ -202,7 +200,8 @@ class _CategoryLearningScreenState extends ConsumerState<CategoryLearningScreen>
                     child: Column(
                       children: List.generate(q.answers.length, (index) {
                         final isSelected = selectedAnswers.contains(index);
-                        final isCorrect = isCorrectAnswer(index, q.correctAnswers);
+                        final isCorrect =
+                            isCorrectAnswer(index, q.correctAnswers);
 
                         Color? tileColor;
                         IconData? icon;
@@ -210,23 +209,23 @@ class _CategoryLearningScreenState extends ConsumerState<CategoryLearningScreen>
 
                         if (submitted) {
                           if (isCorrect && isSelected) {
-                            tileColor = Colors.green.withValues(alpha: 0.2); // Deprecated withOpacity ersetzt (Best Practice: Precision).
+                            tileColor = Colors.green.withValues(alpha: 0.2);
                             icon = Icons.check_circle;
                             iconColor = Colors.green;
                           } else if (!isCorrect && isSelected) {
-                            tileColor = Colors.red.withValues(alpha: 0.2); // Deprecated ersetzt.
+                            tileColor = Colors.red.withValues(alpha: 0.2);
                             icon = Icons.cancel;
                             iconColor = Colors.red;
                           } else if (isCorrect && !isSelected) {
-                            tileColor = Colors.yellow.withValues(alpha: 0.2); // Deprecated ersetzt.
+                            tileColor = Colors.yellow.withValues(alpha: 0.2);
                             icon = Icons.warning_amber_rounded;
                             iconColor = Colors.orange;
                           }
                         } else if (isSelected) {
-                          tileColor = secondary.withValues(alpha: 0.2); // Deprecated ersetzt.
+                          tileColor = secondary.withValues(alpha: 0.2);
                         }
 
-                        return Semantics(  // Accessibility (Best Practice: Screen-Reader).
+                        return Semantics(
                           label: q.answers[index],
                           child: Card(
                             elevation: 2,
@@ -235,22 +234,25 @@ class _CategoryLearningScreenState extends ConsumerState<CategoryLearningScreen>
                               borderRadius: BorderRadius.circular(14),
                             ),
                             child: ListTile(
-                              contentPadding:
-                                  const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                              contentPadding: const EdgeInsets.symmetric(
+                                  horizontal: 12, vertical: 4),
                               onTap: () => toggleAnswer(index),
                               leading: Padding(
                                 padding: const EdgeInsets.only(right: 8.0),
                                 child: Checkbox(
                                   value: isSelected,
                                   onChanged: (_) => toggleAnswer(index),
-                                  activeColor: Theme.of(context).colorScheme.primary,
+                                  activeColor:
+                                      Theme.of(context).colorScheme.primary,
                                 ),
                               ),
                               title: Text(
                                 q.answers[index],
                                 style: Theme.of(context).textTheme.bodyLarge,
                               ),
-                              trailing: icon != null ? Icon(icon, color: iconColor) : null,
+                              trailing: icon != null
+                                  ? Icon(icon, color: iconColor)
+                                  : null,
                             ),
                           ),
                         );
@@ -282,7 +284,9 @@ class _CategoryLearningScreenState extends ConsumerState<CategoryLearningScreen>
                         ? popWithRefresh
                         : (submitted
                             ? nextQuestion
-                            : (selectedAnswers.isEmpty ? null : submitAnswer)),
+                            : (selectedAnswers.isEmpty
+                                ? null
+                                : submitAnswer)),
                   ),
                 ),
               ],
