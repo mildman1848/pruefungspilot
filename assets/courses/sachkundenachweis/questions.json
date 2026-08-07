@@ -769,7 +769,7 @@
   },
   {
     "id": 51,
-    "question": "Was bedeutet es, wenn ein Hund einem anderen Hund oder einem Menschen in angespannter Körperhaltung mit dem Blick fixiert?",
+    "question": "Was bedeutet es, wenn ein Hund einen anderen Hund oder einen Menschen in angespannter Körperhaltung mit dem Blick fixiert?",
     "answers": [
       "Es bedeutet, dass er den anderen gernhat.",
       "Es ist ein harmloses Imponierverhalten.",
@@ -799,17 +799,16 @@
   },
   {
     "id": 53,
-    "question": "Welche Hunderasse ist besonders für Allergiker geeignet?",
+    "question": "Wie soll ich mich verhalten, wenn ein fremder Hund auf mich und mein Kind zugestürmt kommt.",
     "answers": [
-      "Labrador Retriever",
-      "Golden Retriever",
-      "Pudel",
-      "Dackel"
+      "Ich reiße mein Kind schnell hoch, um es aus der Gefahrenzone zu bringen.",
+      "Ich schaue dem Hund in die Augen und verjage ihn.",
+      "Ich bleibe ganz ruhig und stelle mich zwischen Hund und Kind und nehme mein Kind ggf. mit ruhigen Bewegungen auf den Arm.",
+      "Ich reiße die Arme hoch und schreie den Hund an."
     ],
     "correctAnswers": [
       2
-    ],
-    "image": null
+    ]
   },
   {
     "id": 54,
@@ -1430,18 +1429,17 @@
   },
   {
     "id": 95,
-    "question": "Welche Impfungen sind für Hunde in Deutschland gesetzlich vorgeschrieben?",
+    "question": "Auf dem Hundespaziergang kommt einem ein/e Reiter/in entgegen. Wie soll man sich verhalten?",
     "answers": [
-      "Tollwutimpfung",
-      "Staupeimpfung",
-      "Parvoviroseimpfung",
-      "Keine Impfung ist gesetzlich vorgeschrieben, es sei denn, das Tier wird ins Ausland verbracht."
+      "Wenn der Hund Pferde kennt, braucht man nichts zu unternehmen, denn dann hat der Hund keine Angst.",
+      "Man sollte den Hund heranrufen und an die Leine nehmen, bis Pferd und Reiter/in vorbei sind und man sicher weiß, dass der Hund nicht hinterherrennen wird.",
+      "Wenn der/die Reiter/in nur „Schritt“ reitet, ist keine Gefahr gegeben, denn das langsame Reiten verleitet nicht zum Jagen.",
+      "Man sollte seinen Hund grundsätzlich unter Kontrolle nehmen, da manche Pferde auch bei ruhigen und freundlichen Hunden ängstlich reagieren und dadurch Unfälle entstehen können."
     ],
     "correctAnswers": [
-      0,
+      1,
       3
-    ],
-    "image": null
+    ]
   },
   {
     "id": 96,
@@ -1535,17 +1533,16 @@
   },
   {
     "id": 102,
-    "question": "Welche der folgenden Maßnahmen ist KEIN geeignetes Mittel zur Parasitenbekämpfung beim Hund?",
+    "question": "Auf einer Wiese spielt eine Gruppe von Kindern Fußball. Wie verhalten Sie sich mit Ihrem frei laufenden Hund?",
     "answers": [
-      "Regelmäßiges Entwurmen.",
-      "Flohhalsband.",
-      "Kokosöl auf das Fell reiben.",
-      "Spot-on-Präparate vom Tierarzt."
+      "Wenn dies ein Hundeauslaufgebiet ist, darf ich den Hund frei laufen lassen. Ich erkläre den Fußballspielern/innen das und schicke sie weg.",
+      "Ich muss gar nichts unternehmen, denn mein Hund ist nicht aggressiv. Für den Fall, dass er im Übermut den Ball kaputt machen sollte, habe ich eine Haftpflichtversicherung.",
+      "Ich leine den Hund vorsichtshalber an, bis ich an den Ball spielenden Kindern vorbei bin und sicher weiß, dass der Hund nicht zurücklaufen wird.",
+      "Man muss in solchen Situationen nur große Hunde anleinen, denn ein kleiner Hund kann einem Kind nicht gefährlich werden."
     ],
     "correctAnswers": [
       2
-    ],
-    "image": null
+    ]
   },
   {
     "id": 103,
@@ -1565,20 +1562,16 @@
   },
   {
     "id": 104,
-    "question": "Welche Impfungen sind für Hunde in Deutschland empfohlen, aber nicht gesetzlich vorgeschrieben?",
+    "question": "Wer ist für das Entfernen von Hundekot verantwortlich?",
     "answers": [
-      "Leptospirose.",
-      "Staupe.",
-      "Parvovirose.",
-      "Borreliose."
+      "Die Städte, denn dafür wird Hundesteuer bezahlt.",
+      "Der Halter.",
+      "Die Allgemeinheit. Jeder, der einen Hundehaufen sieht, muss ihn entfernen.",
+      "Niemand. Hundekot muss nicht entfernt werden, denn es ist etwas Natürliches, mit dem man leben muss."
     ],
     "correctAnswers": [
-      0,
-      1,
-      2,
-      3
-    ],
-    "image": null
+      1
+    ]
   },
   {
     "id": 105,
@@ -1597,18 +1590,16 @@
   },
   {
     "id": 106,
-    "question": "Was kann ein Grund für Juckreiz beim Hund sein?",
+    "question": "Wie verhalten Sie sich, wenn Sie auf dem Hundespaziergang an einem Kinderspielplatz vorbeikommen?",
     "answers": [
-      "Milbenbefall.",
-      "Falsches Futter.",
-      "Übermäßige Bewegung.",
-      "Zuviel Streicheleinheiten."
+      "Mein Hund liebt Kinder. Ich gucke, ob Kinder da sind, damit mein Hund mit den Kindern toben kann.",
+      "In der Nähe von Kinderspielplätzen leine ich meinen Hund an. Dadurch kann ich vermeiden, dass sich jemand belästigt oder gefährdet fühlt.",
+      "Wenn keine Kinder da sind, lasse ich den Hund laufen, denn er liebt es durch den Sand zu rennen.",
+      "Ich habe einen kleinen Hund, der keine Gefahr für Kinder darstellt, deshalb lasse ich ihn einfach laufen."
     ],
     "correctAnswers": [
-      0,
       1
-    ],
-    "image": null
+    ]
   },
   {
     "id": 107,
@@ -1628,17 +1619,19 @@
   },
   {
     "id": 108,
-    "question": "Welche der folgenden Maßnahmen ist am wenigsten geeignet, einen Hund vor Zecken zu schützen?",
+    "question": "In welcher der folgenden Situationen ist es angebracht, den Hund an der Leine zu halten?",
     "answers": [
-      "Spot-on-Präparate vom Tierarzt.",
-      "Zeckenhalsband.",
-      "Kokosöl auf das Fell reiben.",
-      "Zecken nach jedem Spaziergang absuchen und entfernen."
+      "In der Innenstadt und an stark befahrenen Straßen.",
+      "Im Treppenhaus und auf Zugangswegen von Mehrfamilienhäusern.",
+      "In Hotels, in Läden oder in Restaurants.",
+      "In Gebieten mit viel Wild."
     ],
     "correctAnswers": [
-      2
-    ],
-    "image": null
+      0,
+      1,
+      2,
+      3
+    ]
   },
   {
     "id": 109,
@@ -1674,17 +1667,16 @@
   },
   {
     "id": 111,
-    "question": "Wie kann man Zecken nach einem Spaziergang am besten entfernen?",
+    "question": "Wie verhalten Sie sich, wenn Ihnen ein Jogger entgegenkommt und Ihr Hund frei läuft?",
     "answers": [
-      "Mit den Fingernägeln herausziehen.",
-      "Mit einer speziellen Zeckenzange oder Zeckenkarte entfernen.",
-      "Mit Öl oder Klebstoff beträufeln und warten, bis die Zecke loslässt.",
-      "Mit einer Schere herausschneiden."
+      "Ich brauche nichts zu unternehmen, weil mein Hund höchstens zu dem Jogger hinläuft, ihn aber nicht belästigt oder beißt.",
+      "Ich rufe meinen Hund zu mir, leine ihn an und lasse ihn erst wieder los, wenn ich sicher weiß, dass er den Jogger nicht verfolgen wird.",
+      "Ich renne ein Stückchen mit dem Jogger mit. Das lenkt meinen Hund vom Jogger ab, denn er konzentriert sich dann nur auf mich.",
+      "Ich bitte den Jogger möglichst langsam zu laufen, um meinen Hund nicht zum Hinterherrennen zu verleiten."
     ],
     "correctAnswers": [
       1
-    ],
-    "image": null
+    ]
   },
   {
     "id": 112,
@@ -1746,18 +1738,16 @@
   },
   {
     "id": 116,
-    "question": "Welche Erkrankung wird bei Hunden durch Zecken übertragen?",
+    "question": "Auf einer Hundewiese macht eine Gruppe von Kindern Picknick. Wie verhalten Sie sich, wenn Sie mit Ihrem freilaufenden Hund dort vorbeikommen?",
     "answers": [
-      "Borreliose",
-      "Babesiose",
-      "Katzenschnupfen",
-      "Staupe"
+      "Da ich sicher weiß, dass mein Hund Kindern nichts tut, lasse ich ihn laufen.",
+      "Ich leine meinen Hund auf jeden Fall an, denn ich möchte nicht, dass sich andere Menschen durch meinen Hund bedrängt fühlen oder Angst bekommen.",
+      "Ich rufe den Kindern laut zu, dass mein Hund nichts tut.",
+      "Ich erkläre den Kindern, dass picknicken in einem Hundeauslaufgebiet verboten ist und schicke sie weg."
     ],
     "correctAnswers": [
-      0,
       1
-    ],
-    "image": null
+    ]
   },
   {
     "id": 117,
@@ -1896,7 +1886,7 @@
   },
   {
     "id": 126,
-    "question": "Was sind Verhaltensweisen zeigt ein Hund, der Angst hat und sich bedroht fühlt?",
+    "question": "Welche Verhaltensweisen zeigt ein Hund, der Angst hat und sich bedroht fühlt?",
     "answers": [
       "Er versucht zu fliehen.",
       "Er versucht anzugreifen, wenn er nicht ausweichen kann.",
@@ -1926,18 +1916,16 @@
   },
   {
     "id": 128,
-    "question": "Welche Erkrankung ist bei Hunden durch Impfung vermeidbar?",
+    "question": "Auf dem Hundespaziergang kommen Ihnen Leute entgegen, die sich angesichts Ihres Hundes deutlich unwohl fühlen. Wie verhalten Sie sich?",
     "answers": [
-      "Katzenschnupfen",
-      "Staupe",
-      "Parvovirose",
-      "Borreliose"
+      "Wenn es ein Ort ist, an dem man den Hund laufen lassen darf und der Hund brav ist, muss man nichts unternehmen.",
+      "Ich gehe auf die Leute zu und versichere, dass der Hund ganz lieb ist.",
+      "Ich rufe meinen Hund zu mir und erkläre ihm, dass die Leute Angst vor ihm haben. Ich sage ihm auch, dass er deswegen nicht traurig sein soll.",
+      "Ich leine meinen Hund sofort an, denn andere Menschen dürfen sich durch meinen Hund nicht bedroht fühlen."
     ],
     "correctAnswers": [
-      1,
-      2
-    ],
-    "image": null
+      3
+    ]
   },
   {
     "id": 129,
@@ -2136,19 +2124,17 @@
   },
   {
     "id": 142,
-    "question": "Welche Symptome können auf eine Vergiftung beim Hund hindeuten?",
+    "question": "Was ist zu tun, wenn der Hund seit zwei Tagen schlimmen Durchfall und Erbrechen hat?",
     "answers": [
-      "Erbrechen und Durchfall.",
-      "Haarausfall.",
-      "Krämpfe oder Zittern.",
-      "Atemnot."
+      "Man sollte zum/r Tierarzt/ärztin gehen. Der Hund kann innerhalb weniger Tage in lebensbedrohlicher Weise austrocknen.",
+      "Man sollte dem Hund Kohletabletten verabreichen.",
+      "Man muss dafür Sorge tragen, dass der Hund genug Flüssigkeit bekommt, die er auch bei sich behält, notfalls über eine Infusion von dem/der Tierarzt/ärztin.",
+      "Man sollte dem Hund alle zwei Stunden eine kleine Portion Milch geben."
     ],
     "correctAnswers": [
       0,
-      2,
-      3
-    ],
-    "image": null
+      2
+    ]
   },
   {
     "id": 143,
@@ -2167,19 +2153,17 @@
   },
   {
     "id": 144,
-    "question": "Welche Symptome sind typisch für eine Ohrenentzündung beim Hund?",
+    "question": "Gibt es Erkrankungen bei Hunden, gegen die man impfen kann, die auch Menschen bekommen können?",
     "answers": [
-      "Kratzen an den Ohren.",
-      "Rötung und übler Geruch im Ohr.",
-      "Schütteln des Kopfes.",
-      "Durchfall."
+      "Keine.",
+      "Tollwut, wenn Speichel eines tollwuterkrankten Tieres in die Blutbahn kommt, z.B. durch einen Biss.",
+      "Leptospirose.",
+      "Krankheiten befallen immer nur eine Spezies."
     ],
     "correctAnswers": [
-      0,
       1,
       2
-    ],
-    "image": null
+    ]
   },
   {
     "id": 145,
@@ -2198,19 +2182,18 @@
   },
   {
     "id": 146,
-    "question": "Welche Symptome können auf eine Erkrankung des Bewegungsapparates hinweisen?",
+    "question": "Die Magendrehung ist eine lebensgefährliche Erkrankung. Kreuzen Sie die passenden Aussagen an.",
     "answers": [
-      "Humpeln oder Lahmheit.",
-      "Schmerzäußerungen beim Aufstehen.",
-      "Schlechte Futteraufnahme.",
-      "Bewegungsunlust."
+      "Eine Magendrehung tritt hauptsächlich bei großen Hunderassen auf.",
+      "Hunde sollten direkt nach dem Fressen möglichst eine Ruhepause von zwei Stunden einhalten.",
+      "Hunde sollen direkt nach dem Fressen laufen, um schneller verdauen zu können.",
+      "Die meisten Hunde profitieren von zwei bis drei Mahlzeiten am Tag."
     ],
     "correctAnswers": [
       0,
       1,
       3
-    ],
-    "image": null
+    ]
   },
   {
     "id": 147,
@@ -2291,18 +2274,17 @@
   },
   {
     "id": 152,
-    "question": "Was ist bei Durchfall beim Hund zu beachten?",
+    "question": "Muss man auf die Zahngesundheit seines Hundes achten?",
     "answers": [
-      "Leichte Kost und viel frisches Wasser geben.",
-      "Bei anhaltendem Durchfall oder Blut im Kot zum Tierarzt gehen.",
-      "Durchfall ignorieren, das ist immer harmlos.",
-      "Täglich Milch geben, um den Stuhl zu regulieren."
+      "Hunde können Probleme mit dem Zahnfleisch und den Zähnen bekommen, was zu erheblichen Leiden, Schmerzen und sogar Folgeschäden an Organen führen kann.",
+      "Nur, wenn der Hund beginnt aus dem Maul zu riechen, kann man sich überlegen, ob man etwas unternehmen möchte.",
+      "Bei Hunden sind die Zähne von Natur aus gesund, wenn man ihnen regelmäßig etwas zum Kauen gibt.",
+      "Häufig merkt man erst, wenn der Hund weniger kaut, schlechter frisst oder aus dem Maul riecht, dass Probleme bestehen. Daher sollte man regelmäßig Zähne und Zahnfleisch kontrollieren bzw. kontrollieren lassen, um größeren Schäden vorzubeugen."
     ],
     "correctAnswers": [
       0,
-      1
-    ],
-    "image": null
+      3
+    ]
   },
   {
     "id": 153,
@@ -2321,19 +2303,17 @@
   },
   {
     "id": 154,
-    "question": "Welche Symptome können auf eine Erkrankung der Nieren beim Hund hinweisen?",
+    "question": "Was sind Anzeichen eines Flohbefalls?",
     "answers": [
-      "Vermehrter Durst und Harnabsatz.",
-      "Erbrechen.",
-      "Mattigkeit.",
-      "Lahmheit."
+      "Häufigeres Kratzen als sonst.",
+      "Ein Hund, der regelmäßig gebadet wird, kann keine Flöhe haben.",
+      "Beim Kämmen findet man kleine, schwarze Krümel im Fell.",
+      "Flohbefall kann nur der/die Tierarzt/ärztin mittels eines aufwendigen Testverfahrens feststellen."
     ],
     "correctAnswers": [
       0,
-      1,
       2
-    ],
-    "image": null
+    ]
   },
   {
     "id": 155,
@@ -2352,19 +2332,17 @@
   },
   {
     "id": 156,
-    "question": "Welche Symptome können auf eine Herzerkrankung beim Hund hindeuten?",
+    "question": "Was ist beim Verfüttern von Geflügel zu beachten?",
     "answers": [
-      "Husten.",
-      "Leistungsabfall.",
-      "Atemnot.",
-      "Humpeln."
+      "Hunde sollten generell keine Anteile von Geflügel bekommen.",
+      "Geflügelknochen splittern leicht und können Verletzungen im Verdauungsapparat verursachen.",
+      "Hunde sollten kein rohes Geflügelfleisch bekommen, da damit Salmonellen übertragen werden können. Auch Einfrieren tötet die Durchfall verursachenden Salmonellen nicht ab.",
+      "Beim Verfüttern von Geflügel muss nichts Besonderes beachtet werden."
     ],
     "correctAnswers": [
-      0,
       1,
       2
-    ],
-    "image": null
+    ]
   },
   {
     "id": 157,
@@ -2556,7 +2534,7 @@
   },
   {
     "id": 169,
-    "question": "Warum ist es ratsam, dem Hund frühestmöglich beizubringen, nicht aus Freude Menschen zur Begrüßung anspringt?",
+    "question": "Aus welchem Grund ist es ratsam, dem Hund frühestmöglich beizubringen, nicht an Leuten hochzuspringen?",
     "answers": [
       "Hunde können durch das Anspringen Menschen erschrecken oder unabsichtlich verletzen.",
       "Hunde können durch das Anspringen Kleidung beschmutzen oder zerreißen.",
@@ -2664,19 +2642,17 @@
   },
   {
     "id": 176,
-    "question": "Welche Symptome können auf eine Erkrankung der Leber beim Hund hinweisen?",
+    "question": "Welche Krankheiten können in Deutschland durch Erreger in Zecken übertragen werden?",
     "answers": [
-      "Gelbfärbung der Schleimhäute.",
-      "Erbrechen.",
-      "Kratzen an den Ohren.",
-      "Verhaltensänderungen."
+      "FSME und Borreliose.",
+      "Keine.",
+      "Würmer.",
+      "Anaplasmose, Babesiose, Ehrlichiose."
     ],
     "correctAnswers": [
       0,
-      1,
       3
-    ],
-    "image": null
+    ]
   },
   {
     "id": 177,
@@ -2727,36 +2703,34 @@
   },
   {
     "id": 180,
-    "question": "Welche Symptome können auf eine Erkrankung der Bauchspeicheldrüse beim Hund hinweisen?",
+    "question": "Welche Impfungen können für meinen Hund sinnvoll sein?",
     "answers": [
-      "Erbrechen und Durchfall.",
-      "Vermehrter Appetit bei gleichzeitigem Gewichtsverlust.",
-      "Mattigkeit.",
-      "Haarausfall."
+      "Die Grundimmunisierung von Welpen (3 Impfungen im Abstand von 3-4 Wochen mit ca. 8, 12 und 16 Lebenswochen) und die darauffolgende Impfung nach einem Jahr.",
+      "Impfungen braucht mein Hund nur, wenn ich mit ihm ins Ausland fahren möchte.",
+      "Auffrischungsimpfungen gegen Parvovirose, Staupe, Hepatitis, Leptospirose, Tollwut und Zwingerhusten-Komplex.",
+      "Wenn Impfungen von vielen nicht vorgenommen werden, nehmen die entsprechenden Krankheiten und daraus entstehenden Todesfälle wieder zu."
     ],
     "correctAnswers": [
       0,
-      1,
-      2
-    ],
-    "image": null
+      2,
+      3
+    ]
   },
   {
     "id": 181,
-    "question": "Welche Symptome sind typisch für eine Infektion mit dem Staupevirus beim Hund?",
+    "question": "An welchen Erkrankungen leiden Hunde oft, wenn sie aus Süd- oder Osteuropa kommen?",
     "answers": [
-      "Hohes Fieber.",
-      "Husten und Nasenausfluss.",
-      "Durchfall und Erbrechen.",
-      "Krämpfe und Lähmungserscheinungen."
+      "Leishmaniose.",
+      "Ehrlichiose, Anaplasmose, Babesiose.",
+      "Rickettsiose.",
+      "Herzwürmer."
     ],
     "correctAnswers": [
       0,
       1,
       2,
       3
-    ],
-    "image": null
+    ]
   },
   {
     "id": 182,
@@ -2871,19 +2845,18 @@
   },
   {
     "id": 189,
-    "question": "Welche der folgenden Maßnahmen hilft am besten, Übergewicht beim Hund zu vermeiden?",
+    "question": "Was sind die häufigsten Verhaltensänderungen bei einem Rüden nach der Kastration?",
     "answers": [
-      "Mehr Bewegung und bedarfsgerechte Fütterung.",
-      "Regelmäßiges Wiegen.",
-      "Strikte Reduktion aller Leckerlis.",
-      "Ab und zu ein Fastentag."
+      "Abnahme von Streunen nach läufigen Hündinnen.",
+      "Abnahme von Markierverhalten.",
+      "Abnahme von Streitigkeiten mit unkastrierten Rüden.",
+      "Abnahme von Jagdverhalten."
     ],
     "correctAnswers": [
       0,
       1,
       2
-    ],
-    "image": null
+    ]
   },
   {
     "id": 190,
@@ -2903,19 +2876,18 @@
   },
   {
     "id": 191,
-    "question": "Welche Symptome sind typisch für eine Infektion mit dem Parvovirus beim Hund?",
+    "question": "Welche Schwierigkeiten können durch Importhunde entstehen?",
     "answers": [
-      "Blutiger Durchfall.",
-      "Erbrechen.",
-      "Fieber.",
-      "Haarausfall."
+      "Es können in keinem Fall Probleme entstehen.",
+      "Für heimische Hunde wird der Infektionsdruck durch mitgebrachte Krankheitserreger erhöht, wenn die Tiere sie beim Import mitbringen.",
+      "Unwissentliche Einschleppung von neuen Parasiten und Krankheitserregern, wenn die Hunde nicht fachlich korrekt und ausreichend oft vor und nach dem Import untersucht und behandelt wurden.",
+      "Zusätzliche Belastungen der Tierheime, wenn die Hunde nicht in das neue Zuhause passen und abgegeben werden müssen."
     ],
     "correctAnswers": [
-      0,
       1,
-      2
-    ],
-    "image": null
+      2,
+      3
+    ]
   },
   {
     "id": 192,
