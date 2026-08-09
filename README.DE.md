@@ -1,22 +1,37 @@
-# Sachkundenachweis NRW Lernapp
+# PrüfungsPilot – Multi-Course Lernplattform
 
-English: [README.md](README.md)
+Englisch: [README.md](README.md)
 
-Flutter-Lernapp zur Vorbereitung auf den Sachkundenachweis für Hundehalterinnen und Hundehalter in Nordrhein-Westfalen.
+Flutter-Lernplattform für mehrere Prüfungen und Zertifizierungen. Lerne für den **Sachkundenachweis** (Hundeführerschein NRW), die **Begleithundprüfung** (BH/VT) und den **FiButroniker** (digitale Kanzlei).
 
-## Schwerpunkte
+## Highlights
 
-- Enthält den offiziellen Fragenkatalog für den Sachkundenachweis.
-- Setzt auf adaptives Lernen, Fortschrittsanzeige und rein lokale Datenspeicherung.
-- Unterstützt mehrere Themes und responsive Layouts für Smartphone, Tablet und Desktop.
-- Wird als Flutter-Anwendung mit automatisiertem Release-Workflow gepflegt.
+- **Multi-Course-Plattform**: Nahtlos zwischen Lernbereichen wechseln.
+- **3 Kurse enthalten**:
+  - Sachkundenachweis (197 Fragen, 20 Kategorien)
+  - Begleithundprüfung (115 Fragen, 12 Kategorien)
+  - FiButroniker (120 Fragen, 12 Kategorien)
+- Adaptives Lernen mit Spaced Repetition (3x korrekt = gelernt).
+- Fortschrittsverfolgung pro Kurs (lokal via SharedPreferences).
+- Mehrere Themes (Calm Nature, Bright Minimal, Dark Elegant).
+- Responsive Layouts für Smartphone, Tablet und Desktop.
+- 100% lokale Datenspeicherung — keine Cloud, kein Tracking.
 
-## Technik
+## Tech Stack
 
-- Flutter und Dart
-- Shared Preferences für lokalen Lernfortschritt
-- Diagramme für die Fortschrittsdarstellung
-- GitHub-basierter Release-Prozess
+- Flutter & Dart
+- Riverpod (State Management)
+- Freezed (Immutable Models)
+- SharedPreferences (lokaler Fortschritt)
+- Lottie (Animationen)
+- Vibration (haptisches Feedback)
+
+## Neuen Kurs hinzufügen
+
+1. `assets/courses/{kurs_id}/questions.json` erstellen.
+2. `Course(...)`-Eintrag in `lib/data/course_registry.dart` hinzufügen.
+3. Asset-Pfad in `pubspec.yaml` eintragen.
+4. Fertig — die App erkennt den Kurs automatisch.
 
 ## Lokale Entwicklung
 
@@ -27,6 +42,8 @@ flutter test
 flutter run
 ```
 
-## Quelle
+## Quellen
 
-Die Inhalte basieren auf dem offiziellen Fragenkatalog der Tierärztekammer Nordrhein.
+- **Sachkundenachweis**: Offizieller Fragenkatalog Tierarztekammer Nordrhein.
+- **Begleithundprüfung**: VDH-Prüfungsordnung (BH/VT).
+- **FiButroniker**: IFU Institut für Bildung / ISM.

@@ -1,102 +1,100 @@
-// Speicherort: lib/main.dart
-// Beschreibung: Haupteinstiegspunkt der Sachkundenachweis-App.
-// Diese Datei definiert die Hauptfunktion und die Navigation der App mit Riverpod für State-Management.
-// Der Code ist plattformübergreifend kompatibel (iOS, Android, Web) und folgt Best Practices für Flutter.
+// Path: lib/main.dart
+// Description: Main entry point of the multi-course learning platform.
+// Navigation flow: Course Selection → Course (Dashboard / Quiz / Settings)
+// Uses Riverpod for state management with the selectedCourseProvider.
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart'; // Korrigierter Import für Flutter-Riverpod.
-import 'package:flutter/foundation.dart' show kDebugMode, kIsWeb; // Für Debugging und Web-Checks (Cross-OS).
-import 'dart:io' show Platform; // Plattform-spezifische Anpassungen (Cross-OS).
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter/foundation.dart' show kDebugMode, kIsWeb;
+import 'dart:io' show Platform;
 
-import 'theme/theme_notifier.dart'; // Theme-Management importieren.
-import 'screens/dashboard_screen.dart'; // Dashboard-Screen importieren.
-import 'screens/quiz_screen.dart'; // Quiz-Screen importieren.
-import 'screens/settings_screen.dart'; // Settings-Screen importieren.
+import 'theme/theme_notifier.dart';
+import 'providers/course_providers.dart';
+import 'screens/course_selection_screen.dart';
+import 'screens/dashboard_screen.dart';
+import 'screens/quiz_screen.dart';
+import 'screens/settings_screen.dart';
 
-// Hauptfunktion, die die App startet.
-/// Initialisiert die App und konfiguriert Error-Handling sowie plattformspezifische UI-Modi.
-/// Startet die App mit ProviderScope für Riverpod.
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Error-Handling initialisieren (Best Practice für stabile App auf allen OS).
   FlutterError.onError = (FlutterErrorDetails details) {
     FlutterError.presentError(details);
     if (kDebugMode) {
-      // Logging statt print für Production (behebt Lint-Warnung).
       debugPrint(details.toString());
     }
   };
 
-  // Android-spezifisch: immersive Sticky Vollbild (Cross-OS: Nur auf Android anwenden).
   if (Platform.isAndroid && !kIsWeb) {
     await SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
   }
 
-  // App mit ProviderScope für Riverpod starten (Best Practice für State).
   runApp(const ProviderScope(child: MyApp()));
 }
 
-// Haupt-Widget der App.
-/// ConsumerWidget für Riverpod-Zugriff, verwendet Theme-Notifier für dynamisches Theme.
-/// @param context Der BuildContext für das Rendering.
-/// @param ref Der WidgetRef für Riverpod-Zugriff.
-/// @return Widget Die MaterialApp mit Navigation und Theme.
 class MyApp extends ConsumerWidget {
-  const MyApp({super.key}); // Key-Parameter hinzugefügt (behebt Konstruktor-Warnung).
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    // Theme-Notifier holen (behebt 'getThemeData' und 'materialThemeMode' nicht definiert).
     final themeNotifier = ref.watch(themeNotifierProvider.notifier);
-    final brightness = MediaQuery.platformBrightnessOf(context); // Brightness für getThemeData.
-    final currentTheme = themeNotifier.getThemeData(brightness); // Aktuelles Theme basierend auf Brightness.
-    final darkTheme = themeNotifier.getThemeData(Brightness.dark); // Dark-Theme separat für MaterialApp.
-
-    // Plattform-Check für Cross-OS-Anpassungen (z.B. keine Android-spezifischen UI-Modes auf iOS/Web).
-    if (Platform.isIOS || kIsWeb) {
-      // iOS/Web-Optimierungen, z.B. Brightness.system statt immersiveSticky.
-    }
+    final brightness = MediaQuery.platformBrightnessOf(context);
+    final currentTheme = themeNotifier.getThemeData(brightness);
+    final darkTheme = themeNotifier.getThemeData(Brightness.dark);
 
     return MaterialApp(
-      title: 'Sachkundenachweis',
+      title: 'PrüfungsPilot',
       debugShowCheckedModeBanner: false,
-      theme: currentTheme, // Aktuelles Theme.
-      darkTheme: darkTheme, // Dark Mode.
-      themeMode: themeNotifier.materialThemeMode, // System- oder manuell (Cross-OS Sync).
-      home: const MainNavigation(), // Start-Screen mit Navigation.
-      // Accessibility: Semantics für Screen-Reader (Best Practice für Inklusion).
+      theme: currentTheme,
+      darkTheme: darkTheme,
+      themeMode: themeNotifier.materialThemeMode,
+      home: const AppRoot(),
       builder: (context, child) => Semantics(child: child),
     );
   }
 }
 
-// Haupt-Navigations-Widget.
-/// ConsumerStatefulWidget für Riverpod-Zugriff und State-Management der Navigation.
-/// Verwaltet BottomNavigationBar und lädt Screens dynamisch.
-class MainNavigation extends ConsumerStatefulWidget {
-  const MainNavigation({super.key}); // Key-Parameter hinzugefügt.
+/// Root widget that switches between Course Selection and Course navigation.
+class AppRoot extends ConsumerWidget {
+  const AppRoot({super.key});
 
   @override
-  ConsumerState<MainNavigation> createState() => _MainNavigationState();
+  Widget build(BuildContext context, WidgetRef ref) {
+    final selectedCourse = ref.watch(selectedCourseProvider);
+
+    if (selectedCourse == null) {
+      return CourseSelectionScreen(
+        onCourseSelected: (course) {
+          // State is already updated in CourseSelectionScreen via provider.
+        },
+      );
+    }
+
+    return const CourseNavigation();
+  }
 }
 
-class _MainNavigationState extends ConsumerState<MainNavigation> {
+/// In-course navigation with Dashboard, Quiz, and Settings tabs.
+class CourseNavigation extends ConsumerStatefulWidget {
+  const CourseNavigation({super.key});
+
+  @override
+  ConsumerState<CourseNavigation> createState() => _CourseNavigationState();
+}
+
+class _CourseNavigationState extends ConsumerState<CourseNavigation> {
   int _selectedIndex = 0;
   final _dashboard = const DashboardScreen();
   final _settings = const SettingsScreen();
   Widget? _currentQuizScreen;
   bool _quizLoading = false;
 
-  /// Lädt den Quiz-Screen asynchron und aktualisiert den State.
   Future<void> _loadQuizScreen() async {
     setState(() {
       _quizLoading = true;
     });
-
     _currentQuizScreen = const QuizScreen();
-
     setState(() {
       _quizLoading = false;
     });
@@ -143,9 +141,11 @@ class _MainNavigationState extends ConsumerState<MainNavigation> {
           });
         },
         items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.dashboard), label: 'Dashboard'),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.dashboard), label: 'Dashboard'),
           BottomNavigationBarItem(icon: Icon(Icons.quiz), label: 'Quiz'),
-          BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Einstellungen'),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.settings), label: 'Einstellungen'),
         ],
       ),
     );

@@ -1,13 +1,14 @@
-// Pfad: lib/screens/dashboard_screen.dart – Dashboard mit Lernfortschritt pro Kategorie und global.
+// Path: lib/screens/dashboard_screen.dart
+// Description: Dashboard showing learning progress per category and global.
+// Now course-aware: reads the selected course from selectedCourseProvider.
 
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart'; // Für State-Management (Best Practice: Asynchron).
-import '../storage/progress_dashboard.dart'; // Fortschritt-Dashboard.
-import '../data/question_categories.dart'; // Kategorien-Daten.
-import 'category_detail_screen.dart'; // Kategorie-Detail.
-import '../widgets/global_progress_card.dart'; // Globale Fortschritts-Karte.
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import '../providers/course_providers.dart';
+import '../storage/progress_dashboard.dart';
+import 'category_detail_screen.dart';
+import '../widgets/global_progress_card.dart';
 
-// DashboardScreen (ConsumerStatefulWidget für Riverpod, Cross-OS: WidgetsBindingObserver für Resume).
 class DashboardScreen extends ConsumerStatefulWidget {
   const DashboardScreen({super.key});
 
@@ -15,72 +16,80 @@ class DashboardScreen extends ConsumerStatefulWidget {
   ConsumerState<DashboardScreen> createState() => _DashboardScreenState();
 }
 
-class _DashboardScreenState extends ConsumerState<DashboardScreen> with WidgetsBindingObserver {
-  Map<String, int> learnedByCategory = {}; // Gelernte pro Kategorie.
-  Map<String, int> totalByCategory = {}; // Total pro Kategorie.
-  bool loading = true; // Lade-Flag.
+class _DashboardScreenState extends ConsumerState<DashboardScreen>
+    with WidgetsBindingObserver {
+  Map<String, int> learnedByCategory = {};
+  Map<String, int> totalByCategory = {};
+  bool loading = true;
 
-  int globalLearned = 0; // Global gelernte.
-  int globalTotal = 0; // Global total.
-  double globalPercent = 0.0; // Globaler Prozentsatz.
+  int globalLearned = 0;
+  int globalTotal = 0;
+  double globalPercent = 0.0;
 
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance.addObserver(this); // Observer für Lifecycle (Cross-OS: Resume-Refresh).
-    loadProgress(); // Initial laden.
+    WidgetsBinding.instance.addObserver(this);
+    loadProgress();
   }
 
   @override
   void dispose() {
-    WidgetsBinding.instance.removeObserver(this); // Cleanup.
+    WidgetsBinding.instance.removeObserver(this);
     super.dispose();
   }
 
-  // Refresh bei Resume (Best Practice: AppLifecycleState).
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
     if (state == AppLifecycleState.resumed) {
-      loadProgress(); // Neu laden.
+      loadProgress();
     }
   }
 
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    loadProgress(); // Bei Deps-Change (z.B. Theme).
+    loadProgress();
   }
 
-  // Fortschritt laden (asynchron, nutzt Provider).
   Future<void> loadProgress() async {
     setState(() {
       loading = true;
     });
 
-    final byCategory = await ProgressDashboard.getLearnedCountByCategory(ref); // ref übergeben (behebt Argument-Fehler).
-    final totalPerCat = <String, int>{};
-    for (final catKey in categoryKeys) {
-      totalPerCat[catKey] = questionCategories[catKey]?.length ?? 0;
+    final course = ref.read(selectedCourseProvider);
+    if (course == null) {
+      setState(() {
+        loading = false;
+      });
+      return;
     }
 
-    final learnedGlobal = await ProgressDashboard.getTotalLearnedCount(ref); // ref übergeben.
-    final totalGlobal = await ProgressDashboard.getTotalQuestionCount(ref); // ref übergeben.
+    final byCategory = await ProgressDashboard.getLearnedCountByCategory(ref);
+    final totalPerCat = <String, int>{};
+    for (final catKey in course.categoryKeys) {
+      totalPerCat[catKey] = course.questionCategories[catKey]?.length ?? 0;
+    }
+
+    final learnedGlobal = await ProgressDashboard.getTotalLearnedCount(ref);
+    final totalGlobal = await ProgressDashboard.getTotalQuestionCount(ref);
     final percentGlobal = totalGlobal == 0 ? 0.0 : learnedGlobal / totalGlobal;
 
-    setState(() {
-      learnedByCategory = byCategory;
-      totalByCategory = totalPerCat;
-      globalLearned = learnedGlobal;
-      globalTotal = totalGlobal;
-      globalPercent = percentGlobal;
-      loading = false;
-    });
+    if (mounted) {
+      setState(() {
+        learnedByCategory = byCategory;
+        totalByCategory = totalPerCat;
+        globalLearned = learnedGlobal;
+        globalTotal = totalGlobal;
+        globalPercent = percentGlobal;
+        loading = false;
+      });
+    }
   }
 
-  // Fertige Kategorien zählen (Best Practice: Getter für Klarheit).
   int get finishedCategoriesCount {
     int count = 0;
-    for (final catKey in categoryKeys) {
+    for (final catKey in totalByCategory.keys) {
       final learned = learnedByCategory[catKey] ?? 0;
       final total = totalByCategory[catKey] ?? 0;
       if (total > 0 && learned == total) {
@@ -94,13 +103,19 @@ class _DashboardScreenState extends ConsumerState<DashboardScreen> with WidgetsB
   Widget build(BuildContext context) {
     if (loading) {
       return const Scaffold(
-        body: Center(child: CircularProgressIndicator()), // Const für Lint.
+        body: Center(child: CircularProgressIndicator()),
       );
     }
 
-    const categories = categoryKeys; // Const für Kategorien.
+    final course = ref.watch(selectedCourseProvider);
+    if (course == null) {
+      return const Scaffold(body: Center(child: Text('Kein Kurs ausgewählt.')));
+    }
 
-    final screenWidth = MediaQuery.of(context).size.width; // Responsive Grid.
+    final categories = course.categoryKeys;
+    final catTitles = course.categoryTitles;
+
+    final screenWidth = MediaQuery.of(context).size.width;
     final crossAxisCount = screenWidth > 1000
         ? 4
         : screenWidth > 700
@@ -114,7 +129,7 @@ class _DashboardScreenState extends ConsumerState<DashboardScreen> with WidgetsB
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Lernfortschritt"), // Const.
+        title: Text(course.title),
         actions: [
           IconButton(
             icon: const Icon(Icons.refresh),
@@ -124,7 +139,7 @@ class _DashboardScreenState extends ConsumerState<DashboardScreen> with WidgetsB
         ],
       ),
       body: Padding(
-        padding: const EdgeInsets.all(16), // Const.
+        padding: const EdgeInsets.all(16),
         child: Column(
           children: [
             GlobalProgressCard(
@@ -146,23 +161,23 @@ class _DashboardScreenState extends ConsumerState<DashboardScreen> with WidgetsB
                 itemBuilder: (context, index) {
                   final catKey = categories[index];
                   final learned = learnedByCategory[catKey] ?? 0;
-                  final total = totalByCategory[catKey]!;
-                  final percent = (learned / total).clamp(0.0, 1.0);
+                  final total = totalByCategory[catKey] ?? 0;
+                  final percent = total > 0 ? (learned / total).clamp(0.0, 1.0) : 0.0;
 
-                  final Color backgroundColor = secondary.withValues(alpha: 0.15); // Alpha angepasst.
+                  final Color backgroundColor = secondary.withValues(alpha: 0.15);
 
                   return Card(
                     elevation: 3,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(18),
                     ),
-                    child: Semantics(  // Accessibility (Best Practice: Screen-Reader).
-                      label: categoryTitles[catKey] ?? catKey,
+                    child: Semantics(
+                      label: catTitles[catKey] ?? catKey,
                       child: InkWell(
                         borderRadius: BorderRadius.circular(18),
                         onTap: () async {
-                          final ids = questionCategories[catKey] ?? [];
-                          final title = categoryTitles[catKey] ?? catKey;
+                          final ids = course.questionCategories[catKey] ?? [];
+                          final title = catTitles[catKey] ?? catKey;
                           final refreshed = await Navigator.of(context).push(
                             MaterialPageRoute(
                               builder: (_) => CategoryDetailScreen(
@@ -177,20 +192,20 @@ class _DashboardScreenState extends ConsumerState<DashboardScreen> with WidgetsB
                           }
                         },
                         child: Padding(
-                          padding: const EdgeInsets.all(16), // Const.
+                          padding: const EdgeInsets.all(16),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                categoryTitles[catKey] ?? catKey,
+                                catTitles[catKey] ?? catKey,
                                 style: Theme.of(context).textTheme.titleMedium,
                               ),
-                              const Spacer(), // Const.
+                              const Spacer(),
                               Text(
                                 "$learned von $total gelernt",
                                 style: Theme.of(context).textTheme.bodyMedium,
                               ),
-                              const SizedBox(height: 6), // Const.
+                              const SizedBox(height: 6),
                               ClipRRect(
                                 borderRadius: BorderRadius.circular(7),
                                 child: LinearProgressIndicator(
@@ -198,9 +213,7 @@ class _DashboardScreenState extends ConsumerState<DashboardScreen> with WidgetsB
                                   minHeight: 12,
                                   backgroundColor: backgroundColor,
                                   valueColor: AlwaysStoppedAnimation<Color>(
-                                    percent >= 1.0
-                                        ? Colors.green
-                                        : secondary,
+                                    percent >= 1.0 ? Colors.green : secondary,
                                   ),
                                 ),
                               ),

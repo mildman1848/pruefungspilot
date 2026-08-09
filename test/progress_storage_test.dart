@@ -1,80 +1,89 @@
-// Speicherort: test/progress_storage_test.dart
-// Beschreibung: Testet die Funktionalität der ProgressStorage-Klasse in lib/storage/progress_storage.dart.
-// Überprüft, ob Antwortverläufe korrekt gespeichert werden, nur die letzten drei Antworten getrackt werden, isLearned bei dreimal korrekt funktioniert und Edge-Cases korrekt behandelt werden.
-// Der Test ist plattformübergreifend kompatibel und verwendet Best Practices für Flutter-Tests.
+// test/progress_storage_test.dart
+// Tests ProgressStorage with course-aware namespacing.
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:shared_preferences/shared_preferences.dart'; // Für Mock von SharedPreferences.
-import 'package:sachkundenachweis/storage/progress_storage.dart'; // ProgressStorage-Klasse importieren.
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:pruefungspilot/storage/progress_storage.dart';
 
 void main() {
-  // Initialisiert das Flutter Binding (notwendig für SharedPreferences im Test).
   TestWidgetsFlutterBinding.ensureInitialized();
 
   setUp(() {
-    // Setzt einen leeren Speicher (Mock) für jeden Testlauf.
     SharedPreferences.setMockInitialValues({});
   });
 
-  group('ProgressStorage Tests', () {
-    test('addAnswerResult trackt nur die letzten 3 Antworten und isLearned erkennt 3x korrekt', () async {
+  group('ProgressStorage Tests (course-aware)', () {
+    test('Tracks last 3 answers and detects learned state', () async {
+      const courseId = 'sachkundenachweis';
       const questionId = 42;
 
-      // Starte frisch.
-      await ProgressStorage.resetProgress(questionId);
+      await ProgressStorage.addAnswerResult(courseId, questionId, true);
+      await ProgressStorage.addAnswerResult(courseId, questionId, false);
+      await ProgressStorage.addAnswerResult(courseId, questionId, true);
 
-      // Weniger als 3 mal korrekt -> nicht gelernt.
-      await ProgressStorage.addAnswerResult(questionId, true);
-      await ProgressStorage.addAnswerResult(questionId, false);
-      await ProgressStorage.addAnswerResult(questionId, true);
-      var results = await ProgressStorage.getLastThreeResults(questionId);
-      expect(results, [true, false, true], reason: 'Erwartete Ergebnisse: [true, false, true]');
-      var learned = await ProgressStorage.isLearned(questionId);
-      expect(learned, false, reason: 'Frage sollte nicht als gelernt markiert sein.');
+      var results =
+          await ProgressStorage.getLastThreeResults(courseId, questionId);
+      expect(results, [true, false, true]);
 
-      // 3 mal in Folge richtig -> gelernt.
-      await ProgressStorage.addAnswerResult(questionId, true);
-      results = await ProgressStorage.getLastThreeResults(questionId);
-      expect(results, [true, true, false], reason: 'Erwartete Ergebnisse: [true, true, false]');
-      await ProgressStorage.addAnswerResult(questionId, true);
-      await ProgressStorage.addAnswerResult(questionId, true);
-      results = await ProgressStorage.getLastThreeResults(questionId);
-      expect(results, [true, true, true], reason: 'Erwartete Ergebnisse: [true, true, true]');
-      learned = await ProgressStorage.isLearned(questionId);
-      expect(learned, true, reason: 'Frage sollte als gelernt markiert sein.');
+      var learned = await ProgressStorage.isLearned(courseId, questionId);
+      expect(learned, false);
 
-      // Reset löscht alles.
-      await ProgressStorage.resetProgress(questionId);
-      results = await ProgressStorage.getLastThreeResults(questionId);
-      expect(results, [], reason: 'Ergebnisse sollten nach Reset leer sein.');
+      // 3x correct in a row.
+      await ProgressStorage.addAnswerResult(courseId, questionId, true);
+      await ProgressStorage.addAnswerResult(courseId, questionId, true);
+      await ProgressStorage.addAnswerResult(courseId, questionId, true);
+
+      results = await ProgressStorage.getLastThreeResults(courseId, questionId);
+      expect(results, [true, true, true]);
+      learned = await ProgressStorage.isLearned(courseId, questionId);
+      expect(learned, true);
+
+      // Reset.
+      await ProgressStorage.resetProgress(courseId, questionId);
+      results = await ProgressStorage.getLastThreeResults(courseId, questionId);
+      expect(results, []);
     });
 
-    test('ProgressStorage handhabt mehrere Fragen korrekt', () async {
-      const questionId1 = 42;
-      const questionId2 = 43;
+    test('Different courses have isolated progress', () async {
+      const courseA = 'sachkundenachweis';
+      const courseB = 'begleithund';
+      const questionId = 1;
 
-      // Starte frisch für beide Fragen.
-      await ProgressStorage.resetProgress(questionId1);
-      await ProgressStorage.resetProgress(questionId2);
+      // Set 3 correct for course A.
+      await ProgressStorage.addAnswerResult(courseA, questionId, true);
+      await ProgressStorage.addAnswerResult(courseA, questionId, true);
+      await ProgressStorage.addAnswerResult(courseA, questionId, true);
 
-      // Füge Antworten für beide Fragen hinzu.
-      await ProgressStorage.addAnswerResult(questionId1, true);
-      await ProgressStorage.addAnswerResult(questionId1, true);
-      await ProgressStorage.addAnswerResult(questionId2, false);
+      // Course B should still be empty.
+      final resultsB =
+          await ProgressStorage.getLastThreeResults(courseB, questionId);
+      expect(resultsB, []);
 
-      // Prüfe Ergebnisse für questionId1.
-      var results1 = await ProgressStorage.getLastThreeResults(questionId1);
-      expect(results1, [true, true], reason: 'Erwartete Ergebnisse für ID 42: [true, true]');
+      // Course A should be learned.
+      final learnedA =
+          await ProgressStorage.isLearned(courseA, questionId);
+      expect(learnedA, true);
 
-      // Prüfe Ergebnisse für questionId2.
-      var results2 = await ProgressStorage.getLastThreeResults(questionId2);
-      expect(results2, [false], reason: 'Erwartete Ergebnisse für ID 43: [false]');
+      // Course B should not be learned.
+      final learnedB =
+          await ProgressStorage.isLearned(courseB, questionId);
+      expect(learnedB, false);
+    });
 
-      // Prüfe isLearned für beide Fragen.
-      var learned1 = await ProgressStorage.isLearned(questionId1);
-      expect(learned1, false, reason: 'Frage 42 sollte nicht als gelernt markiert sein.');
-      var learned2 = await ProgressStorage.isLearned(questionId2);
-      expect(learned2, false, reason: 'Frage 43 sollte nicht als gelernt markiert sein.');
+    test('Handles multiple questions within a course', () async {
+      const courseId = 'fibutroniker';
+
+      await ProgressStorage.addAnswerResult(courseId, 1, true);
+      await ProgressStorage.addAnswerResult(courseId, 1, true);
+      await ProgressStorage.addAnswerResult(courseId, 2, false);
+
+      final results1 =
+          await ProgressStorage.getLastThreeResults(courseId, 1);
+      expect(results1, [true, true]);
+
+      final results2 =
+          await ProgressStorage.getLastThreeResults(courseId, 2);
+      expect(results2, [false]);
     });
   });
 }

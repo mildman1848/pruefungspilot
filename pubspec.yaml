@@ -1,6 +1,6 @@
-name: sachkundenachweis
-description: Vorbereitung auf den Sachkundenachweis nach LHundG NRW
-version: 1.0.12
+name: pruefungspilot
+description: Multi-course learning app for Sachkundenachweis, Begleithundprüfung, and FiButroniker certification.
+version: 2.0.0
 publish_to: "none"
 
 environment:
@@ -61,11 +61,16 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/images/  # Für Bilder (Cross-OS: WebP für Web-Optimierung).
+    - assets/images/
     - assets/images/sketches/
     - assets/animations/trophy.json
     - assets/animations/firework.json
-    - assets/questions.json  # Hinzugefügt für dynamische Fragen (Best Practice).
+    # Multi-course question catalogs
+    - assets/courses/sachkundenachweis/questions.json
+    - assets/courses/begleithund/questions.json
+    - assets/courses/fibutroniker/questions.json
+    # Legacy fallback (kept for backward compatibility)
+    - assets/questions.json
 
   fonts:
     - family: Montserrat

@@ -1,36 +1,39 @@
-// Pfad: lib/storage/progress_dashboard.dart – Hilfsfunktionen für Fortschrittsberechnungen pro Kategorie und global.
+// Path: lib/storage/progress_dashboard.dart
+// Description: Helper functions for progress calculations per category and global.
+// Now fully course-aware: uses selectedCourseProvider for all lookups.
 
-import 'package:flutter_riverpod/flutter_riverpod.dart'; // Für State-Management (Best Practice: Asynchron).
-import '../data/questions.dart'; // questionsProvider importieren (behebt 'questions' undefined).
-import '../data/question_categories.dart'; // Kategorien-Daten.
-import 'progress_storage.dart'; // Fortschritt-Speicherung.
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import '../providers/course_providers.dart';
+import '../models/course_model.dart';
+import '../storage/progress_storage.dart';
 
-// Hilfsfunktion: Ermittle Kategorie-Key für eine Frage-ID (Best Practice: Encapsulation).
-String? getCategoryKeyForQuestion(int questionId) {
-  for (final entry in questionCategories.entries) {
+/// Helper: Find the category key for a question ID within a given course.
+String? getCategoryKeyForQuestion(Course course, int questionId) {
+  for (final entry in course.questionCategories.entries) {
     if (entry.value.contains(questionId)) return entry.key;
   }
   return null;
 }
 
-// ProgressDashboard für Fortschrittsberechnungen (Best Practice: Asynchrone Methoden).
 class ProgressDashboard {
-  /// Gibt pro Kategorie zurück, wie viele Fragen gelernt sind (letzte 3 korrekt).
+  /// Returns how many questions are learned per category (last 3 correct).
   static Future<Map<String, int>> getLearnedCountByCategory(WidgetRef ref) async {
+    final course = ref.read(selectedCourseProvider);
+    if (course == null) return {};
+
+    final courseId = course.id;
     final Map<String, int> categoryCounts = {};
 
-    // Initialisiere jede Kategorie mit 0 (Best Practice: Klarheit).
-    for (final catKey in questionCategories.keys) {
+    // Initialize every category with 0.
+    for (final catKey in course.categoryKeys) {
       categoryCounts[catKey] = 0;
     }
 
-    // Fragen asynchron laden (behebt 'questions' undefined).
     final questionsData = await ref.read(questionsProvider.future);
 
-    // Prüfe für jede Frage: Ist sie gelernt?
     for (final q in questionsData) {
-      if (await ProgressStorage.isLearned(q.id)) {
-        final catKey = getCategoryKeyForQuestion(q.id);
+      if (await ProgressStorage.isLearned(courseId, q.id)) {
+        final catKey = getCategoryKeyForQuestion(course, q.id);
         if (catKey != null) {
           categoryCounts[catKey] = (categoryCounts[catKey]! + 1);
         }
@@ -39,17 +42,22 @@ class ProgressDashboard {
     return categoryCounts;
   }
 
-  /// Gibt zurück, wie viele Fragen insgesamt gelernt sind (letzte 3 korrekt).
+  /// Returns how many questions are learned in total (last 3 correct).
   static Future<int> getTotalLearnedCount(WidgetRef ref) async {
+    final course = ref.read(selectedCourseProvider);
+    if (course == null) return 0;
+
+    final courseId = course.id;
+    final questionsData = await ref.read(questionsProvider.future);
+
     int count = 0;
-    final questionsData = await ref.read(questionsProvider.future); // Asynchron (behebt undefined).
     for (final q in questionsData) {
-      if (await ProgressStorage.isLearned(q.id)) count++;
+      if (await ProgressStorage.isLearned(courseId, q.id)) count++;
     }
     return count;
   }
 
-  /// Gibt die Gesamtzahl aller Fragen zurück (asynchron für Konsistenz).
+  /// Returns the total number of questions in the current course.
   static Future<int> getTotalQuestionCount(WidgetRef ref) async {
     final questionsData = await ref.read(questionsProvider.future);
     return questionsData.length;

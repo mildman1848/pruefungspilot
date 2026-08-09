@@ -1,40 +1,40 @@
-// Pfad: lib/screens/single_question_screen.dart – Screen für einzelne Frage mit interaktiver Beantwortung und Feedback.
+// Path: lib/screens/single_question_screen.dart
+// Description: Single question screen with interactive answering and feedback.
+// Now course-aware: reads courseId from selectedCourseProvider for progress storage.
 
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart'; // Für State-Management (Best Practice: Riverpod).
-import 'package:vibration/vibration.dart'; // Für Haptic-Feedback (Cross-OS: hasVibrator-Check).
-import '../data/questions.dart'; // questionsProvider importieren (behebt 'questions' undefined).
-import '../storage/progress_storage.dart'; // Fortschritt-Speicherung.
-import '../models/question_model.dart'; // Question-Model.
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:vibration/vibration.dart';
+import '../providers/course_providers.dart';
+import '../models/question_model.dart';
+import '../storage/progress_storage.dart';
 
-// SingleQuestionScreen (ConsumerStatefulWidget für Riverpod).
 class SingleQuestionScreen extends ConsumerStatefulWidget {
-  final int questionId; // Frage-ID.
+  final int questionId;
 
   const SingleQuestionScreen({super.key, required this.questionId});
 
   @override
-  ConsumerState<SingleQuestionScreen> createState() => _SingleQuestionScreenState();
+  ConsumerState<SingleQuestionScreen> createState() =>
+      _SingleQuestionScreenState();
 }
 
 class _SingleQuestionScreenState extends ConsumerState<SingleQuestionScreen> {
-  late Future<Question> _questionFuture; // Asynchrone Frage (behebt 'questions' undefined).
-  Set<int> selectedAnswers = {}; // Ausgewählte Antworten.
-  bool submitted = false; // Abgeschickt-Flag.
+  late Future<Question> _questionFuture;
+  Set<int> selectedAnswers = {};
+  bool submitted = false;
 
   @override
   void initState() {
     super.initState();
-    _questionFuture = _loadQuestion(); // Frage laden.
+    _questionFuture = _loadQuestion();
   }
 
-  // Frage laden (asynchron mit Provider).
   Future<Question> _loadQuestion() async {
-    final questionsData = await ref.read(questionsProvider.future); // Fragen laden.
+    final questionsData = await ref.read(questionsProvider.future);
     return questionsData.firstWhere((qq) => qq.id == widget.questionId);
   }
 
-  // Antwort toggeln (mit Feedback).
   void toggleAnswer(int index) {
     if (submitted) return;
     setState(() {
@@ -44,29 +44,33 @@ class _SingleQuestionScreenState extends ConsumerState<SingleQuestionScreen> {
         selectedAnswers.add(index);
       }
     });
-    Vibration.vibrate(duration: 50); // Haptic.
+    Vibration.vibrate(duration: 50);
   }
 
-  // Korrekte prüfen.
   bool isCorrectAnswer(int index, List<int> correct) {
     return correct.contains(index);
   }
 
-  // Auswahl korrekt.
   bool isSelectionCorrect(Set<int> selected, List<int> correct) {
-    return Set.from(correct).containsAll(selected) && selected.containsAll(Set.from(correct));
+    return Set.from(correct).containsAll(selected) &&
+        selected.containsAll(Set.from(correct));
   }
 
-  // Abschicken (async, speichert).
   Future<void> submitAnswer(Question q) async {
+    final courseId = ref.read(selectedCourseIdProvider);
     setState(() {
       submitted = true;
     });
-    await ProgressStorage.addAnswerResult(q.id, isSelectionCorrect(selectedAnswers, q.correctAnswers));
-    Vibration.vibrate(pattern: isSelectionCorrect(selectedAnswers, q.correctAnswers) ? [0, 100] : [0, 500]);
+    if (courseId != null) {
+      await ProgressStorage.addAnswerResult(
+          courseId, q.id, isSelectionCorrect(selectedAnswers, q.correctAnswers));
+    }
+    Vibration.vibrate(
+        pattern: isSelectionCorrect(selectedAnswers, q.correctAnswers)
+            ? [0, 100]
+            : [0, 500]);
   }
 
-  // Pop mit Refresh (Navigation-Handling).
   void popWithRefresh() {
     if (Navigator.of(context).canPop()) {
       Navigator.of(context).pop(true);
@@ -81,9 +85,9 @@ class _SingleQuestionScreenState extends ConsumerState<SingleQuestionScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Frage beantworten'), // Const.
+        title: const Text('Frage beantworten'),
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back), // Const.
+          icon: const Icon(Icons.arrow_back),
           onPressed: popWithRefresh,
           tooltip: "Zurück",
         ),
@@ -92,12 +96,12 @@ class _SingleQuestionScreenState extends ConsumerState<SingleQuestionScreen> {
         future: _questionFuture,
         builder: (context, snapshot) {
           if (!snapshot.hasData) {
-            return const Center(child: CircularProgressIndicator()); // Const.
+            return const Center(child: CircularProgressIndicator());
           }
           final q = snapshot.data!;
 
           return Padding(
-            padding: const EdgeInsets.all(12), // Const.
+            padding: const EdgeInsets.all(12),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
@@ -106,7 +110,7 @@ class _SingleQuestionScreenState extends ConsumerState<SingleQuestionScreen> {
                   style: Theme.of(context).textTheme.titleMedium,
                 ),
                 if (q.image != null) ...[
-                  const SizedBox(height: 8), // Const.
+                  const SizedBox(height: 8),
                   Center(
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(14),
@@ -118,13 +122,14 @@ class _SingleQuestionScreenState extends ConsumerState<SingleQuestionScreen> {
                     ),
                   ),
                 ],
-                const SizedBox(height: 8), // Const.
+                const SizedBox(height: 8),
                 Expanded(
                   child: SingleChildScrollView(
                     child: Column(
                       children: List.generate(q.answers.length, (index) {
                         final isSelected = selectedAnswers.contains(index);
-                        final isCorrect = isCorrectAnswer(index, q.correctAnswers);
+                        final isCorrect =
+                            isCorrectAnswer(index, q.correctAnswers);
 
                         Color? tileColor;
                         IconData? icon;
@@ -132,7 +137,7 @@ class _SingleQuestionScreenState extends ConsumerState<SingleQuestionScreen> {
 
                         if (submitted) {
                           if (isCorrect && isSelected) {
-                            tileColor = Colors.green.withValues(alpha: 0.2); // Deprecated behoben.
+                            tileColor = Colors.green.withValues(alpha: 0.2);
                             icon = Icons.check_circle;
                             iconColor = Colors.green;
                           } else if (!isCorrect && isSelected) {
@@ -148,7 +153,7 @@ class _SingleQuestionScreenState extends ConsumerState<SingleQuestionScreen> {
                           tileColor = secondary.withValues(alpha: 0.2);
                         }
 
-                        return Semantics(  // Accessibility.
+                        return Semantics(
                           label: q.answers[index],
                           child: Card(
                             elevation: 2,
@@ -157,22 +162,25 @@ class _SingleQuestionScreenState extends ConsumerState<SingleQuestionScreen> {
                               borderRadius: BorderRadius.circular(14),
                             ),
                             child: ListTile(
-                              contentPadding:
-                                  const EdgeInsets.symmetric(horizontal: 12, vertical: 4), // Const.
+                              contentPadding: const EdgeInsets.symmetric(
+                                  horizontal: 12, vertical: 4),
                               onTap: () => toggleAnswer(index),
                               leading: Padding(
-                                padding: const EdgeInsets.only(right: 8.0), // Const.
+                                padding: const EdgeInsets.only(right: 8.0),
                                 child: Checkbox(
                                   value: isSelected,
                                   onChanged: (_) => toggleAnswer(index),
-                                  activeColor: Theme.of(context).colorScheme.primary,
+                                  activeColor:
+                                      Theme.of(context).colorScheme.primary,
                                 ),
                               ),
                               title: Text(
                                 q.answers[index],
                                 style: Theme.of(context).textTheme.bodyLarge,
                               ),
-                              trailing: icon != null ? Icon(icon, color: iconColor) : null,
+                              trailing: icon != null
+                                  ? Icon(icon, color: iconColor)
+                                  : null,
                             ),
                           ),
                         );
@@ -180,23 +188,25 @@ class _SingleQuestionScreenState extends ConsumerState<SingleQuestionScreen> {
                     ),
                   ),
                 ),
-                const SizedBox(height: 8), // Const.
+                const SizedBox(height: 8),
                 SizedBox(
                   width: double.infinity,
                   child: ElevatedButton.icon(
                     icon: submitted
-                        ? const Icon(Icons.check_circle) // Const.
-                        : const Icon(Icons.check), // Const.
+                        ? const Icon(Icons.check_circle)
+                        : const Icon(Icons.check),
                     label: Text(submitted ? "Zurück" : "Antwort prüfen"),
                     style: ElevatedButton.styleFrom(
-                      padding: const EdgeInsets.symmetric(vertical: 14), // Const.
+                      padding: const EdgeInsets.symmetric(vertical: 14),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(13),
                       ),
                     ),
                     onPressed: submitted
                         ? popWithRefresh
-                        : (selectedAnswers.isEmpty ? null : () => submitAnswer(q)),
+                        : (selectedAnswers.isEmpty
+                            ? null
+                            : () => submitAnswer(q)),
                   ),
                 ),
               ],

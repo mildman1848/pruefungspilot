@@ -1,58 +1,68 @@
-// Pfad: lib/storage/progress_storage.dart – Speicherung und Verwaltung des Lernfortschritts mit SharedPreferences.
+// Path: lib/storage/progress_storage.dart
+// Description: Storage and management of learning progress with SharedPreferences.
+// All keys are namespaced by courseId to support the multi-course platform.
 
-import 'package:flutter_riverpod/flutter_riverpod.dart'; // Für State-Management (Best Practice: Asynchron).
-import 'package:shared_preferences/shared_preferences.dart'; // Für persistente Speicherung (Cross-OS: Mobile/Web).
-import '../data/questions.dart'; // questionsProvider importieren (behebt 'questions' undefined).
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import '../providers/course_providers.dart';
 
 class ProgressStorage {
-  static const String _prefix = 'question_'; // Präfix für Keys (Best Practice: Konstante).
+  static const String _prefix = 'question_'; // Prefix pattern: {courseId}_question_{id}_last3
 
-  /// Gibt die letzten 3 Antwort-Ergebnisse als Liste von bool zurück (true = korrekt).
-  static Future<List<bool>> getLastThreeResults(int questionId) async {
-    final prefs = await SharedPreferences.getInstance(); // SharedPrefs laden (Cross-OS).
-    final raw = prefs.getStringList('$_prefix${questionId}_last3') ?? [];
+  /// SharedPreferences key for a specific question's progress within a course.
+  static String _key(String courseId, int questionId) {
+    return '${courseId}_$_prefix${questionId}_last3';
+  }
+
+  /// Returns the last 3 answer results as a list of bool (true = correct).
+  static Future<List<bool>> getLastThreeResults(String courseId, int questionId) async {
+    final prefs = await SharedPreferences.getInstance();
+    final raw = prefs.getStringList(_key(courseId, questionId)) ?? [];
     return raw.map((e) => e == '1').toList();
   }
 
-  /// Fügt das Ergebnis der aktuellen Beantwortung hinzu (true = korrekt, false = falsch).
-  static Future<void> addAnswerResult(int questionId, bool isCorrect) async {
+  /// Adds the result of the current answer (true = correct, false = wrong).
+  static Future<void> addAnswerResult(String courseId, int questionId, bool isCorrect) async {
     final prefs = await SharedPreferences.getInstance();
-    final raw = prefs.getStringList('$_prefix${questionId}_last3') ?? [];
+    final raw = prefs.getStringList(_key(courseId, questionId)) ?? [];
     final results = raw.map((e) => e == '1').toList();
-    // Neueste Antwort vorne anfügen (Best Practice: FIFO für letzten 3).
-    results.insert(0, isCorrect);
+    results.insert(0, isCorrect); // Newest first (FIFO for last 3).
     if (results.length > 3) results.length = 3;
     final saveList = results.map((e) => e ? '1' : '0').toList();
-    await prefs.setStringList('$_prefix${questionId}_last3', saveList);
+    await prefs.setStringList(_key(courseId, questionId), saveList);
   }
 
-  /// Setzt den Fortschritt für eine Frage zurück.
-  static Future<void> resetProgress(int questionId) async {
+  /// Resets progress for a single question.
+  static Future<void> resetProgress(String courseId, int questionId) async {
     final prefs = await SharedPreferences.getInstance();
-    await prefs.remove('$_prefix${questionId}_last3');
+    await prefs.remove(_key(courseId, questionId));
   }
 
-  /// Setzt den Fortschritt für alle Fragen zurück.
+  /// Resets progress for all questions in the current course.
   static Future<void> resetAllProgress(WidgetRef ref) async {
     final prefs = await SharedPreferences.getInstance();
-    final questionsData = await ref.read(questionsProvider.future); // Fragen laden (behebt undefined).
+    final questionsData = await ref.read(questionsProvider.future);
+    final courseId = ref.read(selectedCourseIdProvider);
+    if (courseId == null) return;
     for (final q in questionsData) {
-      await prefs.remove('$_prefix${q.id}_last3');
+      await prefs.remove(_key(courseId, q.id));
     }
   }
 
-  /// Gibt zurück, ob eine Frage gelernt ist (3 mal in Folge korrekt).
-  static Future<bool> isLearned(int questionId) async {
-    final results = await getLastThreeResults(questionId);
+  /// Returns whether a question is learned (3 correct in a row).
+  static Future<bool> isLearned(String courseId, int questionId) async {
+    final results = await getLastThreeResults(courseId, questionId);
     return results.length == 3 && results.every((e) => e);
   }
 
-  /// Gibt die Anzahl aller Fragen zurück, die gelernt sind (3x in Folge korrekt).
+  /// Returns how many questions in the current course are learned (3x correct in a row).
   static Future<int> getTotalLearnedCount(WidgetRef ref) async {
     int count = 0;
-    final questionsData = await ref.read(questionsProvider.future); // Asynchron (behebt undefined).
+    final questionsData = await ref.read(questionsProvider.future);
+    final courseId = ref.read(selectedCourseIdProvider);
+    if (courseId == null) return 0;
     for (final q in questionsData) {
-      if (await isLearned(q.id)) count++;
+      if (await isLearned(courseId, q.id)) count++;
     }
     return count;
   }

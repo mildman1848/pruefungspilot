@@ -1,0 +1,1562 @@
+[
+  {
+    "id": 1,
+    "question": "Was ist das Hauptziel der digitalen Transformation in einer Kanzlei?",
+    "answers": [
+      "Prozesse zu automatisieren, Effizienz zu steigern und neue Geschäftsmodelle zu ermöglichen.",
+      "Alle Dokumente auszudrucken und papiergebunden zu archivieren.",
+      "Mitarbeiter durch Software zu ersetzen.",
+      "Nur Steuererklärungen digital einzureichen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Was versteht man unter 'Change-Management' im Kontext der digitalen Kanzlei?",
+    "answers": [
+      "Die systematische Steuerung von Veränderungsprozessen in der Organisation.",
+      "Der Wechsel des Steuer-Softwaresystems.",
+      "Die Umstellung von Papier auf digitale Akten.",
+      "Die Änderung der Kanzlei-Öffnungszeiten."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Welche Phase gehört NICHT zu einem klassischen Change-Management-Prozess nach Kotter?",
+    "answers": [
+      "'Auflösung der alten Strukturen ohne Kommunikation'.",
+      "'Dringlichkeit erzeugen'.",
+      "'Vision entwickeln'.",
+      "'Erfolge konsolidieren und weitere Veränderungen einleiten'."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Warum ist Kommunikation ein zentraler Erfolgsfaktor beim Change-Management?",
+    "answers": [
+      "Weil sie Widerstände abbaut, Transparenz schafft und alle Beteiligten mitnimmt.",
+      "Weil sie gesetzlich vorgeschrieben ist.",
+      "Weil sie Zeit kostet und vermieden werden sollte.",
+      "Weil sie nur dem Management nützt."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Was ist eine 'digitale Kanzlei' im Kern?",
+    "answers": [
+      "Eine Kanzlei, in der analoge und digitale Prozesse nahtlos ineinandergreifen und papierbasierte Abläufe minimiert werden.",
+      "Eine Kanzlei ohne Mitarbeiter.",
+      "Eine Kanzlei, die ausschließlich Cloud-Dienste nutzt.",
+      "Eine Kanzlei mit besonders vielen Computern."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Welche Rolle spielt die Kanzleikultur bei der digitalen Transformation?",
+    "answers": [
+      "Sie ist entscheidend: Offenheit für Neues und Fehlerkultur sind Voraussetzung für erfolgreiche Digitalisierung.",
+      "Sie spielt keine Rolle.",
+      "Sie behindert die Digitalisierung immer.",
+      "Sie ist nur für große Kanzleien relevant."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Was versteht man unter einem 'digitalen Mindset'?",
+    "answers": [
+      "Die Bereitschaft, neue Technologien zu nutzen, kontinuierlich zu lernen und datenbasiert zu denken.",
+      "Die Ablehnung aller analogen Prozesse.",
+      "Die ausschließliche Nutzung von Social Media.",
+      "Die Fokussierung auf Hardware statt Software."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Welche Widerstände treten bei Change-Prozessen typischerweise auf?",
+    "answers": [
+      "Angst vor Kontrollverlust, mangelndes Wissen, Gewohnheit, fehlende Zeit.",
+      "Zu viel Budget.",
+      "Zu viele Mitarbeiter.",
+      "Zu hohe Transparenz."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Was ist ein 'Change-Agent' in einer Kanzlei?",
+    "answers": [
+      "Eine Person, die Veränderungen initiiert, vorlebt und andere motiviert mitzumachen.",
+      "Ein externer Berater, der nie anwesend ist.",
+      "Ein Software-Programm für Change-Management.",
+      "Ein gesetzliches Amt."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Warum sollten digitale Prozesse beim Mandanten und zwischen Kanzlei und Mandant implementiert werden?",
+    "answers": [
+      "Um Transaktionskosten zu senken, Geschwindigkeit zu erhöhen und Datenqualität zu verbessern.",
+      "Um den Mandanten zu kontrollieren.",
+      "Weil es gesetzlich zwingend vorgeschrieben ist.",
+      "Um Mitarbeiter einzusparen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Was ist eine Geschäftsprozessanalyse?",
+    "answers": [
+      "Die systematische Untersuchung von Arbeitsabläufen, um Schwachstellen und Optimierungspotenziale zu identifizieren.",
+      "Die finanzielle Analyse des Unternehmens.",
+      "Die Analyse der Wettbewerber.",
+      "Die Untersuchung der IT-Infrastruktur."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Welche Methode wird häufig zur Visualisierung von Geschäftsprozessen eingesetzt?",
+    "answers": [
+      "BPMN 2.0 (Business Process Model and Notation).",
+      "Excel-Tabellen.",
+      "PowerPoint-Präsentationen.",
+      "Organigramme."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Was ist der Unterschied zwischen einem Ist-Prozess und einem Soll-Prozess?",
+    "answers": [
+      "Der Ist-Prozess beschreibt die aktuelle Situation, der Soll-Prozess die angestrebte, optimierte Zukunft.",
+      "Es gibt keinen Unterschied.",
+      "Der Ist-Prozess ist immer besser.",
+      "Der Soll-Prozess ist der Prozess von gestern."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Was ist ein 'Flaschenhals' (Bottleneck) in einem Geschäftsprozess?",
+    "answers": [
+      "Der Engpass, der den gesamten Prozess verlangsamt und den Durchsatz begrenzt.",
+      "Der schnellste Teil des Prozesses.",
+      "Ein fehlerhaftes IT-System.",
+      "Ein besonders effizienter Mitarbeiter."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Welche Schritte gehören zu einer Prozessanalyse?",
+    "answers": [
+      "Prozess identifizieren, Ist-Zustand aufnehmen, Schwachstellen analysieren, Soll-Konzept entwickeln, umsetzen und messen.",
+      "Nur Schwachstellen analysieren.",
+      "Nur den Ist-Zustand aufnehmen.",
+      "Nur das Soll-Konzept entwickeln."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Was bedeutet 'Prozessautomatisierung'?",
+    "answers": [
+      "Wiederkehrende, manuelle Tätigkeiten werden durch Software ausgeführt, sodass menschliche Arbeitszeit für anspruchsvollere Aufgaben frei wird.",
+      "Menschen durch Roboter zu ersetzen.",
+      "Prozesse schneller durchzuführen, ohne etwas zu ändern.",
+      "Prozesse zu dokumentieren."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Was ist ein 'Use Case' im Kontext der Prozessanalyse?",
+    "answers": [
+      "Ein konkretes Anwendungsbeispiel, das beschreibt, wie ein Prozess in der Praxis funktioniert und welcher Mehrwert entsteht.",
+      "Ein Rechtsfall in der Kanzlei.",
+      "Ein Software-Fehler.",
+      "Ein Kundengespräch."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Warum ist die Dokumentation von Prozessen wichtig?",
+    "answers": [
+      "Sie ist Grundlage für Qualitätssicherung, Onboarding, Prüfungssicherheit und kontinuierliche Verbesserung.",
+      "Sie kostet nur Zeit und bringt keinen Nutzen.",
+      "Sie ist gesetzlich verboten.",
+      "Sie wird nur für Steuern benötigt."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Was ist der 'Cycle Time' eines Prozesses?",
+    "answers": [
+      "Die Durchlaufzeit vom Start bis zum Abschluss eines Prozesses.",
+      "Die Zeit zwischen zwei Prozessschritten.",
+      "Die Arbeitszeit eines Mitarbeiters.",
+      "Die Zeit, die ein IT-System benötigt."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Was versteht man unter 'Prozess-Mining'?",
+    "answers": [
+      "Die automatisierte Analyse von Prozessdaten aus IT-Systemen (Event Logs), um den tatsächlichen Prozessablauf zu rekonstruieren.",
+      "Das Schürfen nach Daten in einer Datenbank.",
+      "Das manuelle Auswerten von Papierdokumenten.",
+      "Die Analyse von Hardware-Komponenten."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Was ist eine API (Application Programming Interface)?",
+    "answers": [
+      "Eine standardisierte Schnittstelle, über die verschiedene Software-Systeme Daten austauschen.",
+      "Ein Benutzerhandbuch für Software.",
+      "Eine Hardware-Schnittstelle für USB.",
+      "Ein Verschlüsselungsverfahren."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Was bedeutet 'REST-API'?",
+    "answers": [
+      "Eine Architekturstil für Web-Services, der auf HTTP basiert und Ressourcen über URLs anspricht.",
+      "Eine Programmiersprache.",
+      "Ein Datenbankformat.",
+      "Ein Verschlüsselungsstandard."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Was ist ein JSON-Format?",
+    "answers": [
+      "Ein leichtes, textbasiertes Datenformat, das für Mensch und Maschine leicht lesbar ist und häufig für APIs verwendet wird.",
+      "Ein verschlüsseltes Dokumentenformat.",
+      "Ein Bildformat.",
+      "Ein Audioformat."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Was versteht man unter 'Datenidentifikation' im Kontext der eRechnung?",
+    "answers": [
+      "Das Erkennen und Strukturieren relevanter Daten aus Rechnungen (Absender, Empfänger, Beträge, Steuern) für die automatische Weiterverarbeitung.",
+      "Das Löschen von Rechnungsdaten.",
+      "Das Ausdrucken von Rechnungen.",
+      "Das manuelle Eintippen von Rechnungen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Welche Rolle spielen Schnittstellen bei der Kanzlei-Mandanten-Kommunikation?",
+    "answers": [
+      "Sie ermöglichen automatisierten Datenaustausch (z.B. Belege, Rechnungen, Auswertungen), was manuelle Aufwände minimiert.",
+      "Sie sind nicht relevant.",
+      "Sie dienen nur der Unterhaltung.",
+      "Sie blockieren den Datenaustausch."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Was ist ein 'Data Warehouse'?",
+    "answers": [
+      "Ein zentrales Datenlager, das Daten aus verschiedenen Quellen für Analysezwecke konsolidiert.",
+      "Ein Lager für Papierakten.",
+      "Ein Werkzeug zur Datenlöschung.",
+      "Ein Backup-System."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Was bedeutet 'ETL' im Datenmanagement?",
+    "answers": [
+      "Extract, Transform, Load – der Prozess, um Daten aus verschiedenen Quellen zu extrahieren, zu transformieren und in ein Zielsystem zu laden.",
+      "Eine Programmiersprache.",
+      "Ein Verschlüsselungsverfahren.",
+      "Eine Steuerart."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Warum ist Datenqualität entscheidend für automatisierte Prozesse?",
+    "answers": [
+      "Weil fehlerhafte oder unvollständige Daten zu falschen Auswertungen und Prozessabbrüchen führen (Garbage in, garbage out).",
+      "Weil die Datenmenge sonst zu groß wird.",
+      "Weil das Gesetz kleine Datenmengen vorschreibt.",
+      "Weil nur große Datenmengen relevant sind."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Was ist ein 'Master Data Management' (MDM)?",
+    "answers": [
+      "Die zentrale Verwaltung und Pflege der wichtigsten Stammdaten (Mandanten, Mitarbeiter, Konten) für Konsistenz über alle Systeme hinweg.",
+      "Das Löschen von Master-Daten.",
+      "Das Backup der Master-Daten.",
+      "Die Verschlüsselung von Master-Daten."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Was bedeutet 'Interoperabilität' von IT-Systemen?",
+    "answers": [
+      "Die Fähigkeit verschiedener Systeme, reibungslos zusammenzuarbeiten und Daten auszutauschen.",
+      "Die Unabhängigkeit von IT-Systemen.",
+      "Die Unverträglichkeit von Systemen.",
+      "Die Geschwindigkeit von IT-Systemen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 31,
+    "question": "Was ist die eRechnung?",
+    "answers": [
+      "Die elektronische Rechnung in einem strukturierten Format (z.B. XRechnung, ZUGFeRD), die automatisiert verarbeitet werden kann.",
+      "Eine gescannte Papierrechnung als PDF.",
+      "Eine E-Mail mit Rechnungsanhang.",
+      "Eine handgeschriebene Rechnung."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Seit wann sind deutsche Bundesbehörden verpflichtet, eRechnungen zu empfangen?",
+    "answers": [
+      "Seit dem 27. November 2020.",
+      "Seit dem 1. Januar 2010.",
+      "Seit dem 1. Juli 2025.",
+      "eRechnungen sind freiwillig."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Welche Formate sind in Deutschland für die eRechnung an Behörden relevant?",
+    "answers": [
+      "XRechnung und ZUGFeRD/Factur-X.",
+      "Nur PDF.",
+      "Nur Word-Dokumente.",
+      "JPEG und PNG."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 34,
+    "question": "Was ist das Format 'XRechnung'?",
+    "answers": [
+      "Ein XML-basiertes Format für elektronische Rechnungen im deutschen und europäischen Behördenverkehr.",
+      "Ein Bildformat für Rechnungen.",
+      "Ein Textformat für Rechnungen.",
+      "Ein Audioformat."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 35,
+    "question": "Was ist ZUGFeRD?",
+    "answers": [
+      "Ein Format, das eine visuell lesbare PDF-Rechnung mit einer eingebetteten, maschinenlesbaren XML-Datei kombiniert.",
+      "Ein Textverarbeitungsprogramm.",
+      "Ein Kanzleimanagement-System.",
+      "Ein Verschlüsselungsverfahren."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 36,
+    "question": "Ab wann gilt die eRechnungspflicht für B2B-Rechnungen in Deutschland?",
+    "answers": [
+      "Ab dem 1. Januar 2025 erhalten Unternehmen eRechnungen; ab 2027/2028 müssen sie auch selbst strukturiert senden.",
+      "Ab dem 1. Januar 2020.",
+      "Ab dem 1. Januar 2030.",
+      "Es gibt keine B2B-eRechnungspflicht."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 37,
+    "question": "Was bedeutet das Kürzel 'EN 16931'?",
+    "answers": [
+      "Die europäische Norm, die die semantische Datenstruktur für elektronische Rechnungen definiert.",
+      "Ein Verschlüsselungsstandard.",
+      "Ein Datenbankformat.",
+      "Ein Steuerrechtsgesetz."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 38,
+    "question": "Was ist ein 'Peppol'-Netzwerk?",
+    "answers": [
+      "Ein europäisches Netzwerk für den sicheren, standardisierten Austausch elektronischer Dokumente zwischen Unternehmen und Behörden.",
+      "Ein soziales Netzwerk für Unternehmen.",
+      "Ein IT-Sicherheitssystem.",
+      "Ein Buchhaltungssystem."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 39,
+    "question": "Welchen Vorteil bietet die eRechnung für die Kanzlei?",
+    "answers": [
+      "Automatisierte Buchung (Rechnungsdaten werden direkt in das Buchhaltungssystem importiert), weniger manuelle Erfassung, schnellere Prüfung.",
+      "Sie kostet mehr Zeit als Papierrechnungen.",
+      "Sie ist nur für große Unternehmen relevant.",
+      "Sie erhöht die Fehlerquote."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 40,
+    "question": "Was ist eine 'Verfahrensdokumentation' im Kontext der eRechnung?",
+    "answers": [
+      "Eine Dokumentation, die beschreibt, wie elektronische Rechnungen erstellt, versendet, empfangen und archiviert werden (GoBD-Anforderung).",
+      "Ein Benutzerhandbuch für die Kanzleisoftware.",
+      "Ein Steuerbescheid.",
+      "Ein Arbeitsvertrag."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Was bedeutet GoBD?",
+    "answers": [
+      "Grundsätze zur ordnungsmäßigen Führung und Aufbewahrung von Büchern, Aufzeichnungen und Unterlagen in elektronischer Form sowie zum Datenzugriff.",
+      "Gesetz über die Buchhaltung digitaler Unternehmen.",
+      "Grundlagen der betrieblichen Datenverarbeitung.",
+      "Grenzüberschreitende Buchhaltungs-Direktiven."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 42,
+    "question": "Welche Kernanforderungen stellen die GoBD an digitale Dokumente?",
+    "answers": [
+      "Nachvollziehbarkeit, Prüfbarkeit, Vollständigkeit, Richtigkeit, Zeitgerechte Erfassung und Unveränderbarkeit.",
+      "Nur Verschlüsselung.",
+      "Nur PDF-Format.",
+      "Nur Druckbarkeit."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Was bedeutet 'Unveränderbarkeit' im GoBD-Kontext?",
+    "answers": [
+      "Digitale Unterlagen dürfen nach der Erstellung nicht nachträglich verändert werden (mit Ausnahme ordnungsgemäßer Buchungsänderungen mit Protokollierung).",
+      "Man darf Dokumente jederzeit ändern.",
+      "Nur analoge Dokumente sind unveränderbar.",
+      "Es geht nur um Hardware."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 44,
+    "question": "Wie lange müssen digitale Buchhaltungsunterlagen aufbewahrt werden?",
+    "answers": [
+      "10 Jahre für Bücher und Aufzeichnungen, 6 Jahre für Geschäftsbriefe.",
+      "1 Jahr.",
+      "3 Jahre.",
+      "25 Jahre."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 45,
+    "question": "Was ist das Z1-/Z2-/Z3-Verfahren der Finanzverwaltung?",
+    "answers": [
+      "Das Verfahren, bei dem der Prüfer direkt auf die digitale Buchhaltung zugreift (Z1/Datenzugriff), Auswertungen erhält (Z2) oder die IT-Systeme des Unternehmens prüft (Z3).",
+      "Drei Verschlüsselungsstufen.",
+      "Drei Backup-Stufen.",
+      "Drei Buchhaltungsmethoden."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 46,
+    "question": "Was regelt die DSGVO (Datenschutz-Grundverordnung)?",
+    "answers": [
+      "Den Schutz personenbezogener Daten bei der Verarbeitung durch Unternehmen und Behörden in der EU.",
+      "Die Besteuerung von digitalen Gütern.",
+      "Die Archivierung von Papierdokumenten.",
+      "Die Vergabe von Internetdomains."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 47,
+    "question": "Was sind 'personenbezogene Daten' nach DSGVO?",
+    "answers": [
+      "Alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen.",
+      "Nur Name und Adresse.",
+      "Nur die Steuernummer.",
+      "Nur das Gehalt."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 48,
+    "question": "Was ist ein 'AVV' (Auftragsverarbeitungsvertrag)?",
+    "answers": [
+      "Ein Vertrag zwischen Auftraggeber und Auftragsverarbeiter (z.B. Cloud-Anbieter), der die DSGVO-Anforderungen für die Datenverarbeitung regelt.",
+      "Ein Arbeitsvertrag.",
+      "Ein Mietvertrag.",
+      "Ein Liefervertrag."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 49,
+    "question": "Was sind die Prinzipien der Datensparsamkeit und Datenminimierung?",
+    "answers": [
+      "Es dürfen nur die Daten erhoben und verarbeitet werden, die für den jeweiligen Zweck wirklich erforderlich sind.",
+      "So viele Daten wie möglich sammeln.",
+      "Daten doppelt speichern.",
+      "Alle Daten aller Mandanten zusammenfassen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Was muss im Falle einer Datenschutzverletzung (Data Breach) getan werden?",
+    "answers": [
+      "Die Aufsichtsbehörde muss in der Regel innerhalb von 72 Stunden informiert werden, betroffene Personen müssen benachrichtigt werden.",
+      "Nichts, es ist interne Sache.",
+      "Nur der Mandant muss informiert werden, ohne Frist.",
+      "Es muss eine Versicherung kontaktiert werden."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 51,
+    "question": "Was ist das häufigste Einfallstor für Cyber-Angriffe auf Unternehmen?",
+    "answers": [
+      "Phishing-E-Mails, die Mitarbeiter auf gefälschte Webseiten locken oder Schadsoftware installieren.",
+      "Firewalls.",
+      "Starke Passwörter.",
+      "Physische Einbrüche."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 52,
+    "question": "Was ist 'Ransomware'?",
+    "answers": [
+      "Schadsoftware, die Daten verschlüsselt und Lösegeld (Ransom) für die Entschlüsselung fordert.",
+      "Ein Antivirenprogramm.",
+      "Ein Verschlüsselungsverfahren für Backups.",
+      "Ein Online-Bezahlsystem."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 53,
+    "question": "Was ist 'Social Engineering' im Cybersicherheits-Kontext?",
+    "answers": [
+      "Die gezielte Manipulation von Menschen, um an vertrauliche Informationen zu gelangen (z.B. durch falsche Identität am Telefon).",
+      "Die Analyse sozialer Netzwerke.",
+      "Ein Social-Media-Marketing-Ansatz.",
+      "Ein Teambuilding-Konzept."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 54,
+    "question": "Was ist die 3-2-1-Regel bei Backups?",
+    "answers": [
+      "3 Kopien der Daten, auf 2 verschiedenen Medien, davon 1 an einem anderen Standort (Offsite).",
+      "3 Backups pro Tag, 2 pro Woche, 1 pro Monat.",
+      "3 Server, 2 Festplatten, 1 Cloud.",
+      "3 Passwörter, 2 Faktoren, 1 Administrator."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 55,
+    "question": "Was ist 'MFA' (Multi-Faktor-Authentifizierung)?",
+    "answers": [
+      "Die Kombination aus mindestens zwei verschiedenen Authentifizierungsfaktoren (z.B. Passwort + SMS-Code), die den Zugang deutlich absichert.",
+      "Eine spezielle Firewall.",
+      "Ein Verschlüsselungsverfahren.",
+      "Ein Monitoringsystem."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 56,
+    "question": "Was sollte ein Notfallplan (Incident Response Plan) enthalten?",
+    "answers": [
+      "Vorgehensweise bei Cyber-Angriff, Kontaktdaten (IT-Sicherheitsbeauftragter, Polizei, Versicherung), Eskalationsstufen und Recovery-Strategie.",
+      "Nur die Telefonnummer des Chefs.",
+      "Nur eine Liste der Passwörter.",
+      "Eine Liste der Feiertage."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 57,
+    "question": "Was ist 'Zero Trust' als Sicherheitskonzept?",
+    "answers": [
+      "Ein Ansatz, der keinem Nutzer oder Gerät von vornherein vertraut, sondern jede Anfrage überprüft – auch aus dem internen Netz.",
+      "Ein Konzept, das allen Benutzern vertraut.",
+      "Ein System ohne Passwörter.",
+      "Ein Konzept nur für Cloud-Systeme."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 58,
+    "question": "Was ist der Unterschied zwischen 'Verfügbarkeit', 'Integrität' und 'Vertraulichkeit'?",
+    "answers": [
+      "Verfügbarkeit = Daten sind nutzbar; Integrität = Daten sind korrekt und unverändert; Vertraulichkeit = nur Berechtigte haben Zugriff. Diese drei bilden die CIA-Triade.",
+      "Es sind drei Verschlüsselungsverfahren.",
+      "Es sind drei Backup-Stufen.",
+      "Es sind drei Arten von Firewalls."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 59,
+    "question": "Warum sind regelmäßige Sicherheits-Updates (Patching) wichtig?",
+    "answers": [
+      "Weil sie bekannte Schwachstellen in Software schließen, die Angreifer ausnutzen können.",
+      "Weil sie das System schneller machen.",
+      "Weil sie Speicherplatz freigeben.",
+      "Weil sie gesetzlich vorgeschrieben sind."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 60,
+    "question": "Was ist der erste Schritt nach Erkennen eines Ransomware-Angriffs?",
+    "answers": [
+      "Systeme vom Netz trennen (isolation), um eine Ausbreitung zu verhindern, dann IT-Sicherheit kontaktieren.",
+      "Sofort bezahlen.",
+      "Alle Daten löschen.",
+      "Nichts tun und abwarten."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 61,
+    "question": "Was ist 'generative KI'?",
+    "answers": [
+      "KI-Systeme, die neue Inhalte erstellen können (Texte, Bilder, Code), wie z.B. ChatGPT oder Claude.",
+      "KI, die nur Daten klassifiziert.",
+      "KI, die nur Suchanfragen beantwortet.",
+      "KI, die nur rechnet."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 62,
+    "question": "Was ist ein 'LLM' (Large Language Model)?",
+    "answers": [
+      "Ein großes, mit Textdaten trainiertes KI-Modell, das menschenähnliche Texte generieren und verstehen kann.",
+      "Eine große Datenbank für Literatur.",
+      "Ein Lizenzmodell für Software.",
+      "Ein Local Area Network."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 63,
+    "question": "Was ist 'Prompt Engineering'?",
+    "answers": [
+      "Die Kunst, Anweisungen (Prompts) so zu formulieren, dass eine KI optimale Ergebnisse liefert.",
+      "Die Programmierung von KI-Modellen.",
+      "Die Installation von KI-Software.",
+      "Die Verschlüsselung von Prompts."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 64,
+    "question": "Was versteht man unter 'Halluzination' bei KI?",
+    "answers": [
+      "Wenn ein KI-Modell überzeugend klingende, aber faktisch falsche Informationen erzeugt.",
+      "Wenn die KI zu laut ist.",
+      "Wenn die KI abstürzt.",
+      "Wenn die KI zu langsam ist."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 65,
+    "question": "Welche Anwendungsgebiete hat KI in der Kanzlei?",
+    "answers": [
+      "Belegerkennung, Textzusammenfassungen, E-Mail-Entwürfe, Datenanalyse, Mustererkennung und Datenextraktion.",
+      "Nur Kaffee kochen.",
+      "Nur Telefonate annehmen.",
+      "Nur den Müll rausbringen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 66,
+    "question": "Was bedeutet 'RAG' (Retrieval-Augmented Generation)?",
+    "answers": [
+      "Ein Verfahren, bei dem die KI vor dem Antworten auf relevante, firmeninterne Dokumente zugreift, um halluzinationsärmere und kontextspezifische Antworten zu liefern.",
+      "Ein Backup-Verfahren.",
+      "Eine Verschlüsselungsmethode.",
+      "Ein Netzwerkprotokoll."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 67,
+    "question": "Was ist beim Einsatz von KI in der Steuerberatung datenschutzrechtlich zu beachten?",
+    "answers": [
+      "Personenbezogene Mandantendaten dürfen nicht an öffentliche KI-Dienste übertragen werden; es sind private/lokale oder DSGVO-konforme Modelle erforderlich.",
+      "Es gibt keine Beschränkungen.",
+      "Mandantendaten dürfen frei geteilt werden.",
+      "Die DSGVO gilt nicht für KI."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 68,
+    "question": "Was ist ein 'Bias' (Verzerrung) bei KI-Modellen?",
+    "answers": [
+      "Systematische Verzerrung der Ergebnisse, weil die Trainingsdaten unausgewogen oder vorurteilsbehaftet sind.",
+      "Ein technischer Fehler im Code.",
+      "Eine Verschlüsselungsschwäche.",
+      "Ein Netzwerkfehler."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 69,
+    "question": "Was ist 'Fine-Tuning' bei KI-Modellen?",
+    "answers": [
+      "Das Nachtrainieren eines vortrainierten Modells mit spezifischen Daten, um es für eine bestimmte Aufgabe zu optimieren.",
+      "Die Feinabstimmung der Hardware.",
+      "Das Optimieren der Netzwerkverbindung.",
+      "Die Verbesserung der Benutzeroberfläche."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 70,
+    "question": "Welche ethische Herausforderung entsteht durch KI in der Kanzlei?",
+    "answers": [
+      "Verantwortung für KI-gestützte Entscheidungen, Transparenz gegenüber dem Mandanten und Vermeidung von Diskriminierung durch Bias.",
+      "Es gibt keine ethischen Herausforderungen.",
+      "Nur die Kosten.",
+      "Nur die Geschwindigkeit."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 71,
+    "question": "Was ist RPA (Robotic Process Automation)?",
+    "answers": [
+      "Software-Roboter übernehmen wiederkehrende, regelbasierte Aufgaben, die ein Mensch sonst manuell am Bildschirm ausführen würde.",
+      "Physische Roboter im Büro.",
+      "Eine Programmiersprache.",
+      "Ein Backup-System."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 72,
+    "question": "Für welche Art von Prozessen eignet sich RPA besonders gut?",
+    "answers": [
+      "Hoch repetitive, regelbasierte Prozesse mit klaren If-Then-Regeln und geringer Ausnahmebehandlung.",
+      "Kreative Aufgaben wie Beratungsgespräche.",
+      "Strategische Entscheidungen.",
+      "Komplexe Verhandlungen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 73,
+    "question": "Was ist der Unterschied zwischen 'Attended' und 'Unattended' RPA?",
+    "answers": [
+      "Attended: Der Roboter arbeitet am Arbeitsplatz des Nutzers mit; Unattended: Der Roboter arbeitet selbstständig im Hintergrund auf einem Server.",
+      "Es gibt keinen Unterschied.",
+      "Attended ist immer besser.",
+      "Unattended ist immer teurer."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 74,
+    "question": "Welche RPA-Tools sind im Markt verbreitet?",
+    "answers": [
+      "UiPath, Microsoft Power Automate, Automation Anywhere, Blue Prism.",
+      "Word, Excel, PowerPoint.",
+      "Photoshop, InDesign, Illustrator.",
+      "SAP, Oracle, DATEV."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 75,
+    "question": "Welche Vorteile bietet RPA in einer Kanzlei?",
+    "answers": [
+      "Zeitersparnis, Fehlerreduktion, 24/7-Verfügbarkeit, Mitarbeiter können wertschöpfendere Aufgaben übernehmen.",
+      "RPA erhöht die Fehlerquote.",
+      "RPA ist langsamer als manuelle Bearbeitung.",
+      "RPA ersetzt alle Mitarbeiter."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 76,
+    "question": "Was ist ein 'Bot' im RPA-Kontext?",
+    "answers": [
+      "Ein Software-Programm, das Benutzeroberflächen bedient und Daten zwischen Systemen überträgt, ähnlich wie ein menschlicher Nutzer.",
+      "Ein physischer Roboter.",
+      "Ein Chat-Bot für die Webseite.",
+      "Ein Schadprogramm."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 77,
+    "question": "Was ist 'Screen Scraping' im RPA-Kontext?",
+    "answers": [
+      "Das automatisierte Auslesen von Daten aus Bildschirmmasken, für die keine API existiert.",
+      "Das Abkratzen alter Bildschirme.",
+      "Das Screenshot-Programm.",
+      "Ein Virenschutzprogramm."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 78,
+    "question": "Welche Herausforderung entsteht bei RPA, wenn sich Benutzeroberflächen ändern?",
+    "answers": [
+      "Bots müssen angepasst werden, da sie auf UI-Elementen basieren, die sich verschieben oder ändern können.",
+      "Es gibt keine Herausforderungen.",
+      "Bots passen sich automatisch an.",
+      "Die IT-Abteilung muss nichts tun."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 79,
+    "question": "Was ist der ROI (Return on Investment) bei RPA-Projekten?",
+    "answers": [
+      "Die Zeitersparnis und Fehlervermeidung durch den Bot im Verhältnis zu den Implementierungs- und Betriebskosten.",
+      "Die Anzahl der Roboter.",
+      "Die Geschwindigkeit der Software.",
+      "Die Netzwerkbandbreite."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 80,
+    "question": "Was ist 'Hyperautomation'?",
+    "answers": [
+      "Die Kombination von RPA, KI, Process Mining und weiteren Technologien zur umfassenden Automatisierung ganzer Geschäftsprozesse.",
+      "Die vollständige Automatisierung aller menschlichen Tätigkeiten.",
+      "Ein RPA-Tool.",
+      "Ein Geschäftsmodell."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 81,
+    "question": "Was ist 'Elster' und welche Funktion erfüllt es?",
+    "answers": [
+      "Das elektronische Steuer-System der deutschen Finanzverwaltung für die Übermittlung von Steuererklärungen und -anmeldungen.",
+      "Ein Steuerberatungsprogramm.",
+      "Ein Buchhaltungssystem.",
+      "Eine Steuerdatenbank."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 82,
+    "question": "Was ist die 'Digitale Außenprüfung' (BuP digital)?",
+    "answers": [
+      "Die Betriebsprüfung unter Einsatz digitaler Werkzeuge, bei der der Prüfer auf die elektronischen Buchhaltungsdaten zugreift (Z1-Z3-Verfahren).",
+      "Eine Prüfung per Videoanruf.",
+      "Eine Prüfung der IT-Ausstattung.",
+      "Eine online Steuererklärung."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 83,
+    "question": "Was bedeutet das Z1-Verfahren (unstrukturierter Datenzugriff)?",
+    "answers": [
+      "Der Prüfer greift selbst auf die digitale Buchhaltung zu und wertet die Daten aus.",
+      "Der Prüfer erhält nur Auswertungen als PDF.",
+      "Der Prüfer prüft nur Hardware.",
+      "Der Prüfer macht gar keinen Datenzugriff."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 84,
+    "question": "Was bedeutet das Z2-Verfahren (strukturierter Datenzugriff)?",
+    "answers": [
+      "Der Prüfer erhält vom Unternehmen bestimmte Auswertungen und Datensätze in vorgegebener Form.",
+      "Der Prüfer greift selbst in die Datenbank ein.",
+      "Der Prüfer liest nur Papierdokumente.",
+      "Der Prüfer schickt Daten an das Finanzamt."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 85,
+    "question": "Was bedeutet das Z3-Verfahren (systembasierter Datenzugriff)?",
+    "answers": [
+      "Der Prüfer nutzt die Auswertungsmöglichkeiten der Buchhaltungssoftware des Unternehmens direkt an dessen System.",
+      "Der Prüfer nimmt das System mit.",
+      "Der Prüfer löscht Daten.",
+      "Der Prüfer druckt alles aus."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 86,
+    "question": "Was ist eine 'Verfahrensdokumentation' (VD)?",
+    "answers": [
+      "Eine vom Unternehmen zu erstellende Beschreibung der organisatorischen und technischen Abläufe der elektronischen Buchhaltung, die für die GoBD-Konformität erforderlich ist.",
+      "Ein Benutzerhandbuch.",
+      "Ein Steuerformular.",
+      "Ein Arbeitsvertrag."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 87,
+    "question": "Warum ist eine Verfahrensdokumentation wichtig?",
+    "answers": [
+      "Sie ist Voraussetzung für die GoBD-Konformität und ermöglicht dem Prüfer die Nachvollziehbarkeit der digitalen Prozesse.",
+      "Sie kostet nur Zeit.",
+      "Sie ist optional und ohne Konsequenzen.",
+      "Sie wird nur bei Straftaten benötigt."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 88,
+    "question": "Was versteht man unter 'Digitaler Kooperation' mit der Finanzverwaltung?",
+    "answers": [
+      "Die elektronische Übermittlung von Daten und Dokumenten (z.B. Elster, DATEV), die den Austausch beschleunigt und vereinfacht.",
+      "Eine persönliche Zusammenarbeit vor Ort.",
+      "Ein Konflikt mit der Finanzverwaltung.",
+      "Die Aufbewahrung von Papierdokumenten."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 89,
+    "question": "Was ist der 'Datentransfer' im Rahmen einer digitalen Außenprüfung?",
+    "answers": [
+      "Die Übermittlung der Buchhaltungsdaten (z.B. als IDEA- oder ASCII-Datei) an den Prüfer für die digitale Prüfung.",
+      "Der Transfer von IT-Hardware.",
+      "Das Scannen von Papierdokumenten.",
+      "Das Herunterladen von Software."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 90,
+    "question": "Was ist die IDEA-Software?",
+    "answers": [
+      "Eine Prüfungssoftware der Finanzverwaltung (Interactive Data Extraction and Analysis), die digitale Buchhaltungsdaten für die Prüfung auswertet.",
+      "Eine Kanzleisoftware.",
+      "Ein Betriebssystem.",
+      "Ein Verschlüsselungsprogramm."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 91,
+    "question": "Welche Prozesse in der Lohnbuchhaltung lassen sich gut automatisieren?",
+    "answers": [
+      "Datenerfassung aus Stundenzetteln, Krankmeldungen, Gehaltsabrechnungen, Übermittlung an Sozialversicherung und Finanzamt.",
+      "Nur die Beratung des Mandanten.",
+      "Nur die Unterschriften.",
+      "Nur die Urlaubsplanung."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 92,
+    "question": "Was ist der 'SV-Meldeportal' (ehemals DAKOTA)?",
+    "answers": [
+      "Das elektronische Meldeverfahren der Sozialversicherungsträger für Entgeltmeldungen und Beiträge.",
+      "Ein Portal für Steuererklärungen.",
+      "Ein Buchhaltungssystem.",
+      "Ein Kanzlei-Intranet."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 93,
+    "question": "Wie kann KI bei der Lohnabrechnung unterstützen?",
+    "answers": [
+      "Durch automatische Plausibilitätsprüfung, Erkennung von Fehlern in Stundennachweisen und Klassifikation von Krankmeldungen.",
+      "Nur durch das Ersetzen der Mitarbeiter.",
+      "Nur durch das Verschicken von E-Mails.",
+      "Nur durch das Erstellen von Grafiken."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 94,
+    "question": "Was bedeutet 'DATEV' im Kontext der Lohnbuchhaltung?",
+    "answers": [
+      "Ein verbreitetes Software-Ökosystem für Steuerberater, das Lösungen für Lohn, Finanzbuchhaltung und digitalen Austausch bietet.",
+      "Ein Sozialversicherungsträger.",
+      "Ein Finanzamt-System.",
+      "Ein Betriebssystem."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 95,
+    "question": "Was ist 'DATEV Unternehmen online'?",
+    "answers": [
+      "Eine Plattform für den digitalen Austausch zwischen Kanzlei und Mandant (Belege, Lohndaten, Auswertungen).",
+      "Ein Online-Shop.",
+      "Ein soziales Netzwerk für Unternehmen.",
+      "Ein Newsletter-Dienst."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 96,
+    "question": "Welche Rolle spielen elektronische Stundenzettel?",
+    "answers": [
+      "Sie ermöglichen eine automatisierte, fehlerfreie Übernahme von Arbeitszeiten ins Lohnsystem, ohne manuelle Erfassung.",
+      "Sie erhöhen den Aufwand.",
+      "Sie sind gesetzlich verboten.",
+      "Sie sind nur für Großunternehmen relevant."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 97,
+    "question": "Was ist 'eAUB' (elektronische Arbeitsunfähigkeitsbescheinigung)?",
+    "answers": [
+      "Die digitale Übermittlung der Krankmeldung vom Arzt an die Krankenkasse und den Arbeitgeber, die manuelle Abwicklung entfällt.",
+      "Ein digitaler Arztbrief.",
+      "Eine digitale Verschreibung.",
+      "Ein Online-Terminsystem."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 98,
+    "question": "Welcher Vorteil entsteht durch die Automatisierung der Lohnbuchhaltung für den Mandanten?",
+    "answers": [
+      "Schnellere Abrechnungen, weniger Fehler, mehr Transparenz und rechtssichere Dokumentation.",
+      "Höhere Kosten.",
+      "Längere Bearbeitungszeiten.",
+      "Mehr manuelle Arbeit."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 99,
+    "question": "Was versteht man unter 'Workforce Management'?",
+    "answers": [
+      "Die ganzheitliche Planung, Erfassung und Verwaltung von Personalressourcen, oft IT-gestützt.",
+      "Personalabbau.",
+      "Mitarbeiterüberwachung.",
+      "Gehaltserhöhung."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 100,
+    "question": "Warum ist dieautomatisierte Übertragung von Lohndaten in die Finanzbuchhaltung wichtig?",
+    "answers": [
+      "Sie vermeidet Doppelbearbeitung und Übertragungsfehler, indem Daten aus dem Lohnsystem direkt in die FiBu fließen.",
+      "Sie kostet zusätzliche Zeit.",
+      "Sie ist nicht möglich.",
+      "Sie erhöht die Fehlerquote."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 101,
+    "question": "Welche Prozesse der Finanzbuchhaltung lassen sich besonders gut automatisieren?",
+    "answers": [
+      "Belegerkennung, Kontierung, Buchung von Standard-transaktionen, OP-Verwaltung, Zahlungsläufe und Mahnwesen.",
+      "Nur die Jahresabschlusserstellung.",
+      "Nur die Mandantenberatung.",
+      "Nur die Unterschriften."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 102,
+    "question": "Was ist 'OCR' (Optical Character Recognition) und wie hilft es in der FiBu?",
+    "answers": [
+      "Technologie, die Text aus gescannten Bildern oder PDFs extrahiert, um Buchungsdaten automatisch zu erkennen und zu erfassen.",
+      "Ein Buchhaltungssystem.",
+      "Ein Verschlüsselungsverfahren.",
+      "Ein Backup-System."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 103,
+    "question": "Was bedeutet 'automatische Kontierung'?",
+    "answers": [
+      "Ein System schlägt auf Basis von Historiendaten und KI automatisch den richtigen Buchungskonto für eine Buchung vor.",
+      "Das manuelle Zuweisen von Konten.",
+      "Das Erstellen von Kontenplänen.",
+      "Das Löschen von Konten."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 104,
+    "question": "Was ist ein 'Belegkommunikationsserver' (z.B. DATEV Belegtransfer)?",
+    "answers": [
+      "Ein System, das Belege vom Mandanten automatisch in die Kanzleisoftware importiert und für die Buchung bereitstellt.",
+      "Ein E-Mail-Server.",
+      "Ein Druckerserver.",
+      "Ein Backup-Server."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 105,
+    "question": "Was bedeutet 'Kontenrahmen' und 'Kontenplan'?",
+    "answers": [
+      "Der Kontenrahmen ist die standardisierte Gliederung aller möglichen Konten (Schablone); der Kontenplan ist die mandantenspezifische Auswahl daraus.",
+      "Es ist dasselbe.",
+      "Der Kontenrahmen ist nur für Banken.",
+      "Der Kontenplan ist nur optional."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 106,
+    "question": "Wie kann KI in der Finanzbuchhaltung konkret helfen?",
+    "answers": [
+      "Belegerkennung, Plausibilitätsprüfung, Fraud-Detection, automatische Kontierungsvorschläge und Anomalieerkennung.",
+      "Nur durch das Verschicken von Mahnungen.",
+      "Nur durch das Sortieren von Belegen.",
+      "KI kann in der FiBu nicht helfen."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 107,
+    "question": "Was ist der 'Zahlungsverkehr' im FiBu-Kontext?",
+    "answers": [
+      "Die Abwicklung von Ein- und Auszahlungen inklusive SEPA-Überweisungen, Lastschriften und Abstimmung mit dem Bankkonto.",
+      "Nur Bargeldtransaktionen.",
+      "Nur Kreditkartenzahlungen.",
+      "Nur Überweisungen vom Finanzamt."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 108,
+    "question": "Was ist ein 'Kontoabgleich' (Reconciliation)?",
+    "answers": [
+      "Der Abgleich von Buchhaltungssoll-Salden mit den tatsächlichen Bankumsätzen, um Diskrepanzen zu erkennen.",
+      "Das Abgleichen von zwei Banken.",
+      "Das Vergleichen von Kontenplänen verschiedener Mandanten.",
+      "Das Erstellen neuer Konten."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 109,
+    "question": "Was ist eine 'OP-Liste' (Offene Posten)?",
+    "answers": [
+      "Eine Liste aller noch nicht ausgeglichenen Rechnungen und Zahlungen, die für das Mahnwesen und die Finanzübersicht wichtig ist.",
+      "Eine Liste der geschlossenen Konten.",
+      "Ein Bestandteil der Bilanz.",
+      "Eine Steuerliste."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 110,
+    "question": "Was versteht man unter 'Digitaler Belegarchivierung'?",
+    "answers": [
+      "Die elektronische, manipulationssicher und GoBD-konforme Aufbewahrung von Belegen in digitalem Format.",
+      "Das Ausdrucken von Belegen.",
+      "Das Vernichten von Belegen.",
+      "Das Verschieben von Belegen in ein Postfach."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 111,
+    "question": "Was ist ein 'Dashboard'?",
+    "answers": [
+      "Eine visuelle Übersicht der wichtigsten Kennzahlen (KPIs) in Echtzeit, oft mit interaktiven Diagrammen und Filtern.",
+      "Ein Armaturenbrett im Auto.",
+      "Ein Steuerformular.",
+      "Ein Kontenplan."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 112,
+    "question": "Was ist 'Power BI'?",
+    "answers": [
+      "Ein Business-Intelligence-Tool von Microsoft zur Datenanalyse, Visualisierung und Erstellung interaktiver Dashboards.",
+      "Ein Betriebssystem.",
+      "Ein Browser.",
+      "Ein Buchhaltungssystem."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 113,
+    "question": "Was ist der Unterschied zwischen deskriptiver, prädiktiver und präskriptiver Analytik?",
+    "answers": [
+      "Deskriptiv: Was ist passiert? Prädiktiv: Was wird passieren? Präskriptiv: Was sollten wir tun?",
+      "Es gibt keine Unterschiede.",
+      "Deskriptiv = Zukunft, Prädiktiv = Vergangenheit.",
+      "Alle drei sind gleich."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 114,
+    "question": "Was ist eine 'KPI' (Key Performance Indicator)?",
+    "answers": [
+      "Eine Kennzahl, die den Erfolg oder die Leistung eines Prozesses oder Unternehmens misst.",
+      "Ein IT-System.",
+      "Eine Buchhaltungsmethode.",
+      "Ein Backup-Verfahren."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 115,
+    "question": "Welche KPIs sind für eine Kanzlei relevant?",
+    "answers": [
+      "Mandantenzufriedenheit, Durchlaufzeiten, Produktivität pro Mitarbeiter, Umsatz pro Mandant, Fehlerrate.",
+      "Nur die Anzahl der Computern.",
+      "Nur die Größe der Büroräume.",
+      "Nur die Anzahl der Parkplätze."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 116,
+    "question": "Was ist 'Data Mining'?",
+    "answers": [
+      "Die automatisierte Suche nach Mustern und Zusammenhängen in großen Datenmengen.",
+      "Das physische Abbauen von Daten.",
+      "Das Löschen von Daten.",
+      "Das Speichern von Daten in der Cloud."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 117,
+    "question": "Was ist der Unterschied zwischen strukturierten und unstrukturierten Daten?",
+    "answers": [
+      "Strukturierte Daten liegen in festem Format vor (Tabellen, Datenbanken); unstrukturierte Daten haben kein festes Format (E-Mails, Dokumente, Bilder).",
+      "Es gibt keinen Unterschied.",
+      "Strukturierte Daten sind immer besser.",
+      "Unstrukturierte Daten gibt es nicht."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 118,
+    "question": "Was ist 'ETL' im Kontext der Datenanalyse?",
+    "answers": [
+      "Extract, Transform, Load – der Prozess, um Daten für die Analyse aufzubereiten.",
+      "Eine Programmiersprache.",
+      "Ein Datenbankformat.",
+      "Ein Verschlüsselungsverfahren."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 119,
+    "question": "Was ist ein 'Pivot-Table'?",
+    "answers": [
+      "Ein Werkzeug in Tabellenkalkulationen (z.B. Excel), um große Datenmengen flexibel zu aggregieren und auszuwerten.",
+      "Ein Backup-Format.",
+      "Ein Netzwerkprotokoll.",
+      "Ein Buchhaltungsbegriff."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "id": 120,
+    "question": "Warum ist Datenanalyse für Kanzleien immer wichtiger?",
+    "answers": [
+      "Weil datenbasierte Entscheidungen Wettbewerbsvorteile schaffen, Mandanten fundierter beraten werden können und Effizienzpotenziale erkannt werden.",
+      "Weil es gesetzlich vorgeschrieben ist.",
+      "Weil es eine Modeerscheinung ist.",
+      "Weil die Konkurrenz es auch macht."
+    ],
+    "correctAnswers": [
+      0
+    ]
+  }
+]
