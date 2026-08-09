@@ -1,12 +1,13 @@
 <resources>
   <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
     <item name="android:windowBackground">@drawable/launch_background</item>
-    <item name="colorBackground">@color/background_color</item>
   </style>
+
   <style name="NormalTheme" parent="@android:style/Theme.Black.NoTitleBar">
     <item name="android:windowBackground">@null</item>
   </style>
-  <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
-    <item name="colorBackground">@color/background_color</item>
+
+  <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+    <item name="android:windowBackground">@color/background_color</item>
   </style>
 </resources>

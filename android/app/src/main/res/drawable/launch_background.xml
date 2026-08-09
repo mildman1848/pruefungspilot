@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Hintergrundfarbe (anpassbar für Light/Dark-Modus) -->
-    <item android:drawable="?attr/colorBackground" />
+    <item android:drawable="@color/background_color" />
 
     <!-- Zentriertes Splash-Bild -->
     <item>
