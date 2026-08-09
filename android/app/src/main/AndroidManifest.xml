@@ -1,5 +1,5 @@
 <!-- Speicherort: android/app/src/main/AndroidManifest.xml -->
-<!-- Beschreibung: Konfiguriert die Android-App-Einstellungen für die Sachkundenachweis-App. -->
+<!-- Beschreibung: Konfiguriert die Android-App-Einstellungen für die PrüfungsPilot-App. -->
 <!-- Definiert die Hauptanwendung, Aktivitäten, Themen und Berechtigungen. -->
 <!-- Der Code ist plattformübergreifend kompatibel und folgt Best Practices für Android. -->
 <!-- Hinweis: Das package-Attribut wurde entfernt, da es in neueren Android-Versionen nicht mehr unterstützt wird. Der Namespace wird stattdessen in build.gradle.kts definiert (Best Practice: Vermeidung von Manifest-Fehlern). -->
@@ -11,7 +11,7 @@
     <!-- Entfernen Sie den Kommentar, wenn die App Internetzugriff benötigt -->
 
     <application
-        android:label="Sachkundenachweis"
+        android:label="PrüfungsPilot"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:allowBackup="true" 

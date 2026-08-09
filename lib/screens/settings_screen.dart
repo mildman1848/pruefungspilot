@@ -141,7 +141,7 @@ class SettingsScreen extends ConsumerWidget {
           Card(
             child: ListTile(
               leading: const Icon(Icons.info),
-              title: const Text('LernApp – Multi-Course'),
+              title: const Text('PrüfungsPilot – Multi-Course'),
               subtitle: Text(
                   '${allCourses.length} Kurse verfügbar • '
                   'Lokale Datenspeicherung • '

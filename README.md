@@ -1,4 +1,4 @@
-# LernApp – Multi-Course Learning Platform
+# PrüfungsPilot – Multi-Course Learning Platform
 
 Deutsch: [README.DE.md](README.DE.md)
 

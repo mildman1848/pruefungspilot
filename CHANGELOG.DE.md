@@ -2,7 +2,7 @@
 
 English: [CHANGELOG.md](CHANGELOG.md)
 
-Alle wichtigen Änderungen an der Sachkundenachweis-App werden in dieser Datei dokumentiert.
+Alle wichtigen Änderungen an der PrüfungsPilot-App werden in dieser Datei dokumentiert.
 
 ### 1.0.12 (2026-03-18)
 

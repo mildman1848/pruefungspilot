@@ -1,5 +1,5 @@
 {
-  "name": "sachkundenachweis",
+  "name": "pruefungspilot",
   "version": "1.0.12",
   "scripts": {
     "release": "standard-version"

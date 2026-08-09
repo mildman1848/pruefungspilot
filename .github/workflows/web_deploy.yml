@@ -49,7 +49,7 @@ jobs:
 
       # Schritt 6: Flutter Web bauen
       - name: 🏗️ Flutter Web bauen
-        run: flutter build web --release --base-href="/sachkundenachweis_app/"
+        run: flutter build web --release --base-href="/pruefungspilot/"
 
       # Schritt 7: Web-Build als Artefakt speichern
       - name: 📤 Web-Build als Artefakt speichern

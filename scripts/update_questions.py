@@ -16,7 +16,7 @@ QUESTIONS_URL = "https://www.tieraerztekammer-nordrhein.de/wp-content/uploads/20
 SOLUTIONS_URL = "https://www.tieraerztekammer-nordrhein.de/wp-content/uploads/2024/11/Sachkundefragen-Loesungen-neu-ab-01.01.2025.pdf"
 
 REQUEST_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; sachkundenachweis-app PDF updater; +https://github.com/mildman1848/sachkundenachweis_app)",
+    "User-Agent": "Mozilla/5.0 (compatible; pruefungspilot PDF updater; +https://github.com/mildman1848/pruefungspilot)",
     "Accept": "application/pdf,*/*",
 }
 

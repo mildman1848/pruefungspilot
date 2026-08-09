@@ -44,7 +44,7 @@ class MyApp extends ConsumerWidget {
     final darkTheme = themeNotifier.getThemeData(Brightness.dark);
 
     return MaterialApp(
-      title: 'LernApp',
+      title: 'PrüfungsPilot',
       debugShowCheckedModeBanner: false,
       theme: currentTheme,
       darkTheme: darkTheme,

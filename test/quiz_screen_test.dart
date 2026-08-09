@@ -6,11 +6,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:lernapp/models/question_model.dart';
-import 'package:lernapp/providers/course_providers.dart';
-import 'package:lernapp/screens/quiz_screen.dart';
-import 'package:lernapp/storage/progress_storage.dart';
-import 'package:lernapp/theme/theme_notifier.dart';
+import 'package:pruefungspilot/models/question_model.dart';
+import 'package:pruefungspilot/providers/course_providers.dart';
+import 'package:pruefungspilot/screens/quiz_screen.dart';
+import 'package:pruefungspilot/storage/progress_storage.dart';
+import 'package:pruefungspilot/theme/theme_notifier.dart';
 
 void main() {
   group('QuizScreen Tests', () {

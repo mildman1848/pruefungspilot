@@ -1,5 +1,5 @@
 # Speicherort: .github/dependabot.yml
-# Beschreibung: Konfiguriert automatische Updates für Abhängigkeiten der Sachkundenachweis-App.
+# Beschreibung: Konfiguriert automatische Updates für Abhängigkeiten der PrüfungsPilot-App.
 # Verwaltet Flutter/Dart (pub), GitHub Actions und Node.js (npm) Abhängigkeiten mit wöchentlichen oder monatlichen Checks.
 # Folgt Best Practices für Abhängigkeitsmanagement und ist plattformübergreifend kompatibel.
 

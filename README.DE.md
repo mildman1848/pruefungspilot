@@ -1,8 +1,8 @@
-# LernApp – Multi-Course Lernplattform
+# PrüfungsPilot – Multi-Course Lernplattform
 
 Englisch: [README.md](README.md)
 
-Flutter-Lernapp für mehrere Prüfungen und Zertifizierungen. Lerne für den **Sachkundenachweis** (Hundeführerschein NRW), die **Begleithundprüfung** (BH/VT) und den **FiButroniker** (digitale Kanzlei).
+Flutter-Lernplattform für mehrere Prüfungen und Zertifizierungen. Lerne für den **Sachkundenachweis** (Hundeführerschein NRW), die **Begleithundprüfung** (BH/VT) und den **FiButroniker** (digitale Kanzlei).
 
 ## Highlights
 

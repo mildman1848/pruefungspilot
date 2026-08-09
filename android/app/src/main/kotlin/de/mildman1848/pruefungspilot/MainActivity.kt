@@ -1,4 +1,4 @@
-package com.example.flutter_application_1
+package de.mildman1848.pruefungspilot
 
 import io.flutter.embedding.android.FlutterActivity
 

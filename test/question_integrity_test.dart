@@ -5,7 +5,7 @@
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lernapp/data/course_registry.dart';
+import 'package:pruefungspilot/data/course_registry.dart';
 
 void main() {
   setUpAll(() {

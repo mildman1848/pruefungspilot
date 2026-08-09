@@ -119,7 +119,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Bug Fixes
 
-* Update Git tagging process in build workflow ([2e0f262](https://github.com/mildman1848/sachkundenachweis_app/commit/2e0f2620471a4d7e41702eda8c441ad621617889))
+* Update Git tagging process in build workflow ([2e0f262](https://github.com/mildman1848/pruefungspilot/commit/2e0f2620471a4d7e41702eda8c441ad621617889))
 
 ## [1.0.6] – 2025-07-03
 

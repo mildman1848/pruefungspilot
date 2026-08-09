@@ -2,7 +2,7 @@
 // Tests the Question model initialization.
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lernapp/models/question_model.dart';
+import 'package:pruefungspilot/models/question_model.dart';
 
 void main() {
   group('Question Model Tests', () {

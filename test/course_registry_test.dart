@@ -3,7 +3,7 @@
 // correct structure, unique IDs, and valid category mappings.
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lernapp/data/course_registry.dart';
+import 'package:pruefungspilot/data/course_registry.dart';
 
 void main() {
   group('Course Registry Tests', () {

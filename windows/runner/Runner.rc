@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "sachkundenachweis_app" "\0"
+            VALUE "CompanyName", "Mildman1848" "\0"
+            VALUE "FileDescription", "PrüfungsPilot" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "sachkundenachweis_app" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "sachkundenachweis_app.exe" "\0"
-            VALUE "ProductName", "sachkundenachweis_app" "\0"
+            VALUE "InternalName", "pruefungspilot" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 Mildman1848. All rights reserved." "\0"
+            VALUE "OriginalFilename", "pruefungspilot.exe" "\0"
+            VALUE "ProductName", "PrüfungsPilot" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
