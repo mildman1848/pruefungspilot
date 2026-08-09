@@ -30,7 +30,7 @@ dependencies:
   json_annotation: ^4.9.0
 
   # Haptic-Feedback (Vibration, Cross-OS: Check mit Vibration.hasVibrator).
-  vibration: ^1.9.0
+  vibration: ^3.2.0
 
   # Localization (Vorbereitung für Multi-Language, Best Practice).
   flutter_localizations:
