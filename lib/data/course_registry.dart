@@ -18,9 +18,9 @@ final List<Course> allCourses = [
         '197 offizielle Fragen zu Ausdrucksverhalten, Rassen, Training, '
         'Gesundheit, Recht und mehr.',
     icon: Icons.pets,
-    primaryColor: const Color(0xFF388E3C),
+    primaryColor: Color(0xFF388E3C),
     questionsAsset: 'assets/courses/sachkundenachweis/questions.json',
-    categoryTitles: const {
+    categoryTitles: {
       'ausdrucksverhalten_bilder': 'Ausdrucksverhalten Bilder',
       'ausdrucksverhalten_fragen': 'Ausdrucksverhalten Fragen',
       'rassen': 'Rassen',
@@ -42,7 +42,7 @@ final List<Course> allCourses = [
       'krankheiten': 'Krankheiten',
       'oeffentlichkeit': 'Öffentlichkeit',
     },
-    questionCategories: const {
+    questionCategories: {
       'ausdrucksverhalten_bilder': [6, 16, 26, 46, 56, 65, 75],
       'ausdrucksverhalten_fragen': [1, 31, 41, 51, 61, 86, 88, 121, 126, 167],
       'rassen': [2, 12, 161, 171, 184, 185, 186, 187, 196, 197],
@@ -76,9 +76,9 @@ final List<Course> allCourses = [
         'Umfassende Fragen zu Unterordnung, Verhalten im Straßenverkehr, '
         'Leinenführigkeit und Theorie der Hundeausbildung.',
     icon: Icons.school,
-    primaryColor: const Color(0xFF1565C0),
+    primaryColor: Color(0xFF1565C0),
     questionsAsset: 'assets/courses/begleithund/questions.json',
-    categoryTitles: const {
+    categoryTitles: {
       'grundlagen': 'Grundlagen der Hundeausbildung',
       'unterordnung': 'Unterordnung (Platz)',
       'strassenverkehr': 'Verhalten im Straßenverkehr',
@@ -92,7 +92,7 @@ final List<Course> allCourses = [
       'pruefungsaufbau': 'Prüfungsaufbau & Bewertung',
       'ausruestung': 'Ausrüstung & Hilfsmittel',
     },
-    questionCategories: const {
+    questionCategories: {
       'grundlagen': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
       'unterordnung': [11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
       'strassenverkehr': [21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
@@ -118,9 +118,9 @@ final List<Course> allCourses = [
         'Themen: Digitale Prozesswelt, KI-Einsatz, eRechnung, Cyber Security, '
         'RPA, GoBD, Datenanalyse und Changemanagement.',
     icon: Icons.analytics,
-    primaryColor: const Color(0xFF00897B),
+    primaryColor: Color(0xFF00897B),
     questionsAsset: 'assets/courses/fibutroniker/questions.json',
-    categoryTitles: const {
+    categoryTitles: {
       'digitale_prozesswelt': 'Digitale Prozesswelt & Change-Management',
       'geschaeftsprozessanalyse': 'Geschäftsprozessanalyse',
       'schnittstellen_daten': 'Schnittstellen & Datenmanagement',
@@ -134,7 +134,7 @@ final List<Course> allCourses = [
       'finanzbuchhaltung': 'Automatisierung Finanzbuchhaltung',
       'datenanalyse': 'Datenanalyse & Dashboards',
     },
-    questionCategories: const {
+    questionCategories: {
       'digitale_prozesswelt': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
       'geschaeftsprozessanalyse': [11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
       'schnittstellen_daten': [21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
