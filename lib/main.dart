@@ -71,7 +71,7 @@ class AppRoot extends ConsumerWidget {
       );
     }
 
-    return CourseNavigation(course: selectedCourse);
+    return const CourseNavigation();
   }
 }
 

@@ -11,7 +11,7 @@ class ProgressStorage {
 
   /// SharedPreferences key for a specific question's progress within a course.
   static String _key(String courseId, int questionId) {
-    return '${courseId}_${_prefix}${questionId}_last3';
+    return '${courseId}_$_prefix${questionId}_last3';
   }
 
   /// Returns the last 3 answer results as a list of bool (true = correct).

@@ -9,7 +9,7 @@ import '../models/course_model.dart';
 /// All available courses in the app, ordered by display priority.
 final List<Course> allCourses = [
   // ─── Sachkundenachweis (existing, migrated) ─────────────────────────────
-  Course(
+  const Course(
     id: 'sachkundenachweis',
     title: 'Sachkundenachweis',
     subtitle: 'Hundeführung NRW (LHundG)',
@@ -67,7 +67,7 @@ final List<Course> allCourses = [
   ),
 
   // ─── Begleithundprüfung (new) ───────────────────────────────────────────
-  Course(
+  const Course(
     id: 'begleithund',
     title: 'Begleithundprüfung',
     subtitle: 'BH/VT – VDH-Prüfungsordnung',
@@ -109,7 +109,7 @@ final List<Course> allCourses = [
   ),
 
   // ─── FiButroniker (new) ─────────────────────────────────────────────────
-  Course(
+  const Course(
     id: 'fibutroniker',
     title: 'FiButroniker',
     subtitle: 'Digitale Kanzlei (IFU / ISM)',
