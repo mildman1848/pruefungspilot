@@ -1,0 +1,2364 @@
+[
+  {
+    "id": 1,
+    "question": "Was sind typische Jagdverhaltensweisen?",
+    "answers": [
+      "Suchen nach Beute.",
+      "Hetzen.",
+      "Schütteln der Beute.",
+      "Anschleichen und Vorstehen."
+    ],
+    "correctAnswers": [0, 1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 2,
+    "question": "Sind alle Hunde gleich oder gibt es rassetypische Eigenschaften?",
+    "answers": [
+      "Alle Hunde sind gleich.",
+      "Je nach Rasse weisen Hunde unterschiedliche Veranlagungen auf, z. B. in Bezug auf Jagdverhalten und Aktivität.",
+      "Verschiedene Rassen unterscheiden sich nur durch ihr äußeres Erscheinungsbild.",
+      "Rassetypische Eigenschaften gibt es nicht, aber anhand der Größe kann man eine Einteilung in \"kinderfreundlich\", \"gefährlich\", \"leicht zu erziehen\" etc. treffen."
+    ],
+    "correctAnswers": [1],
+    "image": null
+  },
+  {
+    "id": 3,
+    "question": "Ein Welpe oder ein Kind ist einem Hund gegenüber sehr aufdringlich. Welche Verhaltensweisen erwachsener Hunde sind normal und absolut hundetypisch?",
+    "answers": [
+      "Knurren.",
+      "Die Lefzen kräuseln.",
+      "Der Hund tut nichts, weil Kinder und Welpen bei erwachsenen Hunden uneingeschränkt Narrenfreiheit haben.",
+      "Steigerung aggressiver Verhaltensweisen, wie z.B. Schnappen oder Beißen, wenn Drohen des Hundes bestraft, gelobt/beruhigt, ignoriert oder nicht wahrgenommen wird."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 4,
+    "question": "Bis zu welchem Alter bezeichnet man Hunde als „Welpen“?",
+    "answers": [
+      "bis zu einem Jahr.",
+      "von Geburt an bis zum Abschluss der sogenannten Sozialisationsphase, also ca. bis zur 12. bis maximal 16. Lebenswoche.",
+      "Bis zur Geschlechtsreife.",
+      "Hunde, die noch von der Mutterhündin gesäugt werden."
+    ],
+    "correctAnswers": [1],
+    "image": null
+  },
+  {
+    "id": 5,
+    "question": "Ist der Einsatz von Stromreizgeräten, unangenehmen Hochfrequenztönen und anderen Schmerz- und Schreckreizen für die Hundeerziehung sinnvoll?",
+    "answers": [
+      "Es ist eine einfache und schnelle Methode, die sehr erfolgreich in der Erziehung eingesetzt werden kann.",
+      "Der Hund weiß dann, dass er nicht mehr machen kann, was er will.",
+      "Die Gefahr von Fehlverknüpfungen und Angstverhalten als Folge ist zu groß.",
+      "Strafreize lösen beim Hund Stress aus, der je nach verwendetem Reiz und individueller Sensibilität erheblich sein kann."
+    ],
+    "correctAnswers": [2, 3],
+    "image": null
+  },
+  {
+    "id": 6,
+    "question": "Welchen Ausdruck zeigt dieser Hund?",
+    "answers": [
+      "Der Hund ist neutral bis aufmerksam.",
+      "Der Hund ist ängstlich.",
+      "Der Hund droht sicher.",
+      "Der Hund ist unterwürfig."
+    ],
+    "correctAnswers": [2],
+    "image": "assets/images/sketches/6.png"
+  },
+  {
+    "id": 7,
+    "question": "Worauf muss man bei der Auswahl eines Maulkorbs achten?",
+    "answers": [
+      "Ein Maulkorb muss bequem sitzen und darf nicht in die Augen rutschen. An das Tragen muss der Hund in kleinen Schritten über mehrere Wochen gewöhnt werden.",
+      "Für längere Tragezeiten von mehr als wenigen Minuten muss gewährleistet sein, dass der Hund problemlos mit geöffnetem Maul hecheln und bei Bedarf trinken kann.",
+      "Für einen kurzfristigen Gebrauch von wenigen Minuten kann eine enge Maulschlaufe aus weichem Material, mit der der Hund das Maul einfach nicht mehr aufmachen kann, akzeptabel sein.",
+      "Bei Hunden, bei denen wirklich eine Verletzungsgefahr von anderen besteht, muss ein Maulkorb besondere Sicherheitskriterien erfüllen. Er muss so befestigt werden können, dass der Hund ihn nicht abstreifen kann und das Material und die Verarbeitung des Maulkorbs müssen besonders stabil sein."
+    ],
+    "correctAnswers": [0, 1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 8,
+    "question": "Zwei Hunde kämpfen miteinander. Die Besitzer stehen daneben und schreien die Hunde an, um den Kampf zu beenden. Wie interpretieren die Hunde dieses Verhalten?",
+    "answers": [
+      "Durch das Anschreien bekommen die Hunde Angst und beenden den Kampf sofort.",
+      "Durch die aggressive Stimmung der Besitzer steigt der Stress der Hunde und sie können daher weiterkämpfen.",
+      "Das Schreien der Besitzer beeinflusst das Verhalten der Hunde nicht.",
+      "Durch das Schreien verstehen die Hunde, dass sie nicht kämpfen sollen und hören daher auf."
+    ],
+    "correctAnswers": [1],
+    "image": null
+  },
+  {
+    "id": 9,
+    "question": "Was ist zu der Anwendung von Leinenrucken zur Erziehung zu sagen?",
+    "answers": [
+      "Leinenrucke sind notwendig für die Erziehung zur Leinenführigkeit.",
+      "Jegliche Anwendung von Leinenrucken kann zu Schmerzen führen und gilt als nicht tierschutzkonform.",
+      "Für verhaltensauffällige Hunde ist die Arbeit mit Leinenrucken oftmals notwendig, um sie überhaupt trainieren zu können.",
+      "Ständige Leinenrucke können zu verschiedenen körperlichen Schäden im Halsbereich führen."
+    ],
+    "correctAnswers": [1, 3],
+    "image": null
+  },
+  {
+    "id": 10,
+    "question": "Darf man ängstlichen Hunden einen Maulkorb aufziehen, wenn es die Situation erfordern würde?",
+    "answers": [
+      "Auf keinen Fall, weil der Hund noch mehr Angst bekommen würde.",
+      "Wenn man den Hund schrittweise daran gewöhnt, stellt der Maulkorb keine Belastung dar.",
+      "Ein ängstlicher Hund braucht sowieso keinen Maulkorb, weil er nicht aggressiv ist.",
+      "Ängstliche Hunde könnten in Bedrängungssituationen beißen oder es können z. B. in öffentlichen Verkehrsmitteln Maulkorbpflicht für alle Hunde bestehen."
+    ],
+    "correctAnswers": [1, 3],
+    "image": null
+  },
+  {
+    "id": 11,
+    "question": "Was versteht man unter dem sogenannten „Welpenschutz“?",
+    "answers": [
+      "Welpen werden von ihrer Mutterhündin niemals im Stich gelassen.",
+      "Welpen werden von erwachsenen Hunden nicht gebissen, denn sie stehen unter Welpenschutz. Ein erwachsener Hund, der nach einem Welpen schnappt, ist verhaltensgestört.",
+      "Erwachsene Hunde lassen junge Hunde im ersten Lebensjahr alles machen, was sie wollen, weswegen man auch mit der Erziehung eines Hundes erst mit einem Jahr beginnen sollte.",
+      "Es gibt keinen „Welpenschutz“. Den Welpen „schützt“ angemessenes, d.h. unterwürfiges und beschwichtigendes Verhalten."
+    ],
+    "correctAnswers": [3],
+    "image": null
+  },
+  {
+    "id": 12,
+    "question": "Was ist die Grundveranlagung, die jeder Hund in sich trägt?",
+    "answers": [
+      "Hunde sind Jagdraubtiere.",
+      "Hunde sind für das Zusammenleben mit Menschen geschaffen worden. Sie sind völlig abhängig vom Menschen und können alleine nicht existieren, da sie sich keine Nahrung beschaffen könnten.",
+      "Hunde sind soziale Tiere und darauf ausgerichtet, in einem Gruppenverband zu leben.",
+      "Hunde sind Aasfresser und suchen deshalb ständig nach toten Tieren."
+    ],
+    "correctAnswers": [0, 2],
+    "image": null
+  },
+  {
+    "id": 13,
+    "question": "Warum können Hunde an der Leine aggressiver reagieren?",
+    "answers": [
+      "Hunde können an der Leine unsicherer gegenüber anderen Hunden sein und sich dadurch aggressiver verhalten, wenn sie in jungem Alter nie gelernt haben, dass man sich auch an der Leine entspannt begrüßen kann.",
+      "Hunde können sich an der Leine nicht frei bewegen und ausweichen und können sich daher schneller bedroht fühlen und aggressiver reagieren.",
+      "Hunde können frustriert sein, dass sie durch die Leine von einem Kontakt mit dem anderen Hund abgehalten werden und können sich deshalb aggressiv verhalten.",
+      "Durch Versuche der Halter unerwünschtes Verhalten an der Leine durch harmlos erscheinende Korrekturen bis hin zu Schreck- oder Strafreizen zu unterbinden, wird aggressives Verhalten gefördert."
+    ],
+    "correctAnswers": [0, 1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 14,
+    "question": "Woran erkennen Sie eine empfehlenswerte Welpenspielgruppe?",
+    "answers": [
+      "Es dürfen Hunde verschiedener Rassen teilnehmen. Die Gruppengröße beträgt in der Regel maximal 8 Welpen. Es dürfen nur gesunde Hunde bis ca. zur 16. Lebenswoche teilnehmen.",
+      "Der/Die Trainer/in bestraft einen Welpen sofort oder erschreckt ihn mit einer Wasserspritze oder anderem, wenn er aggressives Verhalten zeigt, denn die Hunde sollen eine gute Sozialverträglichkeit lernen.",
+      "Ängstlichen Welpen wird ein sicherer Rückzugsort beim Halter gewährt und „Grobiane“ liebevoll zu anderen Welpen abgelenkt. Bei sehr ängstlichen Hunden wird in ungestörter Atmosphäre Kontakt mit einem einzelnen passenden Welpen ermöglicht.",
+      "Den Welpen werden viele verschiedene Reizsituationen geboten, damit sie „umweltsicher“ werden. Dabei bestimmt das schwächste Glied der Gruppe das Ausmaß der Reize."
+    ],
+    "correctAnswers": [0, 2, 3],
+    "image": null
+  },
+  {
+    "id": 15,
+    "question": "Welche der aufgeführten Erziehungshilfsmittel sind sinnvoll?",
+    "answers": [
+      "Leine und breites, nicht würgendes Halsband oder gut sitzendes Brustgeschirr, ggf. zusätzlich Kopfhalfter für Hunde.",
+      "Halsbänder mit einem auf Knopfdruck auslösbaren Sprühstoß.",
+      "Geräte, die für den Hund unangenehme Geräusche im Ultraschallbereich erzeugen, um unerwünschtes Verhalten auf Knopfdruck zu beeinflussen.",
+      "Erziehungsgeschirre mit Zugwirkung unter den Achseln."
+    ],
+    "correctAnswers": [0],
+    "image": null
+  },
+  {
+    "id": 16,
+    "question": "Welchen Ausdruck zeigt dieser Hund?",
+    "answers": [
+      "Der Hund ist neutral bis aufmerksam.",
+      "Der Hund droht aus Unsicherheit.",
+      "Der Hund ist friedfertig.",
+      "Der Hund ist unterwürfig."
+    ],
+    "correctAnswers": [1],
+    "image": "assets/images/sketches/16.png"
+  },
+  {
+    "id": 17,
+    "question": "Welche Überlegungen sind vor der Anschaffung eines Hundes wichtig?",
+    "answers": [
+      "Ist die Hundehaltung erlaubt?",
+      "Habe ich die zeitlichen und finanziellen Möglichkeiten, den Hund 12-15 Jahre lang sicher zu behalten und zu versorgen?",
+      "Die Abstammung von Elterntieren, die auf vielen Ausstellungen Auszeichnungen gewonnen haben.",
+      "Passt der ausgesuchte Hund von seiner Rasseveranlagung her tatsächlich zu meinem Lebensstil?"
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 18,
+    "question": "Ich beuge mich über einen Hund und möchte ihn streicheln. Er duckt sich und knurrt. Ich mache mich klein und strecke ihm meine Hand entgegen, damit er daran schnüffeln kann. In diesem Moment schnappt er nach mir. Was könnte der Grund dafür sein?",
+    "answers": [
+      "Ein Hund, der so reagiert, muss früher geschlagen worden sein.",
+      "Er hat die Geste des Über-ihn-Beugens und Handausstreckens als Bedrohung empfunden.",
+      "Er ist grundsätzlich verhaltensgestört.",
+      "Es ist normal, dass Hunde Gegner attackieren, die schwächer sind. Dadurch, dass man sich klein gemacht hat, hat man dem Hund signalisiert, dass man schwächer ist als er."
+    ],
+    "correctAnswers": [1],
+    "image": null
+  },
+  {
+    "id": 19,
+    "question": "Was muss man bei einem Hund im Welpenalter in Bezug auf sein Verhalten besonders beachten?",
+    "answers": [
+      "Ein Welpe sollte in positiver Weise alle Umweltsituationen, Kinder verschiedener Altersklassen und Erwachsene kennen lernen, mit denen er später zurechtkommen muss.",
+      "Welpen sollten möglichst zurückgezogen und ruhig gehalten werden, da sie noch nicht so aufnahmefähig sind.",
+      "Man sollte individuell die kurze Zeit der Sozialisationsphase für viele Erfahrungen möglichst gut nutzen, ohne den Welpen zu überfordern.",
+      "Bei einem Welpen braucht man nichts anders zu machen als mit einem erwachsenen Hund."
+    ],
+    "correctAnswers": [0, 2],
+    "image": null
+  },
+  {
+    "id": 20,
+    "question": "Welche Hilfsmittel in der Hundeerziehung sind tierschutzrechtlich bedenklich?",
+    "answers": [
+      "Stachelhalsbänder und unbegrenzte Zughalsbänder.",
+      "Sehr schmale, einschneidende Halsbänder, wie z. B. Ketten, zur Führung an der Leine.",
+      "Stromreizgeräte, Geräte mit unangenehmen bis schmerzhaften Ultraschalltönen, Halsbänder mit auslösbarem Sprüh- oder Luftstoß.",
+      "Clicker als Ankündigung für eine Belohnung."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 21,
+    "question": "Was kann man über die Pubertätsphase von Hunden sagen?",
+    "answers": [
+      "In der Pubertätsphase entwickelt sich die Fortpflanzungsfähigkeit von Hunden, das Interesse am anderen Geschlecht nimmt stark zu und das eigene Geschlecht wird vermehrt als Konkurrent betrachtet.",
+      "Die Pubertät kann schon ab einem Alter von 5 Monaten einsetzen.",
+      "Während der Pubertät sind Hunde häufig unkonzentriert und abgelenkt.",
+      "Während der Pubertätsphase sollte man den Hund für unerwünschtes Verhalten und Ungehorsam strikt bestrafen, z.B. durch ein heftiges Schütteln im Nackenfell, denn der Mensch muss sich als Chef durchsetzen."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 22,
+    "question": "Welche Überlegungen muss man anstellen, wenn man sich einen Hund anschaffen will?",
+    "answers": [
+      "Der ausgewählte Hund sollte von seiner Rasseveranlagung her möglichst gut zu einem passen. Das Aussehen sollte hingegen nicht ausschlaggebend für die Entscheidung sein.",
+      "Beim Zusammenleben mit einem Hund könnten Probleme auftreten. Habe ich dann die Geduld, Zeit und Kraft mich darum zu kümmern?",
+      "Gehört die Rasse, für die ich mich interessiere, zu einer der erlaubnispflichtigen Hunderassen, sodass ich mich erkundigen muss, ob spezielle Voraussetzungen für eine Erlaubnis zur Haltung erfüllt werden müssen?",
+      "Gehört die Rasse, für die ich mich eigentlich interessiere, zu einer der Rassen mit sehr kurzer Nase, die Probleme mit der Atmung, den Augen, Beinen und der Wirbelsäule haben (sog. Qualzucht), sodass ich mich den Hunden zuliebe für eine andere Rasse entscheiden sollte?"
+    ],
+    "correctAnswers": [0, 1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 23,
+    "question": "Wer wäre der beste Ansprechpartner, wenn es zu Problemen im Zusammenleben kommt?",
+    "answers": [
+      "Der Züchter oder ein anderer Halter derselben Rasse.",
+      "Ein Tierarzt/ärztin, der/die sich auf Verhalten spezialisiert hat.",
+      "Ein anderer Hundebesitzer, der seinen Hund gut unter Kontrolle hat.",
+      "Ein/e moderne/r und erfahrene/r Hundetrainer/in, der/die im Bereich Problemverhalten fachlich nachweislich korrekt geschult ist und über positive Bestärkung arbeitet."
+    ],
+    "correctAnswers": [1, 3],
+    "image": null
+  },
+  {
+    "id": 24,
+    "question": "Ist es für die Entwicklung des Welpen sehr wichtig, ob er in seinen ersten Lebenswochen zahlreiche Außenreize entspannt und positiv kennenlernt?",
+    "answers": [
+      "Je mehr Reize der Welpe entspannt kennen lernt, desto mehr Verknüpfungen der Nervenbahnen werden in seinem Gehirn angelegt.",
+      "Vielfältige Reizsituationen geben dem Welpen Selbstvertrauen und Sicherheit im Umgang mit neuen Situationen.",
+      "Ein Welpe kann noch gar keine Reize verarbeiten.",
+      "Die Entwicklung des Gehirns hängt nicht vom Angebot verschiedener Reize ab, sondern geschieht automatisch."
+    ],
+    "correctAnswers": [0, 1],
+    "image": null
+  },
+  {
+    "id": 25,
+    "question": "Unter welchen Umständen kann ich meinen Hund in der Öffentlichkeit mit anderen Hunden spielen lassen?",
+    "answers": [
+      "Im Hundeauslaufgebiet kann ich meinen Hund immer spielen lassen. Falls ein anderer Hund nicht spielen möchte, regeln die Hunde das unter sich.",
+      "Wenn ich mit dem anderen Hundehalter abgeklärt habe, dass Spielkontakt erwünscht ist und beide Hunde frei laufen können.",
+      "Wildes Spiel niemals an der Straße, an der Leine oder wenn sich andere Menschen oder Tiere durch die spielenden Hunde belästigt fühlen oder gefährdet werden könnten.",
+      "Am sichersten ist es, wenn beide Hunde frei laufen können. Bei Welpen oder Hunden, die niemals abgeleint werden können, muss abgewogen werden zwischen der Chance auf ein ruhiges entspanntes Spiel und einer möglichen Verwicklungsgefahr der Leine oder der Leinen."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 26,
+    "question": "Welchen Ausdruck zeigt dieser Hund?",
+    "answers": [
+      "Der Hund ist neutral bis aufmerksam.",
+      "Der Hund ist entspannt.",
+      "Der Hund ist aggressiv.",
+      "Der Hund ist unterwürfig."
+    ],
+    "correctAnswers": [3],
+    "image": "assets/images/sketches/26.png"
+  },
+  {
+    "id": 27,
+    "question": "Unter welchen Umständen sollte man davon absehen, sich einen Hund anzuschaffen?",
+    "answers": [
+      "Bei Berufstätigkeit, wenn der Hund mehr als sechs Stunden täglich allein sein müsste.",
+      "Wenn absehbar ist, dass sich Berufs- oder Lebenssituation ändern werden und nicht sicher ist, ob Hundehaltung dann noch möglich ist.",
+      "Wenn man keinen Garten hat.",
+      "Wenn man eine starke Allergie auf Hundehaare hat."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 28,
+    "question": "Was kann zu Problemen zwischen Hunden und Kindern führen?",
+    "answers": [
+      "Kinder können auf Spielideen kommen, die Hunden unangenehm sind.",
+      "Kinder können Hundeverhalten missverstehen bzw. falsch deuten und verhalten sich dann aus Hundesicht unangemessen.",
+      "Zwischen Kindern und Hunden gibt es keine Probleme, denn sie sind gleichermaßen spielbegeistert und verstehen sich immer gut.",
+      "Beide, Kinder und Hunde, sind unberechenbar."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 29,
+    "question": "Welche Erfahrungen sind für ein reibungsloses Zusammenleben in der menschlichen Gesellschaft für einen Welpen wichtig?",
+    "answers": [
+      "Er sollte in positiven Begegnungen viele verschiedene Menschen (von Babies bis zu alten Menschen) kennenlernen.",
+      "Fahrten mit öffentlichen Verkehrsmitteln und Teilnahme am turbulenten Straßenverkehr, an die ein Hund je nach seinem Naturell schrittweise herangeführt werden sollte.",
+      "Welpen sollten möglichst viel im heimischen Bereich gehalten werden, damit sie nicht überfordert werden.",
+      "Aufenthalte im Zwinger, damit der Welpe lernen kann, auch einmal allein zu bleiben."
+    ],
+    "correctAnswers": [0, 1],
+    "image": null
+  },
+  {
+    "id": 30,
+    "question": "Darf man Hunde im Wald frei laufen lassen?",
+    "answers": [
+      "Im Wald dürfen Hunde nur auf Wegen unangeleint mitgeführt werden, sofern nicht eine spezielle Leinenpflicht für das gesamte Gebiet besteht. In Naturschutzgebieten besteht grundsätzlich Leinenpflicht.",
+      "Wenn der Hund nur manchmal ein paar Minuten außerhalb des Weges ist, darf man ihn frei laufen lassen, denn in so kurzer Zeit kann ein Hund im Wald keinen Schaden anrichten.",
+      "Einen Hund sollte man nur dann frei laufen lassen, wenn man ihn zuverlässig in allen Situationen abrufen kann. Im Wald kann allein das Aufscheuchen von Wild zu Schäden führen. Dies kann durch Stress, das Erschöpfen von Energiereserven und das Flüchten des Wildes über die nächste Straße passieren.",
+      "Gemäß dem Landesforstgesetz muss sich jeder, der den Wald betritt, so verhalten, dass die Lebensgemeinschaft Wald und die Bewirtschaftung des Waldes nicht gestört, der Wald nicht gefährdet, beschädigt oder verunreinigt wird. Die Erholung anderer darf nicht unzumutbar beeinträchtigt werden."
+    ],
+    "correctAnswers": [0, 2, 3],
+    "image": null
+  },
+  {
+    "id": 31,
+    "question": "Woran kann man erkennen, ob ein Hund einem anderen gegenüber Imponierverhalten zeigt?",
+    "answers": [
+      "Er zeigt einen starren Blick am Gegner vorbei.",
+      "Er macht sich groß (Kopf hoch, Ohren aufgerichtet, steifer Gang, Schwanz hoch).",
+      "Er bellt und legt die Ohren an.",
+      "Er stellt den Schwanz steil auf und vor Erregung wird oft ein schnelles Wedeln mit wenig Ausschlag gezeigt."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 32,
+    "question": "Welche Bedürfnisse des Hundes müssen bei artgerechter Haltung täglich ausreichend erfüllt werden?",
+    "answers": [
+      "Der Hund muss ausreichend, d.h. mehrere Stunden täglich geistig und körperlich Beschäftigung haben. Dies muss dem Alter und dem Gesundheitszustand des Hundes angepasst werden.",
+      "Der Hund muss jeden Tag ausreichend lange Sozialkontakte mit Menschen und Artgenossen haben. Dies muss den Bedürfnissen und Möglichkeiten des Hundes angepasst werden.",
+      "Der Hund muss täglich ausreichend Futter erhalten und ständig frisches Wasser zur Verfügung haben.",
+      "Der Hund sollte vorwiegend in einer Zwingeranlage mit gut isoliertem Boden gehalten werden."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 33,
+    "question": "Sollte man seinen Hund unbeaufsichtigt mit Kindern spielen lassen?",
+    "answers": [
+      "Wenn der Hund und das Kind zusammenleben, ist das kein Problem, weil der Hund seine eigenen Familienmitglieder nie beißen bzw. verletzen würde.",
+      "Wenn der Hund die Kinder kennt und mag, ist das kein Problem.",
+      "Eine gute Aufsicht bei Kontakten zwischen Kindern und Hunden ist notwendig, weil es immer zu kritischen Situationen kommen kann.",
+      "Nur, wenn es ein kleiner Hund ist, der den Kindern nichts tun kann."
+    ],
+    "correctAnswers": [2],
+    "image": null
+  },
+  {
+    "id": 34,
+    "question": "Ist die Aufzucht von Welpen im Garten ideal?",
+    "answers": [
+      "Der Garten ist eine natürliche Umgebung und das härtet ab.",
+      "Bei einer ausschließlichen Aufzucht im Garten kann der Hund nicht genügend Erfahrungen mit Menschen und dem Leben in häuslicher Umgebung machen.",
+      "Es kommt nicht darauf an, wo der Hund aufwächst, sondern wie viel ihm geboten wird. Bei einer Aufzucht im Garten muss sichergestellt sein, dass er dennoch ausreichend viele positive Kontakte mit Menschen, Umweltreizen (z.B. Staubsauger, Verkehr) und anderen Hunden hat.",
+      "Im Garten lauern viele Krankheitserreger, deshalb sollten Welpen bis zur 12. Woche überhaupt nicht draußen gehalten werden."
+    ],
+    "correctAnswers": [1, 2],
+    "image": null
+  },
+  {
+    "id": 35,
+    "question": "Ist es sinnvoll, den Hund mit einem Mikrochip kennzeichnen zu lassen?",
+    "answers": [
+      "Ja, per Mikrochip kann der Hund immer sicher seinem Besitzer zugeordnet werden. In NRW ist ein Mikrochip für Hunde über 20 kg oder 40 cm vorgeschrieben.",
+      "Ja, die Daten eines Mikrochips, der nach den Iso-Richtlinien gefertigt ist, sind auch im Ausland lesbar.",
+      "Ja, im Vergleich mit einer Tätowierung hat ein Mikrochip die Vorteile, dass eine Narkose entfällt und der Wundschmerz wesentlich geringer ist.",
+      "Nein, es ist nicht sinnvoll, da der Mikrochip gesundheitlich belastend ist."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 36,
+    "question": "Welche Risiken gibt es, wenn man aus erzieherischen Maßnahmen etwas nach seinem Hund wirft, z. B. einen Schlüssel oder eine Wurfkette?",
+    "answers": [
+      "Der Hund kann Angst vor ähnlichen Geräuschen und Situationen bekommen. Z. B. kann es für einen Hund schwer sein zu unterscheiden, wann ein Schlüsselklimpern ihm gilt und wann nicht.",
+      "Es gibt keine Risiken, es ist eine einfache Möglichkeit unerwünschtes Verhalten zu unterbrechen.",
+      "Durch Schreck und Schmerz wird Stress erzeugt, der sich nachteilig auf das Lernen auswirkt und Unsicherheit und Angst fördert.",
+      "Es kommt in vielen Fällen zu unbeabsichtigten Verknüpfungen und Verhaltensprobleme können gefördert oder ausgelöst werden."
+    ],
+    "correctAnswers": [0, 2, 3],
+    "image": null
+  },
+  {
+    "id": 37,
+    "question": "Nennen Sie Punkte, die man erfüllen muss, um einen Hund artgerecht zu halten.",
+    "answers": [
+      "Der Hund braucht täglich häufige Kontaktmöglichkeiten zu Menschen und/oder Hunden.",
+      "Hunde brauchen genügend Platz, um sich ausreichend bewegen zu können.",
+      "Hunde brauchen ausreichend häufige (mind. dreimal täglich) und ausreichend lange (insgesamt mindestens ca. zwei Stunden am Tag für einen gesunden Hund) Spaziergänge.",
+      "Es muss gewährleistet sein, dass der Hund im Krankheitsfall medizinisch versorgt werden kann."
+    ],
+    "correctAnswers": [0, 1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 38,
+    "question": "Was sind typische „Fehler“ von Kindern bei Begegnungen mit einem Hund?",
+    "answers": [
+      "Dem Hund direkt in die Augen starren.",
+      "Den direkten Blick zum Hund meiden.",
+      "Die Arme hochreißen, schreien oder wegrennen.",
+      "Dem Hund über den Kopf streicheln."
+    ],
+    "correctAnswers": [0, 2, 3],
+    "image": null
+  },
+  {
+    "id": 39,
+    "question": "Welche Punkte sind bei der Welpenerziehung wichtig?",
+    "answers": [
+      "Mit der Erziehung sollte man grundsätzlich nicht in Welpentagen, sondern frühestens mit einem halben Jahr anfangen.",
+      "Welpen können sich immer nur kurz konzentrieren.",
+      "Einen Welpen sollte man niemals bestrafen, denn sonst fördert man Ängste gegenüber Menschen und der Welpe büßt Vertrauen in den Menschen ein.",
+      "Durch frühzeitiges Training über positive Bestärkung fördert man die Bereitschaft zur Zusammenarbeit mit dem Menschen und erzielt besonders zuverlässige Ergebnisse."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 40,
+    "question": "Warum ist es wichtig, seinen Hund regelmäßig gegen Tollwut impfen zu lassen?",
+    "answers": [
+      "Die Tollwutimpfung ist gesetzlich vorgeschrieben.",
+      "Tollwut ist eine Infektionskrankheit, mit der sich auch Menschen infizieren können.",
+      "Eine Tollwutimpfung ist überflüssig. Tollwut kommt in Deutschland überhaupt nicht mehr vor.",
+      "Tollwutgeimpfte Hunde stehen gesetzlich besser da als ungeimpfte. Weiterhin ist sie für eine Einreise in viele Länder und Rückreise nach Deutschland vorgeschrieben."
+    ],
+    "correctAnswers": [1, 3],
+    "image": null
+  },
+  {
+    "id": 41,
+    "question": "Was bedeutet es, wenn ein Hund einem anderen den Kopf auf den Rücken legt?",
+    "answers": [
+      "Er ist unterwürfig.",
+      "Er macht eine Spielaufforderung.",
+      "Er ist müde.",
+      "Er zeigt eine Imponiergeste."
+    ],
+    "correctAnswers": [3],
+    "image": null
+  },
+  {
+    "id": 42,
+    "question": "Welche Haltungsform ist wenig artgerecht und damit tierschutzrechtlich bedenklich?",
+    "answers": [
+      "Die Haltung eines großen Hundes in einer kleinen Etagenwohnung, wenn man mit ihm täglich mehrere Stunden draußen unterwegs ist.",
+      "Einen Hund im Krankheitsfall aus Kostengründen nicht tierärztlich behandeln zu lassen.",
+      "Ein Einzeltier in der Wohnung oder im Zwinger mehr als acht Stunden täglich allein zu lassen.",
+      "Einen gesunden jungen Hund jeden Tag dreimal für jeweils 15 Minuten an einer kurzen Leine auszuführen."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 43,
+    "question": "Was ist beim Spielen von Kindern mit Hunden zu beachten?",
+    "answers": [
+      "Es muss eine erwachsene Aufsichtsperson dabei sein, um eingreifen zu können, falls es einem Kind oder dem Hund zu wild oder zu viel werden sollte.",
+      "Der Hund muss die Kinder als Chef ansehen, was man anhand von Unterordnungsübungen vorab testen kann.",
+      "Der Hund darf nicht dazu neigen, Spielzeug gegen Kinder zu verteidigen.",
+      "Wilde Rauf- und Rennspiele dürfen nicht gemacht werden."
+    ],
+    "correctAnswers": [0, 2, 3],
+    "image": null
+  },
+  {
+    "id": 44,
+    "question": "Was muss man bei Übungen mit einem Welpen beachten?",
+    "answers": [
+      "Man sollte liebevoll, aber konsequent mit ihm umgehen.",
+      "Man sollte ihm im positiven Sinn viele Reizsituationen und Sozialkontakte bieten, um ihn an alltägliche Situationen zu gewöhnen, ohne ihn dabei zu überfordern.",
+      "Auch bei einem Welpen muss man schon mit mäßigem Druck und Strenge arbeiten, damit er sich gar nicht erst unerwünschtes Verhalten angewöhnt.",
+      "Übungen sollten spielerisch aufgebaut werden, denn so lernt der Welpe in einer stressfreien Übungsatmosphäre."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 45,
+    "question": "Was muss in Bezug auf die eigenen Wohnverhältnisse abgeklärt werden, bevor man sich einen Hund anschafft?",
+    "answers": [
+      "Benötigt die Rasse, die man gerne haben möchte, besonders viel Platz oder fühlt sich besonders im Freien wohl?",
+      "Die Wohnverhältnisse sind nicht wichtig, weil sich jeder Hund an die Wohnverhältnisse seines Halters anpasst.",
+      "Ist in einer Mietwohnung die Haltung eines Hundes von Seiten des Vermieters wirklich sicher erlaubt?",
+      "Wie bellfreudig ist die Rasse, die man gerne haben möchte und könnte Bellen ein Problem mit den Nachbarn geben?"
+    ],
+    "correctAnswers": [0, 2, 3],
+    "image": null
+  },
+  {
+    "id": 46,
+    "question": "Welchen Ausdruck zeigt dieser Hund?",
+    "answers": [
+      "Der Hund ist neutral bis aufmerksam.",
+      "Der Hund ist erschöpft.",
+      "Der Hund droht unsicher.",
+      "Der Hund ist unterwürfig mit dem Ansatz einer beschwichtigenden Spielaufforderung."
+    ],
+    "correctAnswers": [3],
+    "image": "assets/images/sketches/46.png"
+  },
+  {
+    "id": 47,
+    "question": "Hat es Vorteile, mehr als einen Hund zu halten?",
+    "answers": [
+      "Ja, denn die Hunde haben dann immer einen Sozialpartner – besonders wenn man berufstätig und mehrere Stunden am Tag außer Haus ist.",
+      "Ja, denn die Hunde werden nicht fettleibig, weil sie den ganzen Tag miteinander spielen.",
+      "Ja, Hunde führen, wenn sie zu mehreren gehalten werden, ein artgerechteres Leben – vorausgesetzt sie verstehen sich untereinander gut.",
+      "Ja, der Hund, der als zweiter hinzukommt, lernt doppelt so schnell, denn er guckt sich alles Wesentliche von dem anderen Hund ab."
+    ],
+    "correctAnswers": [0, 2],
+    "image": null
+  },
+  {
+    "id": 48,
+    "question": "Es kommt relativ häufig vor, dass Hunde Kinder im Gesicht verletzen. Warum?",
+    "answers": [
+      "Das Gesicht des Kindes ist oft in Schnauzenhöhe.",
+      "Kinder umarmen Hunde gerne und geben ihnen Küsse. Einigen Hunden ist diese Nähe zu viel und sie versuchen sich durch Schnappen aus der Situation zu befreien.",
+      "Die Gesichtsverletzungen entstehen fast nie durch Bisse, sondern wenn die Kinder angesprungen werden und dabei hinfallen.",
+      "Hunde können in seltenen Fällen versehentlich das Gesicht eines Kindes verletzen, wenn sie über das „Lefzenlecken“ Beschwichtigung signalisieren wollen."
+    ],
+    "correctAnswers": [0, 1],
+    "image": null
+  },
+  {
+    "id": 49,
+    "question": "Wenn man einen Welpen kauft, sollte man",
+    "answers": [
+      "besonders in der ersten Phase viel Zeit haben, um sich bestmöglich um den Hund kümmern zu können. Dabei muss man auch einplanen, dass es einige Monate dauern kann, bis der junge Hund weit genug im Alleinseinstraining ist, um einige Stunden allein bleiben zu können.",
+      "den Züchter vorher „auf Herz und Nieren“ geprüft haben, um einen Hund mit guten charakterlichen und genetischen Anlagen zu bekommen.",
+      "unbedingt einen Garten haben, denn sonst ist es zu problematisch, den Hund stubenrein zu bekommen.",
+      "sicher sein, dass der Hund auch längerfristig zu dem Lebensstil und den Lebensumständen passt."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 50,
+    "question": "Darf man seinen Hund neben dem PKW herlaufen lassen?",
+    "answers": [
+      "Nur, wenn man es eilig hat.",
+      "Das ist laut Straßenverkehrsordnung verboten.",
+      "Wenn der Hund langsam daran gewöhnt wird, darf man es machen.",
+      "Nur auf Feldwegen darf man seinen Hund neben dem PKW herlaufen lassen."
+    ],
+    "correctAnswers": [1],
+    "image": null
+  },
+  {
+    "id": 51,
+    "question": "Was bedeutet es, wenn ein Hund einem anderen Hund oder einem Menschen in angespannter Körperhaltung mit dem Blick fixiert?",
+    "answers": [
+      "Es bedeutet, dass er den anderen gernhat.",
+      "Es ist ein harmloses Imponierverhalten.",
+      "Es ist ein offensives Drohverhalten.",
+      "Es ist ein positives Sozialverhalten."
+    ],
+    "correctAnswers": [2],
+    "image": null
+  },
+  {
+    "id": 52,
+    "question": "Gibt es Nachteile, wenn man mehr als einen Hund hält?",
+    "answers": [
+      "Man muss doppelt so oft spazieren gehen, wenn es zu Problemen kommt, die ein Spazierengehen gleichzeitig mit beiden Hunden nicht zulassen.",
+      "Man muss doppelt so viel Erziehungsarbeit leisten.",
+      "Man muss doppelte Kosten für Futter, Tierarzt/ärztin, Hundesteuer, Versicherung, Ausstattung usw. tragen.",
+      "Man hat zwar Nachteile, aber die Hunde gucken sich untereinander nur erwünschte Verhaltensweisen ab, sodass die Erziehung sehr einfach wird."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 53,
+    "question": "Welche Hunderasse ist besonders für Allergiker geeignet?",
+    "answers": [
+      "Labrador Retriever",
+      "Golden Retriever",
+      "Pudel",
+      "Dackel"
+    ],
+    "correctAnswers": [2],
+    "image": null
+  },
+  {
+    "id": 54,
+    "question": "Welche Dinge sprechen gegen den Erwerb eines Welpen dieser Herkunft?",
+    "answers": [
+      "Die Hündin verbellt jeden, der in die Nähe kommt oder die Welpen bellen oder verstecken sich bzw. trauen sich nicht richtig an die Besucher heran.",
+      "Die Hunde haben keine Ahnentafel.",
+      "Es ist nicht möglich, die Mutterhündin mit ihren Welpen zu sehen, sondern nur die Welpen ohne die Hündin.",
+      "Die Welpen rennen zu jedem hin."
+    ],
+    "correctAnswers": [0, 2],
+    "image": null
+  },
+  {
+    "id": 55,
+    "question": "Was ist zur Mitnahme von Hunden im Auto zu sagen? Kreuzen Sie die richtigen Aussagen an.",
+    "answers": [
+      "Der Hund sollte auf dem Beifahrersitz sitzen.",
+      "Der Hund muss immer im Kofferraum transportiert werden.",
+      "Der Hund muss im Auto gesichert transportiert werden.",
+      "Man kann den Hund z.B. in einer Transportbox, die auf dem Rücksitz oder im Kofferraum sicher befestigt ist, transportieren."
+    ],
+    "correctAnswers": [2, 3],
+    "image": null
+  },
+  {
+    "id": 56,
+    "question": "Welchen Ausdruck zeigt dieser Hund?",
+    "answers": [
+      "Der Hund ist ängstlich und unterwürfig.",
+      "Der Hund ist neutral bis aufmerksam.",
+      "Der Hund droht unsicher und ist erregt.",
+      "Der Hund droht sicher."
+    ],
+    "correctAnswers": [2],
+    "image": "assets/images/sketches/56.png"
+  },
+  {
+    "id": 57,
+    "question": "Woran erkennt man einen seriösen Züchter?",
+    "answers": [
+      "Er züchtet in aller Regel Hunde verschiedener Rassen oder hält und verkauft zumindest nicht nur eine Rasse. Er hält diese Tiere in einer gut gepflegten, sauberen Zwingeranlage und achtet darauf, dass die Tiere nicht durch Besucher gestört werden.",
+      "Er gibt gerne Auskunft und klärt die Interessenten auch über mögliche Nachteile der Rasse auf.",
+      "Er hat ständig einen Wurf Welpen, um die Nachfrage nach der Rasse zu decken.",
+      "Ein seriöser Züchter integriert die Welpen in seine Familie und bietet ihnen während der Aufzuchtphase zahlreiche Alltags- und Umweltreize."
+    ],
+    "correctAnswers": [1, 3],
+    "image": null
+  },
+  {
+    "id": 58,
+    "question": "Wie sollten sich Kinder verhalten, wenn sie einem fremden Hund begegnen?",
+    "answers": [
+      "Normal weitergehen, ohne den Hund anzusehen bzw. anzusprechen.",
+      "Den Halter fragen, ob sie sich dem Hund nähern dürfen, sofern sie das gerne machen möchten.",
+      "Zügig auf den Hund zugehen und ihn streicheln.",
+      "Vorsichtig auf den Hund zugehen und ihn ganz kurz von hinten auf den Rücken streicheln."
+    ],
+    "correctAnswers": [0, 1],
+    "image": null
+  },
+  {
+    "id": 59,
+    "question": "Was bedeutet es, wenn man seinen Hund bei unerwünschtem Verhalten blockiert?",
+    "answers": [
+      "Unter Blockieren wird häufig verstanden, dass man sich körpersprachlich mehr oder minder offensichtlich drohend vor den Hund stellt.",
+      "Empfindet der Hund es als bedrohlich, dass sein Halter ihn blockiert, fördert das Stress und Unsicherheit und damit auf Dauer aggressive oder andere unerwünschte Verhaltensweisen.",
+      "Blockieren oder Schubsen eines Hundes mit unerwünschten Verhaltensweisen bringt den Hund dazu, ruhiges und entspanntes Verhalten zu lernen.",
+      "Durch das Blockieren eines Hundes kann man effektiv unerwünschte Verhaltensweisen unterbinden, sodass der Hund verstehen kann, was er darf und was nicht."
+    ],
+    "correctAnswers": [0, 1],
+    "image": null
+  },
+  {
+    "id": 60,
+    "question": "Welche Rechtsgebiete können zum Beispiel für Hundehalter relevant sein?",
+    "answers": [
+      "Strafrecht, Zivilrecht, Ordnungswidrigkeitenrecht, Tierschutzrecht.",
+      "Landeshundegesetze und kommunale Bestimmungen.",
+      "Tierschutz-Hundeverordnung.",
+      "Keines, man kann sich notfalls damit herausreden, dass man den Gesetzestext nicht kennt."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 61,
+    "question": "Was für eine Bedeutung hat es, wenn sich ein Hund flach auf den Boden legt und einen entgegenkommenden Hund mit dem Blick fixiert?",
+    "answers": [
+      "Er möchte vermutlich einen „Angriff“ starten. Dieser Angriff kann spielerisch oder ernst ausgerichtet sein.",
+      "Manche Hunde starten aus der Position keinen Angriff, sondern schaffen es einfach aufzustehen, wenn der andere Hund angekommen ist und gehen in normalen Sozialkontakt über.",
+      "Es hat gar nichts mit dem anderen Hund zu tun, sondern ist ein Zeichen von starken Bauchschmerzen.",
+      "Der liegende Hund macht sich klein, weil er Angst hat."
+    ],
+    "correctAnswers": [0, 1],
+    "image": null
+  },
+  {
+    "id": 62,
+    "question": "Was fördert eine vertrauensvolle Beziehung zu einem Hund?",
+    "answers": [
+      "Der Hund muss im Haus immer auf seinem Platz liegen.",
+      "Der Hund muss auf Spaziergängen hinter einem gehen.",
+      "Der Hund kann sich darauf verlassen, dass sein Halter ihn nicht bedroht oder einschüchtert.",
+      "Der Hund erlebt schöne Dinge mit seinem Halter."
+    ],
+    "correctAnswers": [2, 3],
+    "image": null
+  },
+  {
+    "id": 63,
+    "question": "Wie lange dauert die sogenannte Sozialisationsphase beim Welpen?",
+    "answers": [
+      "Bis zum Abschluss der 8. Lebenswoche.",
+      "Bis zum Abschluss der 12. bis maximal 16. Lebenswoche.",
+      "Bis zur Geschlechtsreife.",
+      "Bis zu einem Jahr."
+    ],
+    "correctAnswers": [1],
+    "image": null
+  },
+  {
+    "id": 64,
+    "question": "Ist Anbindehaltung in Deutschland grundsätzlich erlaubt?",
+    "answers": [
+      "Es gibt diesbezüglich keine besonderen Bestimmungen.",
+      "Ja, wenn die Leine so lang ist, dass der Hund sich gut bewegen und bequem hinlegen kann, darf man ihn angebunden halten.",
+      "Ja, aber die Leine muss mindestens drei Meter lang sein.",
+      "Nein. Aber für Arbeitshunde gibt es bestimmte Ausnahmen. Dabei muss eine Betreuungsperson vorhanden sein, die Leine mindestens 3 Meter lang und gegen Aufdrehen gesichert sein und ein weiches breites Halsband oder Brustgeschirr verwendet werden."
+    ],
+    "correctAnswers": [3],
+    "image": null
+  },
+  {
+    "id": 65,
+    "question": "Welchen Ausdruck zeigt dieser Hund?",
+    "answers": [
+      "Der Hund ist ängstlich und unterwürfig.",
+      "Der Hund ist neutral bis aufmerksam.",
+      "Der Hund ist müde.",
+      "Der Hund droht unsicher und ist erregt."
+    ],
+    "correctAnswers": [1],
+    "image": "assets/images/sketches/65.png"
+  },
+  {
+    "id": 66,
+    "question": "Was fördert ein problemloses Zusammenleben mit einem Hund?",
+    "answers": [
+      "Training über positive Bestärkung.",
+      "Der Hund muss auf Spaziergängen immer hinter einem gehen.",
+      "Art-, rasse- und altersgerechte Beschäftigung und körperliche Betätigung.",
+      "Jedes unerwünschte Verhalten muss konsequent bestraft werden."
+    ],
+    "correctAnswers": [0, 2],
+    "image": null
+  },
+  {
+    "id": 67,
+    "question": "Welche Verhaltensweisen des Besitzers können bei seinem Hund aggressives Verhalten auslösen, wenn der Hund unsicher ist oder ein Schmerzproblem beim Hund vorliegt?",
+    "answers": [
+      "Er beugt sich über den Hund, um die Leine anzulegen.",
+      "Er schiebt den Hund zur Seite.",
+      "Er ignoriert den Hund, wenn dieser mit einem Ball ankommt und spielen möchte.",
+      "Er greift plötzlich nach dem Hund."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 68,
+    "question": "Warum sind gerade die ersten drei Monate im Leben eines Hundes so entscheidend?",
+    "answers": [
+      "Die Hunde sammeln in dieser Zeit Erfahrungen, die ihnen im späteren Leben als Vergleichsmaßstab dienen.",
+      "Die ersten drei Monate sind gar nicht so entscheidend. Alle wichtigen Erfahrungen kann ein Hund auch zu einem späteren Zeitpunkt im Leben machen.",
+      "In dieser Zeit entwickelt sich das Gehirn besonders schnell. Durch gute Aufzuchtbedingungen fördert man Umweltsicherheit und soziale Sicherheit und beugt damit der Entstehung von Problemverhaltensweisen vor.",
+      "Hunde binden sich in dieser Zeit unwiederbringlich an ihren Besitzer."
+    ],
+    "correctAnswers": [0, 2],
+    "image": null
+  },
+  {
+    "id": 69,
+    "question": "Ist es in Deutschland gestattet, einem Hund Rute oder Ohren zu kupieren?",
+    "answers": [
+      "Dies ist durch bestimmte Rassebestimmungen vorgeschrieben.",
+      "Nur innerhalb der ersten 16 Lebenswochen, weil die Hunde in dieser Zeit noch kein Schmerzempfinden haben.",
+      "Es ist verboten.",
+      "Für nachweislich jagdlich geführte Hunde kann es im Einzelfall Ausnahmen zum Kupieren der Rute geben."
+    ],
+    "correctAnswers": [2, 3],
+    "image": null
+  },
+  {
+    "id": 70,
+    "question": "Was können im Training Hinweise für Stress sein?",
+    "answers": [
+      "Hunde trainieren immer gerne, sodass sie dabei keinen negativen Stress haben können.",
+      "„Stures“ Verhalten. Der Hund reagiert nicht oder nur mühselig auf eigentlich bekannte Signale oder Trainingsversuche. Denn Stress behindert das Lernen und das Abrufen bekannter Lerninhalte.",
+      "Unruhiges bis hyperaktives Verhalten und Probleme mit der Konzentration.",
+      "Spontanes und freudiges Reagieren auf bereits gut gelernte Signale für Trainingsinhalte."
+    ],
+    "correctAnswers": [1, 2],
+    "image": null
+  },
+  {
+    "id": 71,
+    "question": "Mein Hund hat beim Tierarzt/ärztin auf dem Tisch sehr viel Angst und knurrt auch. Was sind sinnvolle Maßnahmen?",
+    "answers": [
+      "Ich bleibe selbst möglichst ruhig und entspannt.",
+      "Ich sollte mich über ein „Medical Training“ informieren, um schrittweise über positive Bestärkung die Angst meines Hundes zu reduzieren.",
+      "Das Knurren muss konsequent unterbunden werden, damit der Hund lernt, dass er sich nicht aggressiv verhalten darf.",
+      "Man sollte ihn einmal laut anschreien oder ein lautes Geräusch machen, damit er aufhört sich so aufzuführen."
+    ],
+    "correctAnswers": [0, 1],
+    "image": null
+  },
+  {
+    "id": 72,
+    "question": "Aus welchen Gründen kann ein Hund an der Leine ziehen?",
+    "answers": [
+      "Er ist dominant und will daher seinem Besitzer gegenüber durchsetzen, wo es lang geht.",
+      "Er hat nicht gelernt, an lockerer Leine zu gehen.",
+      "Es fällt ihm zu schwer so langsam zu gehen wie sein Halter oder ist zu abgelenkt, um sich auf artiges Gehen konzentrieren zu können.",
+      "Er empfindet Angst und Stress und versucht aus der Situation weg zu ziehen."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 73,
+    "question": "Ab wann sollte man mit einem Welpen eine Welpenspielgruppe besuchen?",
+    "answers": [
+      "So früh wie möglich. Welpen brauchen nicht nur sozialkompetente Althunde, sondern auch gleichaltrige Hunde zum Spielen, um ein möglichst gutes Sozialverhalten zu lernen. Ca. 3-4 Tage nach der Übernahme kann man mit einem gesunden Welpen eine Welpenspielgruppe besuchen.",
+      "Ab dem vierten Lebensmonat, sofern der Welpe alle notwendigen Impfungen bekommen hat. Vorher sollte man auf keinen Fall den Welpen an andere Hunde heranlassen, um jegliches Infektionsrisiko zu vermeiden. Denn angemessenes Sozialverhalten ist Hunden angeboren, sodass ein Meiden von Kontakten in dem Alter kein Problem ist.",
+      "Gar nicht, weil langes oder rauhes Welpenspiel den Gelenken schadet.",
+      "Wenn der Welpe mit mindestens einem anderen Hund täglichen Kontakt hat, gar nicht, weil dieser Kontakt dem Hund für eine optimale Entwicklung reicht."
+    ],
+    "correctAnswers": [0],
+    "image": null
+  },
+  {
+    "id": 74,
+    "question": "Ist die Kastration in Deutschland erlaubt?",
+    "answers": [
+      "Ja, aber nur aus medizinischen Gründen, zur Verhinderung der unkontrollierten Fortpflanzung oder wenn die Kastration zur weiteren Haltung notwendig ist.",
+      "Nein, die Kastration ist durch das Tierschutzgesetz grundsätzlich ohne jede Ausnahme verboten.",
+      "Ja, aber nur wenn im Einzelfall die Vor- und Nachteile sorgfältig abgewogen werden und die Kastration zugunsten des Wohlbefindens des Hundes vorgenommen wird.",
+      "Ja, aber erst ab einem Alter von einem Jahr und nur aus medizinischen Gründen."
+    ],
+    "correctAnswers": [0, 2],
+    "image": null
+  },
+  {
+    "id": 75,
+    "question": "Welchen Ausdruck zeigt dieser Hund?",
+    "answers": [
+      "Der Hund ist ängstlich und unterwürfig.",
+      "Der Hund möchte am Bauch gestreichelt werden.",
+      "Der Hund ist müde.",
+      "Der Hund ist aggressiv."
+    ],
+    "correctAnswers": [0],
+    "image": "assets/images/sketches/75.png"
+  },
+  {
+    "id": 76,
+    "question": "Warum kann ein junger oder ängstlicher Hund in Begrüßungssituationen Urin absetzen?",
+    "answers": [
+      "Es handelt sich dabei in der Regel um mangelhafte Stubenreinheit.",
+      "Es handelt sich dabei in der Regel um ein sogenanntes Unterwürfigkeitsharnen, womit der Hund seine Unterlegenheit unterstreicht. Ein solches Verhalten wirkt auf einen anderen Hund beschwichtigend.",
+      "Es handelt sich dabei in der Regel um eine Provokation, womit der Hund testen will, ob er damit durchkommt.",
+      "Es handelt sich dabei in der Regel um ein körperliches Problem der Blasenkontrolle."
+    ],
+    "correctAnswers": [1],
+    "image": null
+  },
+  {
+    "id": 77,
+    "question": "Was ist zu tun, wenn ein Hund, der immer lieb und friedlich war, ganz plötzlich aggressives Verhalten zeigt?",
+    "answers": [
+      "Der Hund sollte schnellstens dem/der Tierarzt/ärztin vorgestellt werden, denn er könnte Schmerzen oder eine Erkrankung haben, die ihn belastet.",
+      "Man sollte ihn sofort eindrücklich bestrafen, denn so etwas darf man nicht durchgehen lassen.",
+      "Gar nichts. Aggressives Verhalten ist ein normales Hundeverhalten.",
+      "Man sollte lediglich die Fütterung umstellen und mehr Kohlenhydrate füttern."
+    ],
+    "correctAnswers": [0],
+    "image": null
+  },
+  {
+    "id": 78,
+    "question": "Können Hunde unsere Sprache verstehen?",
+    "answers": [
+      "Hunde haben kein Sprachverständnis.",
+      "Hunde verstehen sehr wohl, was man ihnen sprachlich erklärt, vor allem wenn sie etwas falsch gemacht haben.",
+      "Hunde können keine Sprache verstehen, aber sie können in der Sprache einzelne Wörter als Klangfolge wiedererkennen, deren Bedeutung sie gelernt haben.",
+      "Hunde können Sprache sehr gut verstehen."
+    ],
+    "correctAnswers": [2],
+    "image": null
+  },
+  {
+    "id": 79,
+    "question": "Was geschieht im Falle eines Unfalls, wenn ein Hund ungesichert im Auto transportiert wird?",
+    "answers": [
+      "Er kann aus dem Fahrzeug geschleudert werden und weglaufen.",
+      "Eigentlich kann nichts Schlimmes passieren, da die Hunde ja zumeist im Auto liegen.",
+      "Der Hund kann bei einem Autounfall ein erhebliches Verletzungsrisiko für Insassen darstellen und auch selbst schwer verletzt werden.",
+      "Dem Fahrer kann unabhängig vom Unfallhergang eine Teilschuld zugesprochen werden."
+    ],
+    "correctAnswers": [0, 2, 3],
+    "image": null
+  },
+  {
+    "id": 80,
+    "question": "Woran erkennen Sie, dass Hunde miteinander spielen?",
+    "answers": [
+      "Sie zeigen gelegentlich eine Spielaufforderung.",
+      "Im Spiel sind alle Spielpartner ausgelassen und fröhlich und in der Regel wechseln die Positionen.",
+      "Im Spiel wird ein Hund in die Ecke getrieben oder umgeworfen. Der „Unterlegene“ quiekt hierbei laut auf, schnappt um sich und hat die Rute eingeklemmt.",
+      "Alles ist Spiel, wenn keine offenen Wunden entstehen."
+    ],
+    "correctAnswers": [0, 1],
+    "image": null
+  },
+  {
+    "id": 81,
+    "question": "Führt eine Kastration des Rüden immer zur Verminderung der Aggression gegenüber anderen Rüden?",
+    "answers": [
+      "Uneingeschränkt ja.",
+      "Grundsätzlich nein.",
+      "Nicht immer. Durch eine Kastration wirkt ein Rüde nicht mehr als Konkurrent auf andere Rüden und löst dadurch weniger aggressives Verhalten anderer Rüden aus. Zusätzlich kann ihm selbst das Streiten weniger wichtig werden. Es beeinflusst aber nicht sein erlerntes Sozialverhalten.",
+      "Nur wenn männliche Hormone die Ursache für das aggressive Verhalten sind."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 82,
+    "question": "Ist es ein Zeichen von Aggression, wenn ein Hund auf dem Spaziergang zu einer fremden Person hinrennt und diese unvermittelt anspringt?",
+    "answers": [
+      "Nicht unbedingt, aber es ist ein Verhalten, das man über Training beeinflussen sollte, da es Leute gibt, die Angst vor Hunden haben, körperlich einem Hund nicht gewachsen sind oder es wegen ihrer Kleidung oder einfach grundsätzlich nicht mögen.",
+      "Ja, Anspringen ist ein aggressives Verhalten.",
+      "Nein, das Anspringen ist immer als Spielaufforderung zu verstehen.",
+      "Nein, es ist grundsätzlich ein Zeichen großer Zuneigung."
+    ],
+    "correctAnswers": [0],
+    "image": null
+  },
+  {
+    "id": 83,
+    "question": "Gibt es gesetzliche Vorschriften für die Zwingerhaltung von Hunden?",
+    "answers": [
+      "Nein, jeder Hundehalter kann entscheiden, wie er seinen Hund halten möchte.",
+      "Ja, es gibt eine Tierschutz-Hundeverordnung.",
+      "Ja, sie besagen, dass nur Hunde, die größer als 40 cm Schulterhöhe sind, in Zwingeranlagen gehalten werden dürfen.",
+      "Ja, es müssen Anforderungen aus der Tierschutz-Hundeverordnung erfüllt werden. Dazu gehören die Größe und die Ausstattung des Zwingers, die Häufigkeit und Dauer des täglichen Auslaufs und der Sozialkontakte mit Menschen und Hunden."
+    ],
+    "correctAnswers": [1, 3],
+    "image": null
+  },
+  {
+    "id": 84,
+    "question": "Was ist ein Kopfhalfter für Hunde und was muss man bei der Verwendung berücksichtigen?",
+    "answers": [
+      "Ein Kopfhalfter ist ein spezieller Maulkorb, der dauerhaft das Maul des Hundes zusammenzieht, sodass er es nicht mehr aufmachen und beißen kann.",
+      "Ein Kopfhalfter ähnelt einem Pferdehalfter, aber um die Schnauze ist eine flexible Schlaufe mit einem Ring für die Leine am unteren Ende. Es wird am sichersten mit einer Doppelleine verwendet. Der kleinere Haken der Leine wird am Kopfhalfter befestigt, der größere Haken am Halsband oder Brustgeschirr. Der Hund kann über das Kopfhalfter schmerzfrei gelenkt werden.",
+      "An ein Kopfhalfter muss ein Hund schrittweise gewöhnt werden. Der/die Halter/in sollte mit professioneller Anleitung das sichere Führen des Hundes an einem Kopfhalfter erlernen.",
+      "Mit einem Kopfhalfter muss ein Hund hecheln können. Es darf sich nicht schmerzhaft zusammenziehen und nicht in die Augen rutschen. Man muss auf eine sanfte Führung achten, um die Halswirbelsäule nicht zu belasten."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 85,
+    "question": "In welcher der genannten Situationen können Hunde aggressiv reagieren?",
+    "answers": [
+      "Wenn sie von einer fremden Person plötzlich angefasst werden und nicht ausweichen können.",
+      "Wenn man sie beim Fressen stört.",
+      "Beim Tierarzt/ärztin bei schmerzhaften Manipulationen oder aus Angst.",
+      "Wenn man vermeidet, einem fremden Hund direkt in die Augen zu schauen."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 86,
+    "question": "Welche der aufgezählten Gesten können Hunde zur Beschwichtigung einsetzen?",
+    "answers": [
+      "Sich-über-die-Nase-Lecken.",
+      "Pföteln.",
+      "Kopf abwenden.",
+      "Einen starren Blick nach vorne."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 87,
+    "question": "Welche Vorteile bietet die Verwendung eines Kopfhalfters zusätzlich zum Halsband oder Brustgeschirr?",
+    "answers": [
+      "Man kann mit Hilfe des Kopfhalfters den Kopf des Hundes sanft lenken und kontrollieren.",
+      "Es bietet keine Vorteile. Im Gegenteil, die Verletzungsgefahr von Nase und Halswirbelsäule ist erheblich.",
+      "Das Kräfteverhältnis zwischen Mensch und Hund wird zugunsten des Menschen verschoben.",
+      "Keine, es hat den Nachteil, dass der zur Erziehung des Hundes notwendige Leinenruck nicht mehr ausgeführt werden kann."
+    ],
+    "correctAnswers": [0, 2],
+    "image": null
+  },
+  {
+    "id": 88,
+    "question": "Was sind Anzeichen von Angst und Stress?",
+    "answers": [
+      "Der Hund macht sich klein und versucht zu fliehen.",
+      "Er hechelt und hat dabei den Schwanz eingeklemmt und die Ohren nach hinten gelegt.",
+      "Er ist unruhig, gähnt und leckt sich häufig über die Nase.",
+      "Er zeigt ein breites Wedeln mit dem Schwanz auf Höhe der Rückenlinie."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 89,
+    "question": "Wie erkennt ein Hund eine souveräne Führung seines Halters?",
+    "answers": [
+      "Man dreht den Hund bei unerwünschtem Verhalten auf den Rücken, um ihm zu zeigen, dass man überlegen ist.",
+      "Vertrauensvolles Training über positive Bestärkung.",
+      "Verzicht auf Strafen als übliche Maßnahmen zur Erziehung.",
+      "Man geht auf jeglichen Wunsch nach Aufmerksamkeit seines Hundes ein."
+    ],
+    "correctAnswers": [1, 2],
+    "image": null
+  },
+  {
+    "id": 90,
+    "question": "Birgt der Einsatz von Sprühflaschen oder Rappeldosen bestimmte Gefahren?",
+    "answers": [
+      "Der Hund kann Angst vor ähnlichen Geräuschen und Situationen bekommen.",
+      "Es ist eine einfache Möglichkeit unerwünschtes Verhalten zu unterbrechen.",
+      "Durch Schreck wird Stress erzeugt.",
+      "Es kommt in vielen Fällen zu unbeabsichtigten Verknüpfungen und Verhaltensprobleme können gefördert werden."
+    ],
+    "correctAnswers": [0, 2, 3],
+    "image": null
+  },
+  {
+    "id": 91,
+    "question": "Wie vermittelt man seinem Hund, dass man eine Führungspersönlichkeit für ihn ist?",
+    "answers": [
+      "Man nimmt dem Hund regelmäßig einen Kauknochen oder das Futter weg.",
+      "Man unterwirft den Hund, indem man ihn auf den Rücken dreht oder auf den Boden drückt, wenn er ein unerwünschtes Verhalten zeigt.",
+      "Man ignoriert aufdringliches und forderndes Verhalten des Hundes.",
+      "Man reagiert dem Hund gegenüber immer entspannt und souverän und fördert über positive Bestärkung erwünschte Verhaltensweisen."
+    ],
+    "correctAnswers": [2, 3],
+    "image": null
+  },
+  {
+    "id": 92,
+    "question": "Was ist zu tun, wenn ein Hund Angstprobleme hat?",
+    "answers": [
+      "Man sucht die Situation, bei der der Hund sehr viel Angst hat, immer wieder auf, damit der Hund sich gewöhnen kann.",
+      "Man meidet die angstauslösenden Situationen soweit möglich und sucht einen Tierarzt/-ärztin auf, der/die auf Verhaltenstherapie spezialisiert ist.",
+      "Angstprobleme können ein erhebliches Leiden darstellen und müssen behandelt werden.",
+      "Solange das Angstproblem des Hundes im eigenen Alltag nicht stört, braucht man nichts zu unternehmen."
+    ],
+    "correctAnswers": [1, 2],
+    "image": null
+  },
+  {
+    "id": 93,
+    "question": "Was sind mögliche Ursachen, wenn ein Hund sich bei einer Begegnung mit einem anderen direkt aggressiv verhält?",
+    "answers": [
+      "Der Hund will mit seinem aggressiven Verhalten den anderen Hund unterordnen und so seine Ranghöhe klarstellen.",
+      "Der Hund ist unsicher im Sozialverhalten mit anderen Hunden.",
+      "Der andere Hund hat gedroht, ohne dass es von den Menschen wahrgenommen wurde.",
+      "Der Hund hat bereits erlebt, dass sein Halter bei Hundebegegnungen böse auf ihn werden kann und verhält sich daher aggressiv."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 94,
+    "question": "Sollte man, wenn man einen Hund übernimmt, mit dem Hund zum/r Tierarzt/ärztin gehen, auch wenn der Hund einen gesunden Eindruck macht?",
+    "answers": [
+      "Ja, damit der/die Tierarzt/ärztin anhand des Impfpasses überprüfen kann, ob der Hund ausreichend geimpft ist.",
+      "Ja, damit sich der Hund an den/die Tierarzt/ärztin und die Abläufe in der Praxis gewöhnt.",
+      "Nein, so etwas ist nicht notwendig und wäre eine übermäßige Belastung für den Hund.",
+      "Ja, damit der/die Tierarzt/ärztin den Hund möglichst auch einmal gesund kennen lernen kann. Er/Sie kann dann krankheitsbedingte Veränderungen besser einordnen."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 95,
+    "question": "Welche Impfungen sind für Hunde in Deutschland gesetzlich vorgeschrieben?",
+    "answers": [
+      "Tollwutimpfung",
+      "Staupeimpfung",
+      "Parvoviroseimpfung",
+      "Keine Impfung ist gesetzlich vorgeschrieben, es sei denn, das Tier wird ins Ausland verbracht."
+    ],
+    "correctAnswers": [0, 3],
+    "image": null
+  },
+  {
+    "id": 96,
+    "question": "Was zeigt eine gute Bindung zwischen Mensch und Hund an?",
+    "answers": [
+      "Der Hund verhält sich gegenüber seinem Menschen entspannt und unbefangen.",
+      "Der Hund hat Spaß an Übungen, die „sein“ Mensch von ihm verlangt.",
+      "Wenn die Bezugspersonen häufig wechseln, lernt der Hund eine grundsätzlich gute Bindung gegenüber allen Menschen.",
+      "Bei einer guten Bindung zeigt ein Hund niemals Verhaltensprobleme."
+    ],
+    "correctAnswers": [0, 1],
+    "image": null
+  },
+  {
+    "id": 97,
+    "question": "Gibt es Dinge, die man prophylaktisch tun kann, damit der Hund gesund bleibt?",
+    "answers": [
+      "Ja. Der Hund sollte z.B. regelmäßig geimpft und entwurmt werden.",
+      "Ja, man sollte den ganzen Körper z.B. beim Streicheln täglich genau anschauen, um Veränderungen oder Parasitenbefall sofort zu erkennen.",
+      "Ja, man sollte den Hund regelmäßig bei dem/der Tierarzt /ärztin vorstellen, um Erkrankungen frühzeitig erkennen zu können.",
+      "Ja, einmal wöchentlich sollte man den Hund baden."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 98,
+    "question": "Zwischen zwei Hunden entwickelt sich eine Rauferei. Wie sollte man reagieren?",
+    "answers": [
+      "Man sollte die raufenden Hunde so lange möglichst laut anschreien, bis sie aufhören sich zu raufen.",
+      "Man sollte sich möglichst gar nicht einmischen, sofern die Kräfteverhältnisse nicht zu extrem unterschiedlich sind. Beide Besitzer sollten sich kommentarlos und zügig in entgegengesetzter Richtung von den Hunden entfernen.",
+      "Wenn nur zwei Hunde in die Rauferei verwickelt sind, sollte man die Hunde trennen, indem man am Schwanz oder an den Hinterbeinen zieht, und zwar gleichzeitig bei beiden Hunden.",
+      "Man sollte den Hund, der angegriffen worden ist, hinterher trösten und den anderen streng zurechtweisen und bestrafen."
+    ],
+    "correctAnswers": [1],
+    "image": null
+  },
+  {
+    "id": 99,
+    "question": "Welche Behandlungen können das Vertrauensverhältnis zwischen Hund und Halter schwächen?",
+    "answers": [
+      "Der Einsatz von Strafen.",
+      "Ein Maßregeln des Hundes, wenn er in einer Situation unerwünschtes Verhalten zeigt.",
+      "Viel Beschäftigung mit dem Hund.",
+      "Den Hund häufig in Situationen zwingen, die er schrecklich findet, wie z. B. unangenehmes oder gar schmerzhaftes Bürsten."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 100,
+    "question": "Welche Hilfsmittel können bei Problemen mit der Leinenführigkeit hilfreich sein?",
+    "answers": [
+      "unbegrenzte Zughalsbänder.",
+      "Kopfhalfter ohne einschnürende Zugwirkung.",
+      "Brustgeschirre, bei denen man die Leine vorne an der Brust des Hundes einhakt (sog. Hareness-Geschirre). Dies ist nur sinnvoll bei Hunden, die daran nicht so sehr ziehen, dass das Geschirr ständig stark das Vorderbein nach vorne drückt.",
+      "Halsband mit einer Leine, an der man gut rucken kann."
+    ],
+    "correctAnswers": [1, 2],
+    "image": null
+  },
+  {
+    "id": 101,
+    "question": "Wie viel Bewegung braucht ein Hund?",
+    "answers": [
+      "Das ist abhängig von der Größe, dem Alter und dem Gesundheitszustand.",
+      "Hunde brauchen nicht viel Bewegung. Es sind Tiere, die Gemütlichkeit lieben.",
+      "Zu viel Bewegung schadet den Gelenken. Daher sollten Welpen und Junghunde nur 5 Minuten pro Lebensmonat Auslauf bekommen.",
+      "Das ist abhängig von der Art und der Menge der Fütterung. Ein Hund, der viel Fleisch bekommt, braucht mehr Bewegung."
+    ],
+    "correctAnswers": [0],
+    "image": null
+  },
+  {
+    "id": 102,
+    "question": "Welche der folgenden Maßnahmen ist KEIN geeignetes Mittel zur Parasitenbekämpfung beim Hund?",
+    "answers": [
+      "Regelmäßiges Entwurmen.",
+      "Flohhalsband.",
+      "Kokosöl auf das Fell reiben.",
+      "Spot-on-Präparate vom Tierarzt."
+    ],
+    "correctAnswers": [2],
+    "image": null
+  },
+  {
+    "id": 103,
+    "question": "Ist es wichtig mit einem Hund über positive Bestärkung zu üben, dass er sich überall anfassen lässt?",
+    "answers": [
+      "Es fördert das gegenseitige Vertrauen.",
+      "Es erleichtert Pflegemaßnahmen.",
+      "Körperkontakte stärken die Bindung.",
+      "Ein Hund, der gut untergeordnet ist, lässt sich überall problemlos anfassen, ohne dass man es extra üben muss."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 104,
+    "question": "Welche Impfungen sind für Hunde in Deutschland empfohlen, aber nicht gesetzlich vorgeschrieben?",
+    "answers": [
+      "Leptospirose.",
+      "Staupe.",
+      "Parvovirose.",
+      "Borreliose."
+    ],
+    "correctAnswers": [0, 1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 105,
+    "question": "In welchem Bereich liegt die normale Körpertemperatur des Hundes?",
+    "answers": [
+      "Im After gemessen ca. 38 °C.",
+      "Im After gemessen ca. 36 °C.",
+      "Solange die Nase kühl und feucht ist, hat der Hund kein Fieber. Fiebermessen ist dann nicht notwendig.",
+      "Ab einer Temperatur von 39,3 °C hat ein erwachsener Hund Fieber."
+    ],
+    "correctAnswers": [0, 3],
+    "image": null
+  },
+  {
+    "id": 106,
+    "question": "Was kann ein Grund für Juckreiz beim Hund sein?",
+    "answers": [
+      "Milbenbefall.",
+      "Falsches Futter.",
+      "Übermäßige Bewegung.",
+      "Zuviel Streicheleinheiten."
+    ],
+    "correctAnswers": [0, 1],
+    "image": null
+  },
+  {
+    "id": 107,
+    "question": "Was sind sinnvolle Maßnahmen, um den Umgang von Kindern und Hunden sicherer zu gestalten?",
+    "answers": [
+      "Man muss den Hund beobachten, ob er beim Umgang mit den Kindern wirklich entspannt und zufrieden ist und ihn im Zweifelsfall „retten“.",
+      "Wenn ein Hund einen Maulkorb aufhat, kann man ihn immer zwischen Kindern laufen lassen. Denn dann ist sichergestellt, dass der Hund die Kinder nicht verletzten kann.",
+      "Hunde, die unsicher oder ängstlich im Umgang mit Kindern sind, sollten an der Leine gehalten werden. Dabei muss Sorge dafür getragen werden, dass genügend Abstand zu den Kindern eingehalten werden kann, damit der Hund sich wohl fühlen kann. Bei Hunden mit Problemen mit Kindern kann die Gewöhnung an einen Maulkorb eine sinnvolle zusätzliche Sicherungsmaßnahme sein.",
+      "Solange nicht wirklich klar ist, wie gut ein Hund mit Kindern einer bestimmten Altersklasse zurechtkommt, muss der Halter immer dichter am Hund als das Kind sein, um im Notfall dazwischen zu stehen. Dabei geht es sowohl darum, dass sich der Hund in nicht freundlicher Absicht dem jeweiligen Kind nähern könnte, als auch darum, dass sich das Kind unabsichtlich bedrohlich dem Hund nähern könnte."
+    ],
+    "correctAnswers": [0, 2, 3],
+    "image": null
+  },
+  {
+    "id": 108,
+    "question": "Welche der folgenden Maßnahmen ist am wenigsten geeignet, einen Hund vor Zecken zu schützen?",
+    "answers": [
+      "Spot-on-Präparate vom Tierarzt.",
+      "Zeckenhalsband.",
+      "Kokosöl auf das Fell reiben.",
+      "Zecken nach jedem Spaziergang absuchen und entfernen."
+    ],
+    "correctAnswers": [2],
+    "image": null
+  },
+  {
+    "id": 109,
+    "question": "Kann es Probleme geben, wenn zwei angeleinte Hunde miteinander Kontakt aufnehmen?",
+    "answers": [
+      "Ja, denn Hunde fühlen sich an der Leine grundsätzlich stärker und es kommt daher häufiger zu einer Rauferei.",
+      "Ja. Wenn die Hunde umeinander herumlaufen, können sich die Leinen verheddern. Die Gefahr einer Rauferei ist dann sehr groß, da keiner der Hunde ein normales Sozialverhalten zeigen kann. Bei verhedderten Leinen ist es schwerer, eine Rauferei zu beenden.",
+      "Ja, da Hunde an der Leine schlechter ausweichen können, können sie unsicherer sein und schneller aggressiv reagieren.",
+      "Ja, es gibt Hunde, die an der Leine schneller aggressiv reagieren. Daher sollte man vorab klären, ob ein Kontakt der Hunde erwünscht ist und besonders umsichtig mit der Leine umgehen, sodass die Hunde möglichst nicht behindert werden."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 110,
+    "question": "Ist es eine Frage des Alters eines Kindes, ob das Zusammenleben mit einem Hund reibungslos funktioniert?",
+    "answers": [
+      "Es ist eine Frage der Sozialisation, ob ein Hund mit Kindern einer bestimmten Altersklasse gut zurechtkommt oder nicht.",
+      "Es hat mit dem Alter des Kindes nichts zu tun. Ein Hund erkennt die Kinder der eigenen Familie immer als zugehörig und ist ihnen wohlgesonnen.",
+      "Je kleiner die Kinder, desto wahrscheinlicher ist es, dass sie sich nicht rücksichtsvoll dem Hund gegenüber verhalten.",
+      "Es gibt Hunde, denen wildes Toben im Haus zu viel werden kann. Daher kann es bei älteren oder ruhigen Kindern in solchen Fällen reibungsloser funktionieren."
+    ],
+    "correctAnswers": [0, 2, 3],
+    "image": null
+  },
+  {
+    "id": 111,
+    "question": "Wie kann man Zecken nach einem Spaziergang am besten entfernen?",
+    "answers": [
+      "Mit den Fingernägeln herausziehen.",
+      "Mit einer speziellen Zeckenzange oder Zeckenkarte entfernen.",
+      "Mit Öl oder Klebstoff beträufeln und warten, bis die Zecke loslässt.",
+      "Mit einer Schere herausschneiden."
+    ],
+    "correctAnswers": [1],
+    "image": null
+  },
+  {
+    "id": 112,
+    "question": "Was ist bei der Sozialisierung eines Hundes auf Kinder zu beachten?",
+    "answers": [
+      "Der Hund sollte besonders im Welpenalter rigoros vor Kindern abgeschirmt werden, denn Kinder wollen Hunde nur ärgern oder bedrängen.",
+      "Man muss nur darauf achten, dass ein Hund freien Kontakt mit Kindern hat, bei denen er alles, was die Kinder mit ihm machen, ohne offensichtliche Gegenwehr erträgt.",
+      "Der Hund braucht nur den Kontakt zu einem Kind, um ausreichend auf Kinder sozialisiert zu werden.",
+      "Der Hund sollte im Welpenalter genügend Kontakte zu Kindern aller Altersstufen haben, die er wirklich als positiv erlebt."
+    ],
+    "correctAnswers": [3],
+    "image": null
+  },
+  {
+    "id": 113,
+    "question": "Bei einer Kastration werden/wird",
+    "answers": [
+      "beim männlichen Tier die Hoden entfernt, weibliche Tiere werden sterilisiert.",
+      "die Hoden bzw. die Eierstöcke und ggf. die Gebärmutter entfernt.",
+      "die Eileiter bzw. Samenleiter durchtrennt.",
+      "die Zeugungsfähigkeit unwiederbringlich unterbunden."
+    ],
+    "correctAnswers": [1, 3],
+    "image": null
+  },
+  {
+    "id": 114,
+    "question": "Was hat es zu bedeuten, wenn ein Hund seinen Knochen oder Spielzeug nicht abgeben will?",
+    "answers": [
+      "Es handelt sich um einen Hund, dem die Ressource Knochen oder Spielzeug besonders wichtig ist, sodass er über positive Bestärkung lernen muss, Dinge gerne abzugeben.",
+      "Ein Hund verteidigt nur seinen Knochen oder Spielzeug gegen Menschen, die er nicht als Rudelführer anerkennt.",
+      "Hunde, die Spielzeug oder Knochen gegen Menschen verteidigen, wollen damit beweisen, dass sie dem Menschen übergeordnet sind.",
+      "Es kann sich um einen Hund handeln, der bereits dafür bestraft wurde, wenn er etwas nicht hergeben wollte. Dies führt oft dazu, dass ein Hund sich aus Angst vor Strafen dazu genötigt sieht, noch aggressiver zu reagieren."
+    ],
+    "correctAnswers": [0, 3],
+    "image": null
+  },
+  {
+    "id": 115,
+    "question": "Geben Sie die Dauer der Trächtigkeit einer Hündin an.",
+    "answers": [
+      "3 Monate.",
+      "Je nach Rasse zwischen vier Wochen und zwei Monaten.",
+      "9 Monate.",
+      "57 – 63 Tage."
+    ],
+    "correctAnswers": [3],
+    "image": null
+  },
+  {
+    "id": 116,
+    "question": "Welche Erkrankung wird bei Hunden durch Zecken übertragen?",
+    "answers": [
+      "Borreliose",
+      "Babesiose",
+      "Katzenschnupfen",
+      "Staupe"
+    ],
+    "correctAnswers": [0, 1],
+    "image": null
+  },
+  {
+    "id": 117,
+    "question": "Welche Maßnahmen sind sinnvoll, um Verhaltensproblemen bei einem Hund vorzubeugen?",
+    "answers": [
+      "Striktes Bestrafen unerwünschter Verhaltensweisen.",
+      "Souveräner und verständnisvoller Umgang.",
+      "Ignorieren ständiger Aufmerksamkeit fordernder Verhaltensweisen des Hundes.",
+      "Training über positive Bestärkung."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 118,
+    "question": "Kann eine Hündin bei der ersten Läufigkeit schon erfolgreich gedeckt werden?",
+    "answers": [
+      "Ja.",
+      "Nein."
+    ],
+    "correctAnswers": [0],
+    "image": null
+  },
+  {
+    "id": 119,
+    "question": "Wie verhalten Sie sich, wenn Ihr Hund frei läuft und Ihnen eine Person mit angeleintem Hund entgegenkommt?",
+    "answers": [
+      "Ich lasse meinen Hund immer zu dem anderen Hund laufen, denn meiner beißt nicht und Sozialkontakte mit Artgenossen sind wichtig für sein Wohlbefinden.",
+      "Ich rufe meinen Hund zu mir und leine ihn auch an. Ich lasse ihn erst wieder frei, wenn ich sicher weiß, dass er nicht zu dem anderen Hund laufen wird.",
+      "Ich leine meinen Hund ebenfalls an. Dann kann ich aus ausreichendem Abstand den Besitzer des anderen Hundes fragen, ob mein Hund seinen Hund begrüßen darf. Falls ja, kann ich meinen Hund wieder ableinen, sofern damit zu rechnen ist, dass sich die Hunde verstehen werden.",
+      "Ich rufe meinen Hund und leine ihn an. Ich stelle mich mit meinem Hund so hin oder gehe mit so viel Abstand weiter, dass der andere Hundebesitzer ausreichend Abstand halten kann, wenn er mit seinem Hund vorbeigeht. Während dieser Begegnung achte ich darauf, dass mein Hund den anderen Hund nicht belästigt oder provoziert."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 120,
+    "question": "Ist eine Haftpflichtversicherung für den Hund sinnvoll?",
+    "answers": [
+      "Ja, denn jeder Hund kann einen Schaden verursachen, für den sein Halter dann haftet. Dies können z. B. bei Autounfällen, die zu dauerhaften Schäden von Personen führen, erhebliche Summen sein.",
+      "In NRW ist eine Haftpflichtversicherung für Hunde ab 20 kg oder 40 cm Schulterhöhe vorgeschrieben.",
+      "Ohne Haftpflichtversicherung darf der Hund gemäß den gesetzlichen Vorschriften in NRW nie frei laufen.",
+      "Es ist nicht sinnvoll, sondern eine unnötige Geldausgabe. Die Wahrscheinlichkeit, dass ein Hund einen Schaden verursacht, ist zu gering."
+    ],
+    "correctAnswers": [0, 1],
+    "image": null
+  },
+  {
+    "id": 121,
+    "question": "Nennen Sie typische Signale, an denen man ängstlich-unterwürfiges Verhalten erkennen kann.",
+    "answers": [
+      "Blickkontakt halten.",
+      "Sich klein machen und ducken.",
+      "Den Schwanz einziehen und die Ohren anlegen.",
+      "Harnen bei geduckter Haltung oder auf dem Rücken liegend."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 122,
+    "question": "Wie sollte man sich als Halter eines unkastrierten Rüden verhalten, wenn einem auf dem Hundespaziergang eine läufige Hündin begegnet?",
+    "answers": [
+      "Man darf seinen Rüden ganz normal laufen lassen, weil die Hündin an der Leine geführt werden muss.",
+      "Man sollte seinen Rüden heranrufen und anleinen. Erst wenn man sicher weiß, dass er der Hündin nicht hinterherlaufen wird, kann man ihn wieder ableinen.",
+      "Man sollte den Besitzer der Hündin darüber aufklären, dass er in öffentlichen Gebieten nicht mit einer läufigen Hündin laufen darf.",
+      "Wenn die Hündin nicht gerade die „Steh-Tage“ hat, kann man den Rüden ohne aufzupassen mit der Hündin spielen lassen."
+    ],
+    "correctAnswers": [1],
+    "image": null
+  },
+  {
+    "id": 123,
+    "question": "Was hat es zu bedeuten, wenn ein Hund an der Leine zieht?",
+    "answers": [
+      "Er erkennt seinen Besitzer nicht als Rudelführer an.",
+      "Er ist bewegungsfreudig und schafft es nicht, so langsam zu laufen wie der Mensch.",
+      "Er versteht nicht, was sein Besitzer von ihm möchte.",
+      "Er hat noch nicht oder noch nicht in allen Situationen und Stimmungen gelernt, an lockerer Leine zu laufen."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 124,
+    "question": "Wann werden die meisten Hündinnen das erste Mal läufig?",
+    "answers": [
+      "Wenn sie ausgewachsen sind.",
+      "Zwischen 6 und 12 Monaten.",
+      "Frühestens mit 18 Monaten.",
+      "Wenn man sie von Junghundefutter auf Erwachsenennahrung umstellt."
+    ],
+    "correctAnswers": [1],
+    "image": null
+  },
+  {
+    "id": 125,
+    "question": "Was sind sinnvolle Maßnahmen bei einem hyperaktiven Hund?",
+    "answers": [
+      "Man überprüft das Ausmaß an Beschäftigung, das man seinem Hund täglich bietet, ob es zu wenig oder zu viel ist. Ein besonders aktiver Hund kann bis zu drei Stunden täglich Auslauf benötigen.",
+      "Man schickt den Hund zu Hause immer wieder strikt auf seinen Platz und zwingt ihn dort liegen zu bleiben, damit er lernt, sich ruhig zu verhalten.",
+      "Man schenkt dem Hund zu Hause immer dann ruhige Aufmerksamkeit, wenn er sich ruhig verhält. Zu einer gemeinsamen Beschäftigung zu Hause fordert man den Hund nur dann auf, wenn er sich gerade ruhig verhält und keine Aufmerksamkeit fordert.",
+      "Man findet ein Hobby im Hundesport oder einer Hundeschule, das dem Hund und einem selbst Spaß macht."
+    ],
+    "correctAnswers": [0, 2, 3],
+    "image": null
+  },
+  {
+    "id": 126,
+    "question": "Was sind Verhaltensweisen zeigt ein Hund, der Angst hat und sich bedroht fühlt?",
+    "answers": [
+      "Er versucht zu fliehen.",
+      "Er versucht anzugreifen, wenn er nicht ausweichen kann.",
+      "Er wedelt und bettelt nach Futter.",
+      "Er pinkelt unter sich."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 127,
+    "question": "Wie viel sollte ein Hund zu fressen bekommen?",
+    "answers": [
+      "So viel, wie er braucht, damit er eine schlanke Figur hat und weder zu- noch abnimmt.",
+      "Allen Hunden kann man Futter zur freien Verfügung hinstellen, sie fressen nur so viel, wie sie brauchen.",
+      "Wenn ein Hund nicht gut gehorcht, sollte man ihm zur Strafe an dem Tag nichts zu fressen geben.",
+      "Hunde sollten immer ein bisschen Hunger haben, denn sonst neigen sie zu Ungehorsam."
+    ],
+    "correctAnswers": [0],
+    "image": null
+  },
+  {
+    "id": 128,
+    "question": "Welche Erkrankung ist bei Hunden durch Impfung vermeidbar?",
+    "answers": [
+      "Katzenschnupfen",
+      "Staupe",
+      "Parvovirose",
+      "Borreliose"
+    ],
+    "correctAnswers": [1, 2],
+    "image": null
+  },
+  {
+    "id": 129,
+    "question": "Besteht die Gefahr, durch Strafen einen Hund so zu schockieren, dass er das Vertrauen in einen verliert?",
+    "answers": [
+      "Nicht, wenn man vorher ein gutes Verhältnis hatte.",
+      "Bei sensiblen Hunden manchmal sogar mit Kleinigkeiten, besonders wenn die Handlung für den Hund „unlogisch“ ist.",
+      "Durch inkonsequentes und launisches Vorgehen.",
+      "Nur bei generell ängstlichen Hunden."
+    ],
+    "correctAnswers": [1, 2],
+    "image": null
+  },
+  {
+    "id": 130,
+    "question": "In welcher Form sollte man dem Hund das Fressen darreichen?",
+    "answers": [
+      "Unbedingt zweimal täglich im Napf, zwischendurch darf der Hund nichts bekommen.",
+      "Futter muss immer zur freien Verfügung bereitstehen, denn alle Hunde wissen selbst am besten wie viel sie brauchen.",
+      "Hunde brauchen weder feste Fütterungszeiten noch einen festen Fütterungsort. Man kann das gesamte Futter auch in Form von Belohnungshäppchen verfüttern, wenn man es möchte oder zum Training braucht.",
+      "Das Futter kann man sehr gut nutzen, um den Hund dafür Übungen machen zu lassen. Denn „Leistung wird bezahlt“."
+    ],
+    "correctAnswers": [2, 3],
+    "image": null
+  },
+  {
+    "id": 131,
+    "question": "Achten Hunde auf die Körpersprache von Menschen?",
+    "answers": [
+      "Hunde achten sehr auf die Körpersprache von Menschen.",
+      "Nur, wenn man es ihnen beigebracht hat.",
+      "Wie Menschen sich verhalten, ist Hunden egal.",
+      "Hunde achten mehr auf die Körpersprache als auf die Worte von Menschen."
+    ],
+    "correctAnswers": [0, 3],
+    "image": null
+  },
+  {
+    "id": 132,
+    "question": "Was sind häufige Ursachen für die Entstehung eines Angstproblems?",
+    "answers": [
+      "Schlechte Erfahrungen, besonders, wenn sie in der Welpenzeit stattgefunden haben oder eine einmalige besonders schockierende schlechte Erfahrung.",
+      "Mangelnde Erfahrungen = Sozialisations- und Habituationsdefizite.",
+      "Schmerzen sind die häufigste körperliche Ursache für die Entstehung oder Verschlechterung von Verhaltensproblemen.",
+      "Liebevoller und eindeutiger Umgang mit dem Hund, der seine Bedürfnisse und Möglichkeiten berücksichtigt."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 133,
+    "question": "Man ertappt zwei Hunde beim Deckakt in der Phase des „Hängens“. Was kann man tun?",
+    "answers": [
+      "Man sollte den Rüden so schnell wie möglich von der Hündin wegreißen, wenn kein Nachwuchs erwünscht ist.",
+      "Man kann in diesem Moment nichts mehr tun. Die Dinge nehmen ihren Lauf. Man sollte danach so schnell wie möglich, innerhalb der nächsten zwei Tage, mit dem/der Tierarzt /ärztin über bestehende Möglichkeiten beraten.",
+      "Man sollte die Hunde schnellstmöglich mit kaltem Wasser übergießen, um den Deckakt zu unterbinden und eine Trächtigkeit zu verhindern.",
+      "Man darf die Tiere auf keinen Fall trennen, weil sie schwere Verletzungen an den Geschlechtsorganen bekommen würden. Man muss die gesamte Dauer des Deckaktes, also auch die Zeit des „Hängens“ abwarten."
+    ],
+    "correctAnswers": [1, 3],
+    "image": null
+  },
+  {
+    "id": 134,
+    "question": "Gibt es beim Üben mit einem ängstlichen Hund besondere Dinge zu bedenken?",
+    "answers": [
+      "Hunde können nur lernen, wenn sie entspannt sind und keine Angst haben.",
+      "Man muss darauf achten, keine bedrohlichen Gesten in den Übungen zu verwenden.",
+      "Mit einem ängstlichen Hund sollte man lieber gar nicht trainieren, weil er aus Angst beißen könnte.",
+      "Mit einem ängstlichen Hund kann man trainieren, wie mit jedem anderen auch."
+    ],
+    "correctAnswers": [0, 1],
+    "image": null
+  },
+  {
+    "id": 135,
+    "question": "Was versteht man unter dem Begriff Scheinträchtigkeit der Hündin?",
+    "answers": [
+      "Es gibt eine normale hormonelle Scheinträchtigkeit im Anschluss an die deckbereiten Tage einer Läufigkeit, unter der eine Hündin aber nicht leidet. Sie ist unproblematisch und klingt von allein wieder ab.",
+      "Hündinnen leiden oft an einer krankhaften Scheinträchtigkeit, die extrem verzögert oder gar nicht abklingt. In dem Fall ist tiermedizinische Hilfe nötig.",
+      "Bei einer Scheinträchtigkeit sind mögliche Symptome Anschwellen des Gesäuges mit oder ohne Milchfluss, Sammeln und Behüten von Spielzeug, Lustlosigkeit und Stimmungsschwankungen. Es gibt Hündinnen, die so starke Symptome einer Scheinträchtigkeit haben, dass sie darunter leiden.",
+      "Eine Scheinträchtigkeit bei Hündinnen tritt nur nach einer misslungenen Bedeckung auf."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 136,
+    "question": "Innerhalb welcher Zeit kann ein Hund eine Belohnung sicher mit seiner gezeigten Handlung verknüpfen?",
+    "answers": [
+      "Es dürfen nicht mehr als eine, allerhöchstens zwei Sekunden vergehen.",
+      "Man sollte den Hund innerhalb von fünf Sekunden belohnen.",
+      "Es ist nicht von der Zeit abhängig, ob der Hund die Übung begreift, sondern nur von der Tatsache, ob die Futterbelohnung lecker genug ist.",
+      "Man hat ein paar Minuten Zeit, besonders wenn der Hund die Handlung länger gezeigt hat."
+    ],
+    "correctAnswers": [0],
+    "image": null
+  },
+  {
+    "id": 137,
+    "question": "Woran erkennen Sie die Läufigkeit einer Hündin?",
+    "answers": [
+      "Erste Anzeichen können sein, dass Hündinnen plötzlich sehr zum Streunen und Ungehorsam neigen und gereizter gegenüber anderen Hündinnen reagieren können.",
+      "Sie setzt häufiger als sonst Urin ab.",
+      "Sie hat Durchfall.",
+      "Sie blutet aus der Scheide."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 138,
+    "question": "Was kann passieren, wenn man bei einem Hund Strafen als Erziehungsmaßnahme einsetzt?",
+    "answers": [
+      "Er wird die Übung schnell und zuverlässig ausführen, denn so lernt er, dass er gehorchen muss.",
+      "Er kann scheu und unsicher werden, weil er kein Vertrauen mehr zu seinem Besitzer hat.",
+      "Es passiert nichts Schlimmes. Hunde untereinander verhalten sich auch rigoros. Der Hund wird also große Freude bei den Übungen haben, wenn er erst verstanden hat, worum es geht.",
+      "Er könnte unter Umständen aggressiv reagieren, weil er sich bedroht fühlt."
+    ],
+    "correctAnswers": [1, 3],
+    "image": null
+  },
+  {
+    "id": 139,
+    "question": "Ist es Spiel, wenn eine Gruppe von Hunden einem einzelnen Hund hinterherrennt und ihn in die Enge drängt?",
+    "answers": [
+      "Nein, das kann unangemessenes Beuteverhalten sein.",
+      "Nein, das kann man als Mobbing bezeichnen.",
+      "Nein, die Gruppe von Hunden will den anderen Hund in der Rangfolge unterordnen.",
+      "Ja, das ist eine typische Situation im Spiel."
+    ],
+    "correctAnswers": [0, 1],
+    "image": null
+  },
+  {
+    "id": 140,
+    "question": "Ein sonst aktiver Hund ist ungewöhnlich ruhig und interessiert sich nicht besonders für das tägliche Geschehen. Was könnte das bedeuten?",
+    "answers": [
+      "Gar nichts. Es ist nicht schlimm, wenn der Hund ruhig ist.",
+      "In der Regel handelt es sich um eine normale Altersentwicklung.",
+      "Das veränderte Verhalten kann ein Hinweis sein, dass mit dem Tier etwas nicht stimmt. Man sollte das bei dem/der Tierarzt /ärztin abklären lassen.",
+      "Man sollte ihm sein Lieblingsfutter anbieten. Erst wenn er das nicht mehr frisst, wird ein Tierarztbesuch erforderlich."
+    ],
+    "correctAnswers": [2],
+    "image": null
+  },
+  {
+    "id": 141,
+    "question": "Wie häufig und wie lange sollte man mit einem Hund üben?",
+    "answers": [
+      "Ein Mal am Tag eine Stunde.",
+      "So häufig wie es geht, aber immer nur kurz, dann kann sich der Hund am besten konzentrieren.",
+      "Es ist besonders wichtig, dass man täglich immer zur selben Zeit übt, wie lange, ist abhängig vom Trainingsstand des Hundes.",
+      "Zwei Übungen auf jedem Spaziergang sind absolut ausreichend, sonst wird der Hund überfordert."
+    ],
+    "correctAnswers": [1],
+    "image": null
+  },
+  {
+    "id": 142,
+    "question": "Welche Symptome können auf eine Vergiftung beim Hund hindeuten?",
+    "answers": [
+      "Erbrechen und Durchfall.",
+      "Haarausfall.",
+      "Krämpfe oder Zittern.",
+      "Atemnot."
+    ],
+    "correctAnswers": [0, 2, 3],
+    "image": null
+  },
+  {
+    "id": 143,
+    "question": "Stimmt es, dass man älteren Hunden nichts mehr beibringen kann?",
+    "answers": [
+      "Ja, Hunde, die älter als ein Jahr sind, können nichts mehr lernen.",
+      "Nein, Hunde können ihr Leben lang neue Dinge lernen.",
+      "Nein, aber es ist einfacher, schon mit einem Welpen zu üben, dann gewöhnt sich der Hund nicht erst etwas Falsches an.",
+      "Nein. Da ein Welpe noch nicht reif genug ist, sollte man überhaupt mit der Erziehung erst beginnen, wenn der Hund ein Jahr alt ist."
+    ],
+    "correctAnswers": [1],
+    "image": null
+  },
+  {
+    "id": 144,
+    "question": "Welche Symptome sind typisch für eine Ohrenentzündung beim Hund?",
+    "answers": [
+      "Kratzen an den Ohren.",
+      "Rötung und übler Geruch im Ohr.",
+      "Schütteln des Kopfes.",
+      "Durchfall."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 145,
+    "question": "Wie kann man vermeiden, dass der Hund durch Strafen das Vertrauen in seinen Besitzer verliert?",
+    "answers": [
+      "Wenn man Ignorieren in geeigneten Situationen als Methode anwendet.",
+      "Wenn das Unerwünschte, das der Hund gerne tun würde, für ihn erfolglos bleibt oder keinen Spaß macht, wie z. B. ein Bitterstoff auf einem Möbel, das der Hund ankauen möchte.",
+      "Wenn man eine Rappeldose oder Wasserspritze verwendet, verbindet der Hund diese Strafe nie mit seinem Besitzer.",
+      "Beim Schütteln am Nackenfell, denn eine Hündin maßregelt auf diese Art und Weise auch ihre Welpen."
+    ],
+    "correctAnswers": [0, 1],
+    "image": null
+  },
+  {
+    "id": 146,
+    "question": "Welche Symptome können auf eine Erkrankung des Bewegungsapparates hinweisen?",
+    "answers": [
+      "Humpeln oder Lahmheit.",
+      "Schmerzäußerungen beim Aufstehen.",
+      "Schlechte Futteraufnahme.",
+      "Bewegungsunlust."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 147,
+    "question": "Nennen Sie Möglichkeiten einen Hund zu belohnen.",
+    "answers": [
+      "Mit Futterhäppchen.",
+      "Mit Spielzeug bzw. einem Spiel.",
+      "Man sollte den Hund fest an sich drücken, ihm ins Ohr sagen, dass er brav war und ihn auf den Kopf küssen.",
+      "Mit allem, worüber der Hund sich in dem Moment wirklich freuen würde, sofern man es ihm mit der passenden zeitlichen Verknüpfung ermöglichen kann."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 148,
+    "question": "Welche Nebenwirkungen kann die Kastration einer Hündin hervorrufen?",
+    "answers": [
+      "Kastrierte Hündinnen werden immer dick.",
+      "Hündinnen werden in aller Regel durch die Kastration ängstlich oder aggressiv.",
+      "Fellveränderungen können auftreten.",
+      "Ein sehr kleiner Prozentsatz der kastrierten Hündinnen wird inkontinent, was im Großteil der Fälle erfolgreich medikamentell behandelt werden kann."
+    ],
+    "correctAnswers": [2, 3],
+    "image": null
+  },
+  {
+    "id": 149,
+    "question": "Wie verstehen Hunde strafende Handlungen durch ihre Besitzer?",
+    "answers": [
+      "Hunde lernen dadurch, was sie dürfen und was nicht.",
+      "Hunde lernen dadurch, dass Menschen sich in bestimmten Situationen aggressiv verhalten können.",
+      "Hunde lernen dadurch Respekt vor Ihren Besitzern.",
+      "Hunde können strafende Handlungen ihrer Besitzer mit der Stimmung ihrer Besitzer, der Situation oder zufällig gleichzeitig auftretenden Reizen in Verbindung bringen."
+    ],
+    "correctAnswers": [1, 3],
+    "image": null
+  },
+  {
+    "id": 150,
+    "question": "Können im Zusammenhang mit Strafen Probleme auftreten?",
+    "answers": [
+      "Der Hund kann Angst vor dem Strafenden, ihm ähnlichen Personen und ähnlichen Situationen bekommen.",
+      "Der Hund kann aggressiv werden, wenn er sich bedroht fühlt oder Schmerzen empfindet.",
+      "Bei jeder Strafe besteht das Risiko, dass der Hund andere gleichzeitig auftretende Reize verknüpft, sodass Problemverhaltensweisen gefördert werden können.",
+      "Man braucht keine Probleme zu erwarten, denn Strafe ist etwas, was der Hund immer versteht."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 151,
+    "question": "Warum kann ein Hund dazu neigen, ständig Aufmerksamkeit bei seinem Besitzer zu fordern?",
+    "answers": [
+      "Manche Hunde sind einfach dreist, was konsequent unterbunden werden muss.",
+      "Hunde bieten ihren Besitzern viele Verhaltensweisen an. Sie behalten alles in Ausmaß und Häufigkeit bei, was bei ihren Besitzern zu Aufmerksamkeit führt.",
+      "Besonders aktive Hunde und Hunde, die zu wenig Beschäftigung haben, können vermehrt zu Aufmerksamkeit heischendem Verhalten neigen.",
+      "Hunde, die Aufmerksamkeit bei ihren Besitzern fordern, wollen ihre Besitzer manipulieren, um sie zu beherrschen."
+    ],
+    "correctAnswers": [1, 2],
+    "image": null
+  },
+  {
+    "id": 152,
+    "question": "Was ist bei Durchfall beim Hund zu beachten?",
+    "answers": [
+      "Leichte Kost und viel frisches Wasser geben.",
+      "Bei anhaltendem Durchfall oder Blut im Kot zum Tierarzt gehen.",
+      "Durchfall ignorieren, das ist immer harmlos.",
+      "Täglich Milch geben, um den Stuhl zu regulieren."
+    ],
+    "correctAnswers": [0, 1],
+    "image": null
+  },
+  {
+    "id": 153,
+    "question": "Wie lernt ein Hund am besten alleine zu Hause zu bleiben?",
+    "answers": [
+      "Er sollte im gesamten ersten halben Jahr niemals allein zu Hause gelassen werden.",
+      "Im Idealfall beginnt man mit dem Training für das Alleinbleiben schon in Welpentagen. Dafür entfernt man sich manchmal für Sekunden und dehnt das über mehrere Wochen auf Minuten aus. Im Junghundalter dehnt man die Zeitspanne allmählich auf Stunden aus.",
+      "Man sollte den Hund schrittweise an die Situation gewöhnen.",
+      "Hunde können das von allein."
+    ],
+    "correctAnswers": [1, 2],
+    "image": null
+  },
+  {
+    "id": 154,
+    "question": "Welche Symptome können auf eine Erkrankung der Nieren beim Hund hinweisen?",
+    "answers": [
+      "Vermehrter Durst und Harnabsatz.",
+      "Erbrechen.",
+      "Mattigkeit.",
+      "Lahmheit."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 155,
+    "question": "Warum zerstören manche Hunde Teile der Wohnung, wenn sie alleine zu Hause bleiben müssen?",
+    "answers": [
+      "Langeweile.",
+      "Sie wollen sich am Besitzer rächen, denn am liebsten wären sie mitgegangen.",
+      "Solche Hunde leiden häufig unter sogenannter Trennungsangst.",
+      "Der Hund hat vermutlich Hunger."
+    ],
+    "correctAnswers": [0, 2],
+    "image": null
+  },
+  {
+    "id": 156,
+    "question": "Welche Symptome können auf eine Herzerkrankung beim Hund hindeuten?",
+    "answers": [
+      "Husten.",
+      "Leistungsabfall.",
+      "Atemnot.",
+      "Humpeln."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 157,
+    "question": "Können Hunde ein schlechtes Gewissen haben?",
+    "answers": [
+      "Ja, aber nur, wenn sie vorher gelernt haben, dass sie bestimmte Dinge nicht tun dürfen.",
+      "Nein, Hunde haben keine Moralvorstellung von Gut und Böse.",
+      "Nein, obwohl es manchmal so aussieht. In Wirklichkeit haben sie eine negative Verknüpfung mit dem Besitzer oder der Situation gemacht und zeigen eine angeborene Körperhaltung, die Unterwürfigkeit und Ängstlichkeit signalisiert. Sie soll den Besitzer beschwichtigen.",
+      "Ja, allerdings nur, wenn ihre Tat nicht länger als einen halben Tag zurückliegt, denn sie können sich Dinge nur einen halben Tag lang merken."
+    ],
+    "correctAnswers": [1, 2],
+    "image": null
+  },
+  {
+    "id": 158,
+    "question": "Was lässt sich über Schmerzen beim Hund sagen?",
+    "answers": [
+      "Akute Schmerzen zeigen viele Hunde durch Aufjaulen. Chronische Schmerzen lassen sich hingegen oftmals schwer erkennen. Sie können sich durch ruhigeres Verhalten oder Auftreten oder Verschlechterung von Verhaltensproblemen zeigen.",
+      "Schmerzen müssen beim Hund gemäß dem Tierschutzgesetz medizinisch behandelt werden.",
+      "Chronische Schmerzen betreffen oft die Zähne, die Ohren, Magen und Darm und das Skelettsystem.",
+      "Schmerzen sind der häufigste Auslöser oder Verstärker für Verhaltensprobleme, wie Angst und Aggression."
+    ],
+    "correctAnswers": [0, 1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 159,
+    "question": "Bei Ihrer Rückkehr sehen Sie, dass Ihr Hund einen Haufen in die Wohnung gemacht hat. Warum kommt Ihr Hund geduckt zu Ihnen, als hätte er ein schlechtes Gewissen?",
+    "answers": [
+      "Der Hund fühlt sich mit seinem Haufen in derNähe selbst nicht wohl.",
+      "Der Hund hat schon mal die Erfahrung gemacht, dass Sie in einer Situation mit hundlichen Hinterlassenschaften in der Wohnung schlechte Stimmung bekommen haben. Daher kommt er Ihnen unterwürfig entgegen, um Sie zu beschwichtigen.",
+      "Der Hund weiß genau, was er falsch gemacht hat und kommt deshalb geduckt auf Sie zu.",
+      "Der Hund hat ein schlechtes Gewissen."
+    ],
+    "correctAnswers": [1],
+    "image": null
+  },
+  {
+    "id": 160,
+    "question": "Wie kann man einem Hund klar machen, dass ein bestimmtes Verhalten unerwünscht ist?",
+    "answers": [
+      "Wenn man laut schimpft, weiß der Hund, dass man mit seinem Verhalten nicht zufrieden ist und wird es nicht wieder zeigen.",
+      "Wenn man weiß, was der Hund gerne in dem Moment haben oder erreichen möchte, kann man es ihm vorenthalten. Nur wenn er artig ist, kann er es bekommen.",
+      "Unerwünschte Verhaltensweisen, die durch Angst oder Stress ausgelöst werden, lassen sich in kritischen Situationen nicht einfach beenden, weil sie emotional bedingt sind. Da Emotionen nicht einfach abgestellt werden können, müssen solche Verhaltensweisen Schritt für Schritt bearbeitet werden.",
+      "Da es bei unerwünschten Verhaltensweisen oft schwierig sein kann, sie sinnvoll in kritischen Situationen zu beeinflussen, ist es besonders effektiv, möglichst vorausschauend den Hund so zu lenken, dass er sich von Anfang an erwünscht verhalten kann."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 161,
+    "question": "In welchen Eigenschaften kann es bei Hunderassen große Unterschiede geben?",
+    "answers": [
+      "Lauf- und Beschäftigungsbedürfnis",
+      "Veranlagung zur territorialen Verteidigung",
+      "Jagdbegeisterung",
+      "Veranlagung zur Ängstlichkeit"
+    ],
+    "correctAnswers": [0, 1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 162,
+    "question": "Was passiert, wenn man mit dem Hund eine bestimmte Übung immer am gleichen Ort macht?",
+    "answers": [
+      "Er wird sie an anderen Orten gar nicht oder nicht genauso gut ausführen.",
+      "Lernen ist nicht von einem bestimmten Ort abhängig. Er wird die Übung, wenn man sie häufig an einem Ort geübt hat, bald überall sicher ausführen können.",
+      "Der Ort ist nicht wichtig im Hundetraining. Wichtig ist, dass man immer zur selben Tageszeit übt, damit der Hund sich an einen geregelten Tagesablauf gewöhnt.",
+      "Es könnte passieren, dass der Hund diese Übung ohne Aufforderung macht, sobald er an diesen Ort kommt, weil er die Übung mit dem Ort verknüpft hat."
+    ],
+    "correctAnswers": [0, 3],
+    "image": null
+  },
+  {
+    "id": 163,
+    "question": "Ihr Hund hat in die Wohnung gemacht. Wie reagieren Sie?",
+    "answers": [
+      "Ich nehme den Hund mit zu der Stelle, zeige ihm sein Geschäft und schimpfe mit ihm.",
+      "Ich packe den Hund, trage ihn zum Ort des Vergehens und stoße ihn mit der Nase hinein, damit er es nie wieder macht.",
+      "Ich begrüße den Hund normal und versuche mir meinen Ärger nicht anmerken zu lassen. Wahrscheinlich habe ich ihn zu lange allein gelassen, so dass er nicht einhalten konnte.",
+      "Ich beseitige das Geschäft kommentarlos."
+    ],
+    "correctAnswers": [2, 3],
+    "image": null
+  },
+  {
+    "id": 164,
+    "question": "Worauf muss man beim Einsatz von Belohnungen achten?",
+    "answers": [
+      "Der Hund muss bis spätestens 2 Sekunden nach der erwünschten Handlung belohnt werden.",
+      "Die Belohnung muss so gewählt werden, dass sie den Hund motiviert, aber ihn noch konzentrationsfähig hält.",
+      "Futterbelohnungen sind nicht geeignet, denn sie verleiten den Hund nur zum Betteln.",
+      "Der Hund sollte anfangs immer, später abhängig vom Schwierigkeitsgrad belohnt werden."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 165,
+    "question": "Was passiert, wenn man ein bestimmtes Verhalten mit Futter belohnt?",
+    "answers": [
+      "Der Hund wird dieses Verhalten in Zukunft häufiger zeigen, weil er sich eine leckere Belohnung erhofft.",
+      "Der Hund macht diese Handlung grundsätzlich nur noch, wenn er sieht, dass man Futter dabeihat.",
+      "Der Hund wird unnötig verweichlicht, denn eigentlich soll er aus Treue zu mir brav sein und nicht, weil ich ihn mit Futter besteche.",
+      "Der Hund wird mich als „Rudelführer“ nicht mehr ernst nehmen, weil er weiß, dass er bei mir Futter bekommen kann."
+    ],
+    "correctAnswers": [0],
+    "image": null
+  },
+  {
+    "id": 166,
+    "question": "Wie kann man einen Hund dazu motivieren, zu einem zu kommen?",
+    "answers": [
+      "Man kann sich hinhocken und ihn locken.",
+      "Man sollte sich etwas nach vorne beugen und ihn drohend rufen, damit er weiß, wer das Sagen hat.",
+      "Man sollte sich umdrehen, von dem Hund weglaufen und ihn dabei rufen.",
+      "Man sollte ihn zum Training möglichst rufen, wenn er guckt und dann schnell von ihm weglaufen. Denn wenn er nicht guckt, kann es sein, dass er das Rufen gar nicht mitbekommt oder zu sehr abgelenkt ist, um zu reagieren."
+    ],
+    "correctAnswers": [0, 2, 3],
+    "image": null
+  },
+  {
+    "id": 167,
+    "question": "Was sind mögliche Stresssymptome eines Hundes?",
+    "answers": [
+      "Hecheln.",
+      "Unruhiges Verhalten.",
+      "Starkes Haaren und ggf. stumpfes Fell, bei länger anhaltendem Stress.",
+      "Nach vorne gerichtete Ohren und Interesse an der Umwelt."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 168,
+    "question": "Birgt der Einsatz von würgenden oder schmerzhaft einschnürenden Geschirren, Halsbändern oder Kopfhalftern bestimmte Gefahren?",
+    "answers": [
+      "Der Hund kann durch die schlechten Erfahrungen mit seinem Halter Vertrauen in ihn verlieren und Angst vor ihm bekommen.",
+      "Es birgt keine Gefahr, wenn man es richtig einsetzt. Der Hund lernt damit am besten, nicht an der Leine zu ziehen.",
+      "Durch die würgende und/oder schmerzhafte Einwirkung wird Stress erzeugt.",
+      "Es kommt in vielen Fällen zu fehlerhaften Verknüpfungen und die Hunde können ängstlicher und aggressiver werden."
+    ],
+    "correctAnswers": [0, 2, 3],
+    "image": null
+  },
+  {
+    "id": 169,
+    "question": "Warum ist es ratsam, dem Hund frühestmöglich beizubringen, nicht aus Freude Menschen zur Begrüßung anspringt?",
+    "answers": [
+      "Hunde können durch das Anspringen Menschen erschrecken oder unabsichtlich verletzen.",
+      "Hunde können durch das Anspringen Kleidung beschmutzen oder zerreißen.",
+      "Da es ein Zeichen großer Freude ist und nichts mit Aggressivität zu tun hat, wenn ein Hund springt, muss man dem Hund das Anspringen nicht abgewöhnen. Andere Menschen müssen das akzeptieren.",
+      "Wenn ein Hund sich als Welpe angewöhnt Menschen anzuspringen, ist es für ihn besonders schwer zu verstehen, wenn er es als erwachsener Hund nicht mehr tun soll."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 170,
+    "question": "Was kann man tun, wenn man nach einigen problematischen Begegnungen mit anderen Hunden feststellt, dass der eigene Hund mit Artgenossen nicht immer gut klarkommt?",
+    "answers": [
+      "Man sollte Rat suchen bei einem/r modernen und erfahrenen Hundetrainer/in, der/die über positive Bestärkung arbeitet oder einem/r Tierarzt/ärztin, der/die auf Verhaltenstherapie spezialisiert ist.",
+      "Man muss nichts unternehmen, denn es ist normal, dass sich Hunde auf dem Spaziergang mit Artgenossen beißen.",
+      "Man sollte so einen Hund nicht behalten, sondern ins Tierheim geben oder einschläfern lassen, denn er stellt eine Gefahr dar.",
+      "Man kann nicht mehr tun, als dem Hund einen Maulkorb anzulegen. Das Verhalten kann man nicht beeinflussen."
+    ],
+    "correctAnswers": [0],
+    "image": null
+  },
+  {
+    "id": 171,
+    "question": "Welche gesundheitlichen Probleme haben sehr kurznasige Hunde, wie z. B. Französische Bulldoggen, sehr häufig, weswegen man diese Rassen auch als Qualzuchten bezeichnet?",
+    "answers": [
+      "Sie bekommen in der Regel schlecht Luft und haben starke Atemgeräusche.",
+      "Sie haben aufgrund von Wirbeldeformationen oft Rückenprobleme.",
+      "Sie haben oft chronische Erkrankungen der Augen.",
+      "Da sie schlecht Luft bekommen, können sie in der Regel körperlich nicht so aktiv sein, wie sie gerne sein würden."
+    ],
+    "correctAnswers": [0, 1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 172,
+    "question": "Welche Umstände können bei Hunden zu Trennungsangst führen?",
+    "answers": [
+      "Trennungsangst entsteht nicht, wenn man noch einen zweiten Hund hat.",
+      "Der Hund hat nie individuell auf ihn abgestimmt gelernt, entspannt allein zu bleiben.",
+      "Die Entwicklung von Trennungsangst ist erblich bedingt.",
+      "Der Besitzer ist in einer Lebensphase viel zu Hause und lässt danach den Hund plötzlich wieder länger allein."
+    ],
+    "correctAnswers": [1, 3],
+    "image": null
+  },
+  {
+    "id": 173,
+    "question": "Was sollte ich bedenken, wenn ich überlege, einen Hund aus Süd- oder Osteuropa über einen Tierschutz-Verein aufzunehmen?",
+    "answers": [
+      "Der Hund sollte - kurz bevor er nach Deutschland gebracht wird - auf die im Herkunftsland vorkommenden Erkrankungen getestet werden. In Deutschland sollte der Hund nachgetestet werden.",
+      "Ich kann davon ausgehen, dass der Hund dankbar dafür ist, dass ich ihn bei mir aufnehme. Mit ein wenig Zeit und Geduld wird sich ein solcher Hund in jedem Fall an sein neues Zuhause gewöhnen, sodass man mit ihm alles unternehmen kann, was einem wichtig ist.",
+      "Es ist zu bedenken, dass solche Hunde oft sehr ängstlich in Bezug auf Menschen und/oder Umgebungsreize, wie z. B. Straßenverkehr sind, weil sie in dieser Beziehung oft nur wenige und/oder schlechte Erfahrungen sammeln konnten. Daher können sie für die Haltung in dicht bewohnten Gegenden nicht geeignet sein.",
+      "Ich muss nur darauf achten, dass der Hund korrekt geimpft und entwurmt ist, bevor er nach Deutschland kommt."
+    ],
+    "correctAnswers": [0, 2],
+    "image": null
+  },
+  {
+    "id": 174,
+    "question": "Gibt es rechtliche Vorschriften zur Ausbildung von Hunden?",
+    "answers": [
+      "Bei der Erziehung ist der Erfolg für den Menschen ausschlaggebend. Welche Methode man wählt, ist eine Meinungsfrage. Dabei zählt besonders die persönliche Einschätzung, was die sinnvollste Vorgehensweise bei seinem eigenen Hund ist.",
+      "Laut dem Tierschutzgesetz darf man einem Hund nicht ohne vernünftigen Grund Schmerzen, Leiden oder Schäden zufügen. Ein vernünftiger Grund ist nicht, dass man gerne seinen Hund unter Verwendung von Strafmaßnahmen trainieren möchte oder nicht über ausreichendes Fachwissen verfügt, um hundegerecht das gewünschte Ziel zu erreichen.",
+      "Gemäß der Tierschutz-Hundeverordnung ist es verboten, bei der Ausbildung, bei der Erziehung oder beim Training Stachelhalsbänder oder andere für die Hunde schmerzhafte Mittel zu verwenden.",
+      "Es gibt Empfehlungen zur Ausbildung in der Tierschutz-Hundeverordnung, die aber nicht rechtlich bindend sind."
+    ],
+    "correctAnswers": [1, 2],
+    "image": null
+  },
+  {
+    "id": 175,
+    "question": "Was muss man bei der Haltung einer Hündin mit Welpen berücksichtigen?",
+    "answers": [
+      "Es gibt unter anderem Vorschriften zur Haltung in der Tierschutz-Hundeverordnung zum Platzbedarf, zur Gestaltung und Größe der Wurfkiste und einer Rückzugsmöglichkeit für die Hündin.",
+      "Man trägt die Verantwortung dafür, dass die Welpen in entspannter Atmosphäre verschiedene Umweltreize und Sozialkontakte mit unterschiedlichen Menschen haben.",
+      "Die Hündin braucht nur einen Platz, wo sie mit ihren Welpen sein kann. Ansonsten kümmert sich jede Hündin in allen Belangen um ihre Welpen.",
+      "Welpen muss laut Tierschutz-Hundeverordnung ab einem Alter von fünf Wochen mindestens einmal täglich Auslauf im Freien gewährt werden, sofern sie im Haus aufgezogen werden."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 176,
+    "question": "Welche Symptome können auf eine Erkrankung der Leber beim Hund hinweisen?",
+    "answers": [
+      "Gelbfärbung der Schleimhäute.",
+      "Erbrechen.",
+      "Kratzen an den Ohren.",
+      "Verhaltensänderungen."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 177,
+    "question": "In welchen Situationen kann eine Hündin von einem Rüden erfolgreich gedeckt und tragend werden?",
+    "answers": [
+      "In den sogenannten Stehtagen, wenn der blutige Ausfluss nachlässt und eher fleischwasserfarben wird.",
+      "Bei der ersten Läufigkeit ist eine erfolgreiche Bedeckung nicht möglich.",
+      "Nur direkt zu Beginn einer Läufigkeit, wenn der blutige Ausfluss am stärksten ist.",
+      "Während der gesamten Läufigkeit."
+    ],
+    "correctAnswers": [0, 3],
+    "image": null
+  },
+  {
+    "id": 178,
+    "question": "Welche Probleme können auftreten, wenn ein Hund länger alleine im Auto warten muss?",
+    "answers": [
+      "Im Sommer kann es innerhalb von Minuten so warm werden, dass der Hund lebensbedrohliche Kreislaufprobleme bekommt.",
+      "Im Auto kann nichts passieren, weil sich der Hund dort sicher aufhalten kann.",
+      "Bei Minusgraden kann es sein, dass der Hund stark friert und deswegen krank wird.",
+      "Da ein Hund seine Körpertemperatur nur über Hecheln und Schweißabsonderungen der Pfoten regulieren kann, bekommt er erheblich schneller als Menschen Probleme, wenn es im Auto zu warm wird."
+    ],
+    "correctAnswers": [0, 2, 3],
+    "image": null
+  },
+  {
+    "id": 179,
+    "question": "Welche Themen sollte ich am besten mit meinem/r Tierarzt/-ärztin besprechen?",
+    "answers": [
+      "Art und Häufigkeit einer Entwurmung.",
+      "Nötige und sinnvolle Impfungen.",
+      "Ein Besuch bei dem/r Tierarzt/-ärztin ist nur nötig, wenn es dem Hund schlecht geht.",
+      "Art und Häufigkeit einer Zecken- und Flohprophylaxe."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 180,
+    "question": "Welche Symptome können auf eine Erkrankung der Bauchspeicheldrüse beim Hund hinweisen?",
+    "answers": [
+      "Erbrechen und Durchfall.",
+      "Vermehrter Appetit bei gleichzeitigem Gewichtsverlust.",
+      "Mattigkeit.",
+      "Haarausfall."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 181,
+    "question": "Welche Symptome sind typisch für eine Infektion mit dem Staupevirus beim Hund?",
+    "answers": [
+      "Hohes Fieber.",
+      "Husten und Nasenausfluss.",
+      "Durchfall und Erbrechen.",
+      "Krämpfe und Lähmungserscheinungen."
+    ],
+    "correctAnswers": [0, 1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 182,
+    "question": "Was muss ich bedenken, wenn ich mit meinem Hund ins Ausland reisen möchte?",
+    "answers": [
+      "Gibt es in dem geplanten Reiseland und in den Ländern, die ich bis dahin durchqueren werde, Erkrankungen, vor denen mein Hund geschützt werden kann und sollte?",
+      "Erfüllt mein Hund die nötigen Einreise- und Rückreisebestimmungen (z. B. Tollwutimpfung, EU-Pass, Microchip, Mitführung eines Maulkorbs)?",
+      "Wenn mein Hund in Deutschland gemeldet ist, ist ein Grenzübertritt problemlos möglich.",
+      "Ein Hund braucht keine Reisedokumente."
+    ],
+    "correctAnswers": [0, 1],
+    "image": null
+  },
+  {
+    "id": 183,
+    "question": "Wann ist abgesehen vom Krankheitsfall der Besuch einer Tierarztpraxis bzw. ein Gespräch mit meinem/r Tierarzt/-ärztin wichtig?",
+    "answers": [
+      "Bei Überlegungen bezüglich einer Kastration.",
+      "Zum allgemeinen Gesundheitscheck.",
+      "Für junge Hunde, um die Praxis stressfrei und spielerisch kennen zu lernen.",
+      "Bei Fragen zu Impfungen, Entwurmungen und vorbeugenden Behandlungen gegen Zecken und Flöhe."
+    ],
+    "correctAnswers": [0, 1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 184,
+    "question": "Was kann für herrenlose Hunde aus Süd- und Osteuropa ein erhebliches Problem darstellen, wenn sie nach Deutschland in ein neues Zuhause gebracht werden?",
+    "answers": [
+      "Für Hunde ist ein Leben in Deutschland immer besser als im Herkunftsland.",
+      "Das Leben als Einzelhund, wenn sie vorher immer mit anderen Hunden zusammengelebt haben.",
+      "Das Leben vorwiegend im Haus und Ausgehen an der Leine, wenn sie vorher das freie Leben draußen kannten.",
+      "Die Nähe zu Menschen und sämtliche Umweltreize, die sie in ihrem Leben vorher nicht kennengelernt haben."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 185,
+    "question": "Können bei der Übernahme eines herrenlosen Hundes aus Süd- oder Osteuropa Verhaltensprobleme auftreten?",
+    "answers": [
+      "Eine nicht ausreichende Sozialisation und Habituation auf Menschen, Hunde und Umweltreize, die in der neuen Wohnumgebung vorhanden sind, kann zu Ängsten führen, die zu dauerhaften erheblichen Leiden führen und nicht ausreichend therapierbar sind.",
+      "Hunde können wegen traumatischer Erlebnisse vor der Übernahme oder/und dem Transport lebenslang Probleme mit Ängsten haben.",
+      "Hunde aus dem Tierschutz brauchen grundsätzlich nur liebevolle Behandlung und eine/n guten Hundetrainer/in, um sie zu unkomplizierten Begleithunden zu machen.",
+      "Es können sehr spezielle Verhaltensweisen von Rassen des Herkunftslandes auftreten, die mit dem vorgesehenen Leben in Deutschland nicht zusammenpassen, wie z. B. eine übermäßige Veranlagung zur territorialen Verteidigung bei Herdenschutzhunden und ihren Mischlingen."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 186,
+    "question": "Welche gesundheitlichen Probleme haben stark verzwergte Rassen, wie z. B. der Chihuahua, sehr häufig, weswegen man diese Rassen auch als Qualzuchten bezeichnet?",
+    "answers": [
+      "Rassetypische Krankheiten (z. B. Wasserkopf, Kniescheibenprobleme), die bereits frühzeitig im Leben zu erheblichen dauerhaften Leiden führen können.",
+      "Der rassetypische Schädel in Form einer kleinen Kugel führt zu Problemen mit den Augen, dem Gehirn, dem Rückenmark und den Zähnen.",
+      "Verzwergte Rassen sind nur klein, haben aber dadurch keine besonderen gesundheitlichen Probleme verglichen mit anderen Hunden.",
+      "Es besteht eine besondere Gefahr für Knochenbrüche."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 187,
+    "question": "Was muss man bei Kontakten mit anderen Hunden berücksichtigen, wenn man einen sehr kleinen Hund (ca. unter 5 kg) oder einen sehr großen Hund (ca. über 50 kg) halten möchte?",
+    "answers": [
+      "Man muss nichts berücksichtigen. Hunde regeln alles immer unter sich. Daher sollten Besitzer/innen sich grundsätzlich bei Hundebegegnungen heraushalten.",
+      "Sehr kleine Hunde können im Kontakt mit wesentlich größeren Hunden auch versehentlich verletzt werden.",
+      "Sehr große Hunde müssen in besonderem Maße als Welpen und heranwachsende Hunde in Spielkontakten mit anderen Hunden lernen, rücksichtsvoll mit ihrer Kraft umzugehen.",
+      "Es ist häufig schwer, für beide Hundetypen passende Spielpartner zu finden, weil man viele Kontakte aufgrund des Größenunterschieds nicht zulassen kann. Dies kann bei betroffenen Hunden zu einer Einschränkung der Lebensqualität führen."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 188,
+    "question": "Was muss man bei dem Umgang mit Ängsten von Hunden beachten?",
+    "answers": [
+      "An Ängsten kann man am effektivsten beginnen zu arbeiten, wenn der Hund entspannt ist.",
+      "Solange es einen selbst im Alltag nicht stört, braucht man sich um Ängste von seinem Hund nicht zu kümmern.",
+      "Man sollte den Hund regelmäßig mit seinen Ängsten konfrontieren, damit er sich daran gewöhnen kann.",
+      "Angst ist ein starkes Gefühl, das erhebliche Leiden verursachen kann. Daher sollte man professionelle Hilfe in Anspruch nehmen."
+    ],
+    "correctAnswers": [0, 3],
+    "image": null
+  },
+  {
+    "id": 189,
+    "question": "Welche der folgenden Maßnahmen hilft am besten, Übergewicht beim Hund zu vermeiden?",
+    "answers": [
+      "Mehr Bewegung und bedarfsgerechte Fütterung.",
+      "Regelmäßiges Wiegen.",
+      "Strikte Reduktion aller Leckerlis.",
+      "Ab und zu ein Fastentag."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 190,
+    "question": "Woran erkennt man eine gute Hundeschule?",
+    "answers": [
+      "Den Hunden werden konsequent Grenzen gesetzt, indem Schnauzengriff, Nackenstoß oder auf den Rücken drehen bei unerwünschtem Verhalten angewendet werden.",
+      "Der Hund geht gerne dorthin.",
+      "Erwünschtes Verhalten wird in kleinen Schritten über positive Bestärkung aufgebaut.",
+      "Es wird darauf geachtet, dass die Hunde nicht für unerwünschtes Verhalten unbeabsichtigt belohnt werden, indem der Halter sich um sie kümmert oder sie etwas machen lässt, was ihnen Freude macht."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 191,
+    "question": "Welche Symptome sind typisch für eine Infektion mit dem Parvovirus beim Hund?",
+    "answers": [
+      "Blutiger Durchfall.",
+      "Erbrechen.",
+      "Fieber.",
+      "Haarausfall."
+    ],
+    "correctAnswers": [0, 1, 2],
+    "image": null
+  },
+  {
+    "id": 192,
+    "question": "Was sind mögliche Nebenwirkungen von dem Einsatz von Schreck- und Strafreizen zur Erziehung?",
+    "answers": [
+      "Wenn die Strafe zeitlich sofort auf das unerwünschte Verhalten erfolgt, kommt es auch nicht zu Nebenwirkungen, weil der Hund dann sicher verstehen kann, worum es geht.",
+      "Vertrauenseinbußen zum Halter.",
+      "Verknüpfung mit zufällig gleichzeitig auftretenden Reizen, was die Ursache für Problemverhaltensweisen werden kann. Z. B. kann ein Leinenruck dazu führen, dass Leinenaggression gegenüber anderen Hunden ausgelöst oder verschlechtert wird.",
+      "Angst vor ähnlichen Reizen, die dem Schreck- oder Strafreiz ähneln, wie z. B. Angst vor Zischgeräuschen durch die Verwendung einer Wasserspritze."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 193,
+    "question": "Wie bringt man einem Hund bei, dass er nicht aus Freude Menschen zur Begrüßung anspringt?",
+    "answers": [
+      "Mit dem Anspringen möchte der Hund sich als Chef aufspielen und man muss ihn für das Anspringen bestrafen.",
+      "Begrüßungen sollten möglichst ruhig und entspannt erfolgen, sodass keine große Aufregung oder Partystimmung bei dem Hund gefördert wird.",
+      "Man kümmert sich nur um den Hund, wenn alle vier Pfoten auf dem Boden sind.",
+      "Man verhindert das Anspringen, indem man den Hund eine bekannte Übung wie z. B. Sitz machen lässt, für die man ihn belohnt. Dies muss erfolgen, bevor der Hund das erste Mal bei einer Begegnung anspringen würde."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 194,
+    "question": "Welche der folgenden Aussagen stehen sinngemäß im Tierschutzgesetz?",
+    "answers": [
+      "Der Mensch hat eine besondere Verantwortung für den Schutz des Lebens und des Wohlbefindens der Tiere als Mitgeschöpf.",
+      "Niemand darf einem Tier ohne vernünftigen Grund Schmerzen, Leiden oder Schäden zufügen.",
+      "Niemand muss über die erforderlichen Kenntnisse und Fähigkeiten für die Haltung eines Hundes verfügen.",
+      "Man darf die Möglichkeit eines Tieres zu artgemäßer Bewegung nicht so einschränken, dass ihm Schmerzen oder vermeidbare Leiden oder Schäden zugefügt werden."
+    ],
+    "correctAnswers": [0, 1, 3],
+    "image": null
+  },
+  {
+    "id": 195,
+    "question": "Wie kann man vorbeugen, dass ein Hund beginnt, andere Hunde anzupöbeln, wenn er an der Leine ist?",
+    "answers": [
+      "Man drängt den Hund immer resolut hinter sich, wenn ein anderer Hund vorbei geht.",
+      "Man lobt den Hund, wenn er artig an einem anderen Hund vorbei gegangen ist.",
+      "Während ein Hund sich nähert und an einem vorbei geht, gibt man seinem Hund die Leckerchen so, dass sich der eigene Hund immer vom anderen Hund abwenden muss, um es zu fressen.",
+      "Man lockt den eigenen Hund mit einem Leckerchen an dem vorbeigehenden Hund vorbei."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 196,
+    "question": "Kann man Hunde jeder Größe problemlos an der Leine bei sich halten?",
+    "answers": [
+      "Es ist grundsätzlich nur eine Frage der Erziehung, ob man einen Hund in jeder Situation gut halten kann.",
+      "Man kann in der Regel Hunde bis ca. zu einem Drittel des eigenen Körpergewichts gut halten.",
+      "Vor allem aktiven gesunden Hunden fällt es selbst bei ausreichender Auslastung häufig sehr schwer, sich der Gangart ihres Menschen immer anzupassen. Daher kann es lange dauern, bis der Hund den gewünschten Trainingsstand erreicht hat, ohne zu Ziehen an der Leine zu gehen.",
+      "Bei glatter Straße oder in Situationen, in denen der Hund sehr aufgeregt oder ängstlich ist, kann es auch bei ansonsten gut leinenführigen Hunden schwer sein, sie an der Leine sicher halten zu können."
+    ],
+    "correctAnswers": [1, 2, 3],
+    "image": null
+  },
+  {
+    "id": 197,
+    "question": "Gibt es Hunderassen mit einer Veranlagung für bestimmte Krankheiten?",
+    "answers": [
+      "Alle Rassen sind überzüchtet, sodass man nur mit einem Mischling einen gesunden Hund bekommen kann.",
+      "Es gibt für fast alle Hunderassen rassetypische Krankheiten. Daher sollte man sich bei der Rassewahl auch gut informieren, für welche Krankheiten ein Risiko bestehen könnte.",
+      "Eine Veranlagung für bestimmte Krankheiten können nicht nur Rassehunde haben, sondern auch Mischlinge aus ihnen.",
+      "Wenn die Eltern gesund erscheinen, werden ihre Welpen in jedem Fall gesund sein."
+    ],
+    "correctAnswers": [1, 2],
+    "image": null
+  }
+]
