@@ -11,23 +11,23 @@ dependencies:
     sdk: flutter
 
   # State-Management (Riverpod für moderne Best Practices, ersetzt Provider).
-  flutter_riverpod: ^2.6.1  # Moderne State-Management-Lösung (Best Practice: Immutable, skalierbar).
+  flutter_riverpod: ^3.4.2  # Moderne State-Management-Lösung (Best Practice: Immutable, skalierbar).
 
   # Lokale Speicherung für Fortschritt, Theme und Settings (Cross-OS kompatibel).
-  shared_preferences: ^2.2.2
+  shared_preferences: ^2.5.5
 
   # Fortschrittsanzeige für Dashboard (optional, responsiv mit MediaQuery).
-  fl_chart: ^0.68.0  # Aktualisiert auf neueste Version für bessere Performance.
+  fl_chart: ^1.2.0  # Aktualisiert auf neueste Version für bessere Performance.
 
   # Icons im Cupertino-Stil (für iOS-Kompatibilität, Best Practice).
-  cupertino_icons: ^1.0.8
+  cupertino_icons: ^1.0.9
 
   # Animations für Feedback (z.B. Correct/Incorrect, Cross-OS via Assets).
-  lottie: ^3.3.1
+  lottie: ^3.5.1
 
   # Immutable Models und JSON-Serialisierung (Best Practice: Freezed für Question-Model).
-  freezed_annotation: ^2.4.4
-  json_annotation: ^4.9.0
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.12.0
 
   # Haptic-Feedback (Vibration, Cross-OS: Check mit Vibration.hasVibrator).
   vibration: ^3.1.4
@@ -41,15 +41,15 @@ dev_dependencies:
     sdk: flutter
 
   # Linter für Code-Qualität (Best Practice: flutter format .).
-  flutter_lints: ^4.0.0  # Aktualisiert für neueste Rules.
+  flutter_lints: ^6.0.0  # Aktualisiert für neueste Rules.
 
   # Launcher-Icons-Generator (Cross-OS Icons).
   flutter_launcher_icons: ^0.14.1  # Neueste Version.
 
   # Build-Runner für Freezed/JSON (Best Practice: Code-Generation).
-  build_runner: ^2.4.12
-  freezed: ^2.5.7
-  json_serializable: ^6.8.0
+  build_runner: ^2.6.1
+  freezed: ^3.2.3
+  json_serializable: ^6.11.2
 
 flutter_launcher_icons:
   android: true
