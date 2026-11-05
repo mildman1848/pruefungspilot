@@ -1,7 +1,6 @@
 // Pfad: lib/theme/theme_notifier.dart – Notifier für Theme-Wechsel und Management.
 
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart'; // Korrigierter Import für Flutter-Riverpod (Best Practice).
 import 'package:flutter_riverpod/legacy.dart';
 import 'package:shared_preferences/shared_preferences.dart'; // Persistent Storage (Cross-OS kompatibel).
 import 'package:flutter/foundation.dart' show kDebugMode; // Für Debugging.
