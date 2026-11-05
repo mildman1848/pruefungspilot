@@ -4,6 +4,7 @@
 
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_riverpod/legacy.dart';
 import 'dart:convert';
 import '../models/course_model.dart';
 import '../models/question_model.dart';
