@@ -23,7 +23,7 @@ dependencies:
   cupertino_icons: ^2.0.0
 
   # Animations für Feedback (z.B. Correct/Incorrect, Cross-OS via Assets).
-  lottie: ^3.3.1
+  lottie: ^3.8.2
 
   # Immutable Models und JSON-Serialisierung (Best Practice: Freezed für Question-Model).
   freezed_annotation: ^3.1.0
